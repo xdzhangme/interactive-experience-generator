@@ -30,12 +30,20 @@ detail — composition, interaction, and story, not just colour.
 
 ## Recognizable does not mean merely branded
 
+Once the plan is approved, compose the page around the actual permitted
+official models/images/assets, not newly drawn imitations of them.
+Follow `sources-and-labeling.md`. Official references establish identity;
+they are not equivalent to official files actually used in the page.
+Concept/style approval is not permission to redraw the products.
+Obtain explicit object-specific approval for necessary substitutions.
+
 Before styling a real hero object, inspect official reference photos of the
 confirmed variant. Preserve the identifying silhouette, proportions,
 control layout, packaging and markings. Check those features side by side
 with the rendered object; a generic primitive bearing a logo is not enough.
-Stylization is allowed when agreed and disclosed, but cannot hide a change
-of product. Never present a reconstruction as an official model.
+Stylization of a branded object is allowed only as an explicit agreed
+exception and disclosed; it cannot hide a change of product. Never present
+a reconstruction as an official model.
 
 Compose the scene around the confirmed gesture and its learning moments:
 the visitor should see what can be manipulated and what changed because

@@ -8,6 +8,20 @@ The self-contained package includes selected adapted Impeccable Experience,
 critique, and polish guidance, not the full Impeccable runner. No separate
 Impeccable installation, binaries, or commands are required.
 
+After plan approval, the built page must embed/import and visibly use actual
+permitted official model, product-image, packaging, logo, and other relevant
+asset files, not agent-drawn SVG/CSS lookalikes or procedural recreations
+based only on official references. General plan or style approval does not
+permit substitutions. Missing required assets are blockers unless an explicit
+object-specific exception is approved; existing approved reconstructions
+remain preserved.
+
+Revisions retain frozen approvals and separate each object's identity,
+rendering medium, and visitor behavior. The bundled guidance also covers
+genuine visitor input, ephemeral signature privacy, affected routes/states,
+EN/NL and export coverage, and scoped critique/polish without redesigning
+approved work.
+
 ## Access and install
 
 This repository is private. Downloads and cloning require a GitHub account with
@@ -26,13 +40,28 @@ is not the complete skill.
 
 ## Package and attribution
 
-The root skill and resources are byte-for-byte copies of the 12 runtime/legal
-files in the original distributable. `dist/interactive-experience-generator.skill`
-is the unchanged original archive, with SHA-256:
+The root `SKILL.md`, `references/`, `NOTICE.md`, `licenses/`, and `evals/`
+match the approved source. The distributable
+`dist/interactive-experience-generator.skill` contains the 13 runtime/legal
+files under its `interactive-experience-generator/` directory; the two
+evaluation files remain repository-only. The archive's SHA-256 is:
 
 ```text
-2d0a6f481e6d0f2b6319d9352f46ed919b53c6fa8c4261a1623545542d591911
+9cf314b1bc156f23d9cbc2feef42a78cb6ff506f38f3eaea66128340e8367f17
 ```
+
+For future releases, package only `SKILL.md`, `references/`, `NOTICE.md`,
+and `licenses/` into a ZIP-format `.skill` archive with that top-level
+directory. Do not include the repository README, `evals/`, `dist/`, generated
+experiences, or local session artifacts. Verify every archive member against
+its source file and update the checksum above when replacing the package.
+
+[`evals/evals.json`](evals/evals.json) includes ten reusable probes and an
+authorised fictional SVG fixture in `evals/files/`. They cover intake,
+interaction, company-message readiness, asset handling, scoped polish,
+revisions, and actual official assets in the built page. Bundling these
+probes does not claim that they were executed or that generated HTML,
+browser behavior, or audience comprehension was verified.
 
 See [`NOTICE.md`](NOTICE.md) and the bundled [`licenses/`](licenses/) for
 third-party attribution and applicable terms. Keep these files with the skill

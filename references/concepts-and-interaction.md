@@ -1,5 +1,11 @@
 # Concepts and interaction
 
+For revisions to an approved experience, use the fast path in `SKILL.md`
+and `intent-and-revisions.md`; do not reopen concept selection. Keep the
+identity, medium and behavior of each object separate. A real product
+image, a spatial model and genuine visitor input solve different needs;
+mix them deliberately without claiming they are all 3D.
+
 ## Choosing the subject
 A subject is the focal thing inside the broader brief — for a railway
 operator, perhaps the train itself, a ticket, or the network; for a

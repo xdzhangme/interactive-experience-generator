@@ -1,6 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Turns a company's verified message and real products or services into a distinctive full-screen interactive story, not a generic demo with a logo. Researches and proposes the message when the input is vague; preserves authentic branding, purposeful interaction and sourced evidence. Delivers one offline HTML with EN/NL, Sources and Download HTML. Use for interactive 3D scenes, company/product explainers, showcases and VibeHub-style experiences instead of requiring a long art-direction prompt.
+description: Builds, revises and polishes company/product interactive experiences. After plan approval, implements the page with actual official models, product images and assets, not agent-drawn imitations or merely official references. Preserves approved decisions, verified company messaging, genuine 3D and real visitor input. Includes bundled Impeccable-inspired critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
+metadata:
+  revision: "2026-11-04-actual-assets-in-build"
 ---
 
 # Interactive experience generator
@@ -24,6 +26,42 @@ Selected Impeccable guidance for Experience mode, critique and polish is
 bundled in `references/experience-critique-polish.md`; it requires no
 Impeccable installation, binaries or commands and does not replace the
 message-first workflow.
+This built-in quality pass is part of every build and applicable revision,
+not an optional extra the person must request by naming Impeccable.
+
+## After plan approval: use actual official assets in the page
+
+Implement real-company experiences with the actual official models,
+product images, packaging, logos and other relevant assets. This is a
+requirement for what visibly appears and is manipulated in the built page,
+not merely a preference for official research sources.
+
+Acquire and embed the suitable, permitted official files, then build the
+layout, scene and interaction around them. Do not replace them with your
+own SVG drawing, CSS illustration, generated lookalike or procedural model.
+An official reference photo used to draw a new object is not the same as
+using that official asset in the page. A logo or source link does not fix
+that substitution.
+
+Concept sketches can communicate a proposed composition when clearly
+labelled, but approval of a plan, style or mockup does not authorise drawn
+replacements in implementation. Before building, map each branded object
+to the actual official file that will render it. For required spatial 3D,
+use an actual official 3D model; do not call a photo 3D. For product imagery,
+use the actual official image rather than redrawing it.
+
+If a required official file cannot be obtained or lawfully used, report
+the specific blocker and ask for the asset or an explicit object-specific
+exception. Do not silently draw a replacement or downgrade the medium.
+Preserve existing explicit exceptions, such as a specifically approved
+reconstruction; general concept approval is not such an exception.
+Reuse supplied verified assets and permissions without asking again.
+
+This governs all represented branded objects, not just the hero. It does
+not prohibit authored interface controls, neutral staging, or a visitor
+drawing their own signature. Explicit fictional briefs remain fictional.
+Follow `references/sources-and-labeling.md` and check actual in-page use
+again at delivery.
 
 ## Preserve the person's intent
 
@@ -43,6 +81,28 @@ settle small staging details yourself and identify them as your choices.
 Do not ask again for decisions already supplied. A company-only request is
 valid: research first and recommend a direction rather than demanding a
 product, gesture, or art style they do not have yet.
+
+## Revision fast path
+
+For existing work, read `references/intent-and-revisions.md` first.
+Recover the latest accepted artifact and decisions; do not restart intake,
+four concepts or approval rounds for an already specified correction.
+Record the requested change, what remains approved/frozen, and its affected
+routes, states, languages and export surfaces. Ask only if a remaining
+ambiguity would materially change the result.
+
+Separate each important object's **identity/provenance**, **rendering
+medium**, and **visitor behavior**. "Real" may mean an actual product image,
+spatial geometry, or genuine user input; those are not interchangeable.
+Reuse supplied clarification rather than searching for a complex model
+when the person asked for an authentic image or a drawing interaction.
+Preserve approved objects unless the requested fix necessarily affects
+them; explain that dependency rather than silently redesigning.
+
+Implement the complete affected change, then use steps 8-10. A revision
+is complete only when the reported defect is reproduced as corrected and
+the other relevant branches still work. Do not equate one changed screenshot
+or a high assertion count with whole-experience acceptance.
 
 ## Before you start: check what you have
 
@@ -66,8 +126,10 @@ These hold across every step; re-check them at delivery, not just once.
 - **Facts need an official source, with a link.** A missing technical detail
   narrows the explanation; it is never invented to fill a gap.
 - **Illustrative staging is allowed, factual claims are not.** A stylised
-  train, simplified scenery, or invented camera move can be labelled
-  illustrative. A claim about how something really works cannot.
+  neutral environment or invented camera move can be labelled illustrative.
+  Redrawing a real branded product needs an explicit object-specific
+  exception; plan approval alone does not permit it. A claim about how
+  something really works cannot be invented.
 - **No research → say so.** When research is unavailable or the brief is
   fictional, build an original experience labelled "No research performed,"
   and drop every claim about a real company, product, or mechanism.
@@ -106,6 +168,13 @@ These hold across every step; re-check them at delivery, not just once.
 - **Offline delivery is a completion gate.** A result that cannot be
   verified to run with no network connection is not done; report the
   blocker instead of quietly delivering a hosted link.
+- **Authored input must actually be authored.** Drawing, signing, typing or
+  configuring uses the visitor's input, not a preset result behind a button.
+  Keep sensitive input local and ephemeral by default; clear it from a
+  fresh downloaded copy. See `references/intent-and-revisions.md`.
+- **Asset truth and medium truth both matter.** An official photo is not
+  a 3D model, and a reference-based reconstruction is not an official model.
+  Disclose illustrative substitutions and preserve truthful service steps.
 
 ## Workflow
 
@@ -124,6 +193,8 @@ Read `references/sources-and-labeling.md` first. Research the official
 sources for whatever was named, including hero-object reference photos,
 identifying visual features, brand assets, and their reuse terms. Do not
 silently pick another region's product or a more convenient variant.
+Apply the asset-selection order; record required implementation files,
+missing official assets and any object-specific approved exceptions.
 Then read `references/message-and-brand.md`. Research the company's stated
 promise, the relevant actual offerings and two or three supporting proof
 points. Recommend one central message and visitor takeaway grounded in
@@ -139,6 +210,9 @@ Show "here's what I understood" using the compact message brief: audience
 when known, one company message, the visitor's takeaway, supporting
 offerings/evidence, confirmed subject/scene, proposed action, authentic
 assets and unresolved rights. Separate recommendations from requirements.
+Include the object identity/medium/behavior contract and frozen approvals
+from `references/intent-and-revisions.md` when relevant; keep it compact
+and in the existing brief, not a new paperwork requirement.
 Recommend the message yourself; ask only about consequential gaps and
 confirmations, not every brief field. Do not treat silence as approval.
 **Done when:** the person has confirmed or corrected the summary and any
@@ -189,6 +263,11 @@ concept uses spatial 3D, also read `references/threejs-craft.md`. Then read
 `references/build-and-delivery.md` and build to its requirements: one
 self-contained HTML file, full EN/NL, a Sources button, and a Download HTML
 action.
+After selection, resolve the actual-assets implementation gate above
+before constructing branded objects. Embed/import the official files,
+not just their reference URLs. Check the rendered result actually uses
+those files across the relevant routes and states; do not recreate their
+appearance with newly drawn geometry or artwork.
 Implement the selected concept's opening -> action/proof moments -> company
 takeaway first, then polish. Object response and explanation follow the
 visitor's progress, not an unrelated timer. Keep the main message coherent;
@@ -198,6 +277,9 @@ equal narrative weight. Distinguish sourced physical claims from
 illustrative effects or compressed demonstration time.
 **Done when:** the meaningful core sequence works end to end with authentic
 assets and required delivery elements, not merely when the gesture runs.
+Maintain editable source and a reproducible single-file export. Reuse shared
+assets and state/render helpers across branches; avoid a growing stack of
+string-replacement builds and unrelated CSS overrides.
 
 ### 8. Inspect and refine
 Follow the adapted critique -> prioritise -> polish -> replay loop in
@@ -213,6 +295,10 @@ interaction/intent fidelity, and technical correctness. Check what the
 rendered experience communicates, not only what the author intended.
 A working download, many listed products or many passing button tests
 cannot compensate for failed branding or communication.
+Check the affected route-state matrix, not just the default journey.
+Make separate visual-quality observations alongside the four gates;
+inspect actual rendered bounds, legibility, control reachability and
+state-specific assets. Do not average these into a single readiness score.
 **Done when:** all applicable gates in `references/build-and-delivery.md`
 have evidence; mark checks not performed as unverified, not passed.
 
@@ -236,6 +322,7 @@ step rather than inventing a history.
 
 | File | Read it |
 |---|---|
+| `references/intent-and-revisions.md` | Before revising existing work; also when recording approved objects, interpreting "real", implementing authored input, or planning route/state coverage. |
 | `references/message-and-brand.md` | Before recommending purpose, confirming the brief, developing concepts, and reviewing message delivery. |
 | `references/sources-and-labeling.md` | Before researching, and whenever writing factual or illustrative copy. |
 | `references/concepts-and-interaction.md` | While developing the four concepts (step 5). |

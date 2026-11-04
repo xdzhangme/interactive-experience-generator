@@ -37,6 +37,12 @@ condensed work; the full licence text governs the original repository.
   `SKILL.md`, `references/art-direction.md` and
   `references/build-and-delivery.md` were changed to integrate that
   guidance beneath the existing message-first workflow.
+- **Generator revision, 2026-11-04:** the integration now explicitly runs
+  during builds and applicable revisions. Added original generator-specific
+  intent/revision contracts, authored-input/privacy rules, route-state
+  regression coverage and concrete web usability checks. These additions
+  are not represented as verbatim upstream Impeccable instructions or a
+  new upstream release.
 - **Not bundled or required:** upstream binaries, commands, hooks,
   detector, live-edit servers, concept randomisation, native-platform
   references, mandatory multi-agent orchestration or external services.
@@ -65,6 +71,16 @@ Both are MIT-licensed; attribution to the original authors and repositories
 is preserved here.
 
 ## Before external or customer-facing distribution
+The subsequent actual-assets implementation clarification requires official
+asset files to be used in the built page after plan approval, rather than
+only prioritised in research. It distinguishes plan/style approval from
+explicit object-specific substitution approval.
+
+The 2026-11-04 official-first revision adds original generator instructions
+prioritising actual official products/assets before construction and
+requiring approved, disclosed fallbacks. It does not change the bundled
+third-party licences or imply additional asset/trademark permissions.
+
 Facts, logos, and brand imagery used inside any generated experience come
 from the target company's own official sources, not from this package.
 Confirm logo/trademark usage and licensing terms with your own legal or

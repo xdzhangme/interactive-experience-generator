@@ -38,6 +38,10 @@ separating the person's requirements from recommendations:
 - **Gaps:** only consequential uncertainty requiring a decision. Confirm
   message and asset approach together when possible instead of repeating
   settled questions.
+- **Object contract and retained approvals:** for relevant objects, record
+  identity/provenance, medium and visitor behavior separately; mark what
+  stays frozen during a correction. Use `intent-and-revisions.md` without
+  creating another interview or planning document.
 
 A simulation objective ("operate this device"), catalogue objective
 ("visit every item"), or slogan alone is not a company message. A requested

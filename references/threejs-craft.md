@@ -6,14 +6,24 @@ This file is an original, condensed summary for this workflow, not a
 verbatim copy, and strips the parts of that skill specific to games.
 
 ## Core rule
-Authored forms first, then materials, then lighting, then effects. Glow,
-bloom, and particle effects never substitute for real, considered geometry
-— build the actual shape of the subject before reaching for post-processing.
+Load the actual permitted official model first, then compose materials,
+lighting and effects around it. Glow, bloom and particles do not substitute
+for authentic geometry. Author branded geometry yourself only under an
+explicit object-specific reconstruction exception, not merely plan approval.
 
-## No official 3D model usually exists
-Look for suitable official 3D assets and check reuse terms; do not assume
-they exist. When none is available, build procedural geometry from inspected
-official reference photos of the confirmed variant. Use verified dimensions
+## Official models first; reconstruction is an approved fallback
+Look for a suitable official model of the exact offering and check reuse
+terms before constructing geometry. Do not assume official models exist,
+but do not assume they are absent or procedural geometry is the first choice.
+Follow the official-first selection order in `sources-and-labeling.md`.
+When no suitable usable official model is available, explain the gap and
+obtain approval for a verified licensed third-party model or reconstruction;
+reuse existing explicit approval rather than asking again.
+
+Only when reconstruction itself was explicitly approved, build procedural
+geometry from inspected official reference photos of the confirmed variant.
+Do not treat reference inspection as permission to substitute a model.
+Use verified dimensions
 where published; identify photo-estimated proportions as approximations
 rather than claiming measured accuracy. Label the result
 **illustrative geometry** — a reconstruction for this experience, not a

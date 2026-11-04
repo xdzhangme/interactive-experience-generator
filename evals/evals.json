@@ -1,0 +1,168 @@
+{
+  "skill_name": "interactive-experience-generator",
+  "evaluation_scope": "Retained intake/fictional-gesture probes plus message-first readiness, authentic-asset handling, complete-range story, scoped Impeccable polish, frozen-object/input fidelity, cross-route revisions and official-first asset selection. Text-only probes do not establish rendered brand recognition, working input/privacy, visual quality or actual audience comprehension; record which probes were executed.",
+  "evals": [
+    {
+      "id": 1,
+      "name": "lipton-intake",
+      "stage": "intake",
+      "prompt": "test the skill u just made. i want to have a html of Lipton company. i want to make it as a lipton tea bag putting in a lipton mag",
+      "expected_output": "A first-turn response preserving the Lipton tea bag entering a mug. No unapproved variant, invented official mug, or claim that a start-button animation fulfills the physical gesture. Research and questions should resolve consequential ambiguity without reopening the named subject.",
+      "files": [],
+      "expectations": [
+        "intent: Preserves Lipton, the tea bag, and the bag-entering-mug scene.",
+        "intent: Does not silently select a bag variant or present an invented mug as an official product.",
+        "intent: Proposes visitor-controlled dipping or placement rather than relying only on autoplay; action-linked explanations are assessed in the build case.",
+        "intent: Explicitly plans official visual references or surfaces a hero-identity/reference gap.",
+        "technical: Makes no fabricated claim of completed research, asset permission, visual inspection, or working offline output.",
+        "technical: Respects the confirmation stage; does not deliver an unapproved final build or ask more than three initial questions."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "physical-gesture-build",
+      "stage": "approved-build",
+      "prompt": "Build the selected concept for my fictional product Kora Loop, not a real company. No research is needed; label it No research performed. Our briefing, subject choice, four concept mockups, and selection are already approved: a full-screen warm-white technical illustration of the exact circular dial in the attached reference, NOT a website. The supplied SVG is my original design and I authorize its use and adaptation. Keep its three-lobed cyan grip, dark circular body, triangular indicator, and amber centre. The scene is one dial controlling an illustrative channel. The main action is turning this dial from closed to open by dragging it with mouse or touch; keyboard arrows must operate it too. As the dial turns, show readable explanations in the scene: at closed, the illustrative channel is blocked; part-way, a partial opening is visible; at fully open, the illustrative channel is open. These are fictional design states, not claims about real fluid physics. Make the flow opening visibly match dial angle, including reversing and reset. Do not replace turning with a start button, an automatic movie, or static hotspot panels. Keep complete EN/NL, Sources, and a Download HTML button. Deliver one genuinely self-contained offline HTML file. Use the approved illustration rather than introducing a 3D runtime. Implement now; no further design choices or confirmations are pending.",
+      "expected_output": "A self-contained HTML with the reference silhouette, visitor-controlled rotation, angle-linked opening and in-scene explanations, keyboard and touch equivalents, correct reversal/reset, EN/NL, truthful fictional labeling, Sources, and downloadable standalone output.",
+      "files": ["evals/files/kora-loop-reference.svg"],
+      "expectations": [
+        "intent: Preserves the supplied dial's three-lobed cyan grip, dark body, triangular indicator, and amber centre.",
+        "intent: The primary action directly turns the dial; it is not merely a start button or automatic sequence.",
+        "intent: Closed, intermediate, and open states visibly affect the channel and trigger matching in-scene explanations.",
+        "intent: Output is a focused full-screen illustrative experience, not a company website or product substitution.",
+        "technical: The HTML loads and its main interaction works with network requests blocked.",
+        "technical: Pointer and touch rotation, keyboard equivalents, reversal, and reset reach consistent states.",
+        "technical: EN/NL updates the current explanation and required controls; Sources identifies fictional/no-research status.",
+        "technical: Download produces a complete standalone HTML that reopens and works offline."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "vague-company-intake",
+      "stage": "intake",
+      "prompt": "Make something interactive for NS, the Dutch railway company. Our team only has the company name so far; please help us find the idea, not a normal company website.",
+      "expected_output": "A useful first turn which accepts a company-only brief, researches or proposes official research, recommends rather than presupposes a source-backed company message, leaves subject choice open, and does not demand a long art-direction prompt or force a physical gesture onto an abstract topic.",
+      "files": [],
+      "expectations": [
+        "intent: Accepts the company-only request without demanding a detailed product, gesture, and art-style brief.",
+        "intent: Pursues an interactive experience rather than a conventional company website.",
+        "intent: Labels proposed purposes or subjects as recommendations rather than user-confirmed decisions.",
+        "intent: Uses or proposes NS official sources and leaves consequential subject selection to the user.",
+        "technical: Makes no fabricated research, asset, browser, or completion claims.",
+        "technical: Respects the confirmation stage and the initial three-question limit."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "company-message-readiness",
+      "stage": "text-only-review",
+      "prompt": "Review this Jumbo customer experience for delivery using the generator skill. Do not edit or rebuild it. Observed result: an enjoyable full 3D checkout with real permitted Jumbo logo/product assets, working card/payment/receipt gestures, all requested product entries and passing offline/EN/NL/download checks. The agreed broad purpose was to show Jumbo's wider customer service. Opening: 'Self-checkout, in your hands.' Each scan adds a product and sometimes displays an unrelated sourced history fact. Ending: 'Checkout complete.' The author report says all functional checks passed, but records no review of what the visitor understands about Jumbo. Give a short readiness judgment, identify any distinct outstanding acceptance areas, and say what evidence is still needed. Treat these observations as the supplied test fixture; no new web research or page changes.",
+      "expected_output": "Does not call the branded experience fully complete solely from functional/coverage success. Separates identity, communication, interaction/intent and technical evidence; identifies missing coherent company message and unmeasured comprehension without rejecting the useful working experience.",
+      "files": [],
+      "expectations": [
+        "message: Identifies the gap between completing checkout and understanding the company purpose.",
+        "message: Requires opening/action/consequence/ending evidence rather than unrelated fact presence.",
+        "brand: Credits the supplied authentic permitted assets without treating logo presence as message delivery.",
+        "interaction: Preserves the enjoyable working gestures rather than proposing a generic website or replacing the agreed scene.",
+        "technical: Credits supplied functional checks without claiming observed human understanding.",
+        "reporting: Gives distinct readiness statuses and does not claim a new build, user test or page edit."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "brand-assets-not-a-shortcut",
+      "stage": "text-only-decision",
+      "prompt": "We are making a branded Rituals customer experience. We have official product references and factual research, but asset reuse permission is unresolved. The visitor must recognise Rituals and its real offerings. A colleague proposes removing the official logo and product appearance, using generic unbranded jars, and calling the deliverable complete because the refill gesture still works. I have not approved that scope change. Using the generator skill, recommend the next step in a short response. Do not fetch pages, contact anyone, build HTML or change files; assess this supplied situation only.",
+      "expected_output": "Resolve actual logo/product rights or request authorised assets/permission early. Does not treat generic artwork as equivalent branded delivery or presume permission. An explicitly agreed unbranded prototype may test interaction but must retain a blocked/unverified brand gate.",
+      "files": [],
+      "expectations": [
+        "brand: Does not approve the generic unbranded jars as complete branded delivery.",
+        "rights: Recommends applicable permission or authorised authentic assets; public official origin alone is insufficient.",
+        "scope: Does not assume the user approved removing identity.",
+        "prototype: Any offered unbranded prototype is explicit, limited to interaction and not a brand-fidelity pass.",
+        "message: Keeps the researched company purpose and real offerings rather than inventing a fictional company or declaring no research.",
+        "reporting: Claims no actual research, permission, build or page changes."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "complete-range-with-message",
+      "stage": "text-only-story-plan",
+      "prompt": "Plan the main story for our Rituals experience, not a page build. Confirmed: complete dated coverage of 44 Sakura and 38 Jing product IDs; a hands-on refill centrepiece; authentic logo/product assets are supplied with permission. The approved message is about transforming everyday routines into meaningful moments, using these two collections and the researched refill as evidence. We want an interactive experience, not a webshop. Describe the opening, two or three purposeful action/consequence moments, the ending's company takeaway, and how all 82 entries remain findable without making visitors complete a catalogue hunt. Use only these supplied test-fixture facts; no new research or edits.",
+      "expected_output": "The approved message organises the main arc. Actual offerings prove relevant meaning, refilling is not treated as universal for all entries, all 82 IDs stay discoverable, and coverage counts do not substitute for communication.",
+      "files": [],
+      "expectations": [
+        "message: Carries the approved company message from opening through meaningful actions to ending.",
+        "proof: Explains why each observable consequence supports the message, not merely when a fact appears.",
+        "brand: Preserves supplied authentic identity and specific real offerings.",
+        "coverage: Preserves all 82 exact identities as accessible exploration without an obligatory quota.",
+        "interaction: Retains the refill centrepiece without adding gratuitous precision or implying all products share its mechanism.",
+        "reporting: Treats the response as a plan, not an implemented or comprehension-tested experience."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "scoped-experience-polish",
+      "stage": "text-only-refinement-plan",
+      "prompt": "We approved a company-message-first interactive showcase with genuine permitted brand assets, all 82 requested product IDs, EN/NL and one offline HTML file. The interaction and message are working. Observed problems: utility controls cover the hero on a phone, the relevant explanation is below the action, Dutch labels clip, and spacing is inconsistent. A colleague proposes using the Impeccable-inspired polish step to replace the approved palette and company copy, remove half the catalogue, add CDN fonts and a dark theme, and install the full launcher/detector/hooks. Using only your assigned generator version, give a short refinement plan and say which proposed changes do or do not fit. Do not fetch pages, run commands, edit files or claim a rendered review occurred; these are supplied observations.",
+      "expected_output": "A narrow Experience-led critique/priority/polish/replay plan makes the hero/action/explanation clear without hiding required utilities, resolves phone and localisation defects, preserves the message/assets/all IDs, and retains offline operation. It does not import the full Impeccable runner or silently redesign approved work.",
+      "files": [],
+      "expectations": [
+        "composition: Gives the real hero and relevant action/explanation clear hierarchy while keeping required utilities accessible.",
+        "critique: Prioritises observed phone, label and flow defects before cosmetic details.",
+        "scope: Preserves approved message, palette, facts, authentic assets and all 82 product identities.",
+        "offline: Rejects runtime CDN fonts and unnecessary external dependencies.",
+        "polish: Does not add dark mode or replace the concept as an unapproved polish change.",
+        "verification: Replays the full EN/NL pointer/touch/keyboard path at representative widths and labels unperformed visual/tool checks honestly."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "frozen-hero-authored-input",
+      "stage": "text-only-revision-plan",
+      "prompt": "We already approved the full EN/NL offline interactive experience for our fictional delivery service Pavo. The existing spatial 3D collection box is approved and must not change. My earlier request for real models was ambiguous; here is the correction: use the supplied authorised image of our actual stamp, and let visitors draw their own delivery signature, not a preset scribble. Do not find a signing-device model. Existing surfaces include a draggable postage token, the applied envelope, the 3D letter texture and the Download HTML export. Only provide a concise implementation/verification plan now; no edits, browsing, new concepts or permission questions. Treat all facts and permissions here as the supplied fixture.",
+      "expected_output": "A narrow revision plan preserves the approved box, treats the real stamp image and genuine signature input as separate contracts, propagates the asset across all listed surfaces, provides drawing/correction/confirmation and verifies ephemeral input is absent from downloaded HTML. No new model search or invented completed work.",
+      "files": [],
+      "expectations": [
+        "scope: Freezes the approved spatial box and skips new concepts/model or device searches.",
+        "truth: Distinguishes authentic stamp imagery from spatial 3D and visitor-authored signature behavior.",
+        "coverage: Traces the stamp through draggable token, applied envelope and 3D letter texture.",
+        "input: Uses actual strokes with correction and explicit confirmation, not a preset result or accidental empty completion.",
+        "privacy: Keeps signature input local/ephemeral and verifies a fresh downloaded HTML contains no prior ink.",
+        "reporting: Treats the response as a plan and does not claim implementation, browser verification or audience acceptance."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "alternate-route-regression-polish",
+      "stage": "text-only-revision-plan",
+      "prompt": "Review this supplied bug report for our approved fictional Pavo interactive delivery experience. Do not build, browse or run tools. The self-service route is fine. In the staff-assisted route the applied demo label is still a faded clickable token, the carried envelope shows an old placeholder, and the destination wrongly remains a self-service slot. The agreed replacement is our authorised staff-counter photo and visibly marked non-valid demo label. The narrow phone screenshot also shows a rotated envelope hint colliding with a legal caption, and Dutch text covers the main action. Our approved palette, 3D collection box, company message and actual freehand signing must remain. Give a concise correction and acceptance plan using the generator's bundled quality guidance. A colleague says 1,000 passing button checks and no horizontal overflow mean no more review is needed.",
+      "expected_output": "A scoped route-state repair hides the applied token rather than fading it, updates all label/target copies, preserves approved objects/input and truthful demo/photo status, and reproduces the exact defect. The built-in Impeccable pass recomposes readable responsive layouts, inspects transformed bounds and click/focus behavior, and replays both routes/locales/export. Test counts are not visual evidence.",
+      "files": [],
+      "expectations": [
+        "coverage: Explicitly addresses applied-token visibility/interception, carried-envelope label and staff-assisted destination.",
+        "scope: Preserves approved palette, spatial box, message and genuine signing without a new concept interview.",
+        "truth: Keeps the demo label visibly non-valid and describes the photo truthfully rather than calling it 3D.",
+        "polish: Uses flow/recomposition and inspects transformed hint/caption bounds, readable copy and action reachability rather than shrinking text.",
+        "verification: Reproduces the exact failing state, then checks both routes, EN/NL, reset/revisit and the downloaded offline copy.",
+        "evidence: Distinguishes actual rendered/input findings from aggregate button counts or no-overflow results; does not claim unperformed review.",
+        "dependency: Uses bundled Impeccable guidance without installing its launcher, detector or other external tooling."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "approved-plan-actual-assets-in-page",
+      "stage": "text-only-implementation-readiness",
+      "prompt": "Our real-company plan and scene composition are approved. We supplied authorised official product PNGs, a logo SVG and the official GLB model of the exact equipment. A colleague proposes drawing lookalike SVG packaging and building procedural equipment geometry from those official references, then listing official links in Sources. They say the approved plan permits this. Explain what must actually go into the built page. Also explain what to do if the GLB turns out unavailable. No browsing, edits or claims of completed checks.",
+      "expected_output": "Requires actual supplied official PNG/SVG/GLB files in the rendered page, not an official research preference followed by agent-authored lookalikes. Plan/style approval does not approve substitutions. Interactions and layout should use the imported/embedded official assets across relevant states. A missing required model is a blocker requiring the file or a targeted explicit exception, not automatic procedural geometry or a silent photo downgrade.",
+      "files": [],
+      "expectations": [
+        "implementation: Requires embedding/importing and visibly using the actual supplied official PNG/SVG/GLB files after plan approval.",
+        "no-lookalikes: Rejects agent-drawn packaging and procedural equipment merely based on official references; source links do not make those official assets.",
+        "approval: Distinguishes general plan/style approval from an explicit object-specific substitute exception.",
+        "blocked-asset: If the required GLB is unavailable, requests the asset or a specific exception rather than automatically drawing geometry or downgrading to a photo.",
+        "reporting: Claims no actual research, inspection, permission change or implementation."
+      ]
+    }
+  ]
+}

@@ -6,6 +6,13 @@ offline-capable HTML file. No runtime CDN script tags, no remote font or
 texture fetches. Inline or embed every dependency the experience needs to
 run.
 
+Keep editable source separate from generated output when complexity
+warrants it, with a reproducible export into the one HTML deliverable.
+Prefer shared assets, explicit state and coherent styles over a chain of
+fragile string replacements or repeated CSS overrides. This is a source
+quality rule, not permission to deliver a folder instead of the required
+single file. Preserve earlier accepted files when publishing a revision.
+
 **Completion gate, not a formality:** before calling the build done, verify
 it loads and runs with the network disconnected (or by equivalent means
 available this session). If that verification isn't possible — for example,
@@ -53,6 +60,13 @@ compensate for failed branding or communication. Mark inapplicable checks explic
 with the reason rather than counting them as passes.
 
 ### Brand authenticity
+- [ ] After plan approval, actual official model/image/asset files were
+      embedded/imported and visibly used for primary and secondary branded
+      objects in the delivered page, including affected interaction states.
+      A source link, unused asset, or agent-drawn lookalike based on an
+      official reference does not pass. Any substitute has explicit
+      object-specific approval; general concept/style approval is not enough.
+      Record each file's provenance, permission and rendered location.
 - [ ] Actual company logo and real products/services are recognisable in
       the delivered view, not only in source links, unless explicitly
       excluded by the brief. Typed lettering and generic props do not
@@ -84,6 +98,17 @@ with the reason rather than counting them as passes.
       pass counts are not evidence that an audience understood the company.
 
 ### Interaction and intent fidelity
+- [ ] The revision delta and frozen approvals from
+      `references/intent-and-revisions.md` were preserved. Identity,
+      rendering medium and behavior match each important object's contract.
+- [ ] Every affected route/state copy uses the correct asset and target,
+      including applied/hidden states, alternate views, accessible labels,
+      textures, both languages, Sources and export. Unaffected relevant
+      branches were replayed, not assumed safe from one screenshot.
+- [ ] Authored input comes from the actual visitor, with correction and
+      confirmation where applicable; empty/preset completion is not
+      substituted. Personal input is ephemeral by default and absent from
+      the downloaded fresh copy.
 - [ ] Confirmed company, exact product/variant, subject, scene, medium,
       gesture, and exclusions survived concept selection and implementation.
 - [ ] Consequential assumptions and substitutions were resolved with the
@@ -129,6 +154,9 @@ with the reason rather than counting them as passes.
 - [ ] No leftover lorem ipsum, placeholder imagery, or TODO text remains.
 - [ ] No runtime errors; the scene and explanations remain usable on narrow
       screens, with visible focus, readable contrast and reduced motion.
+- [ ] Actual transformed bounds, readable captions, touch targets, dialog
+      focus and input interception were checked where relevant. CSS sizes
+      or no-overflow assertions alone are not visual/usability acceptance.
 - [ ] The polished path was replayed at representative desktop, phone and
       relevant intermediate widths, including EN/NL expansion, dialogs,
       recovery and ending states. Record untested surfaces honestly; a

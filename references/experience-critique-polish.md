@@ -4,6 +4,9 @@ Original, scoped adaptation of selected guidance from Impeccable 4.8.0
 (`pbakaus/impeccable`, tag `cli-v4.8.0`): its Experience mode and web
 critique/polish principles. See `NOTICE.md` and `licenses/impeccable/`.
 This is not the full Impeccable runner or command workflow.
+Read this bundled guidance during normal builds and revisions; do not wait
+for a separate request to "use Impeccable." Its original scoped adaptation
+is extended here with the generator's own revision and usability rules.
 
 ## Boundaries and priority
 
@@ -122,6 +125,43 @@ If the approved concept cannot carry the message, report the conceptual
 problem and seek a targeted direction change. Do not disguise a replacement
 concept as a polish pass.
 
+## Concrete web craft checks
+
+Treat these as starting targets, not a substitute for inspecting the actual
+scene. Respect approved brand typography and justified accessibility needs.
+
+- Aim for at least 16 CSS px for body/instructions and 12 px for secondary
+  captions; do not shrink essential text to hide a collision. Check actual
+  readability, wrapping and hierarchy, not just computed size.
+- Use at least 44 by 44 CSS px for interactive hit areas and 48 px height
+  for primary actions where practical. Include compact language, chapter,
+  camera, reset and dialog controls, not only the main button.
+- Check ordinary text against WCAG AA contrast (4.5:1; 3:1 for qualifying
+  large text), plus visible focus and required control boundaries. Measure
+  the actual background/composite state; a static selector warning alone
+  is neither a failure nor a pass.
+- Prefer normal flow, grid/flex and adequate scene height for explanatory
+  copy, object, caption and action. Recompose at tablet/phone widths rather
+  than pile on absolute offsets or smaller fonts. Spatial elements may
+  need positioning; verify their transformed/rotated screen bounds.
+- Inspect not only overflow but overlaps, click interception, cropped
+  addresses/labels, footer disclosures and controls hidden by overlays.
+  Exercise dialogs, completion and input states, not just the opening.
+- Use one coherent set of semantic tokens for type, spacing, action colour,
+  focus and target size. Resolve undefined variables and inconsistent
+  overrides rather than masking them with another exception.
+- Preserve in-progress input through responsive/localisation changes.
+  Give stage changes a sensible heading/focus destination and avoid
+  stranding focus on a removed control. Keep keyboard and reduced-motion
+  equivalents; no gratuitous entrance animation is needed to show polish.
+
+Normally inspect desktop, an intermediate/tablet layout and a narrow phone
+in both EN/NL, plus the narrowest supported width. Useful starting widths
+are 1280, 768, 375 and 320 CSS px, adapted to the real brief. Record viewport
+height too. Inspect zoom when possible and label it unverified otherwise.
+Compare matching before/after route-states so an unrelated attractive
+screenshot cannot stand in for the corrected defect.
+
 ## Verify the whole path again
 
 Replay the core action and recovery with applicable pointer, touch and
@@ -136,3 +176,6 @@ findings. Report separately what was fixed, what was observed and what is
 still unverified. Leave the generator's four independent acceptance gates
 intact; visual polish is never permission to mark a blocked brand/message
 gate passed.
+Use the affected route-state matrix in `intent-and-revisions.md` and replay
+relevant unaffected branches too. A detector can locate candidates, not
+certify visual quality, privacy, authentic assets or completed interaction.

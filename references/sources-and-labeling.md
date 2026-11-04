@@ -14,10 +14,11 @@ Used whenever official sources exist for what was named.
   explain what something does but not how it works internally, narrow the
   explanation to what they establish — don't fill the gap with a plausible
   mechanism, even one labelled illustrative.
-- Visual staging is a different matter: a stylised vehicle, simplified
-  scenery, invented lighting, or an animated detail with no cited source is
-  fine, provided it never implies a specific, unverified real-world fact.
-  Label this content **illustrative** in the Sources panel.
+- Visual staging is a different matter: neutral scenery, invented lighting,
+  or a camera transition can be illustrative provided it never implies an
+  unverified real-world fact. This is not permission to redraw branded
+  vehicles/products instead of using actual official assets. Such an
+  object-specific exception must be explicit. Label illustrative content.
 - Logos and imagery: use official-source files or authorised customer brand
   files whose provenance and identity have been checked. Check what
   the source says about reuse (press/media pages often restrict use to
@@ -37,6 +38,55 @@ Resolve identity and asset rights early, using the process in
 offerings are part of branded delivery, not optional decoration. Generic
 unbranded artwork is not a completion shortcut; if deliberately agreed,
 label it prototype-only and keep brand acceptance blocked.
+
+## Actual official assets in implementation
+
+After the plan is approved, the built page uses actual official asset
+files for the represented company products/objects, not drawings based on
+official references. Researching an official product and then recreating
+it in SVG, CSS, generated imagery or procedural geometry does not meet
+this requirement. General approval of a concept or mockup does not waive it.
+
+Choose the actual official thing before choosing a convenient way to make
+it. Apply this to primary and secondary objects: products, packaging,
+labels, accessories, equipment, environments and brand marks.
+
+1. Identify the exact current offering/variant and inspect its official
+   product/service page, brand/media kit and available asset downloads.
+   Prefer supplied verified official files when already authorised.
+2. Select the suitable official asset with applicable reuse permission.
+   Acquire and embed/import that file so it is actually visible in the
+   delivered page and its interaction states. A source link alone, an
+   unused embedded asset, or a photo used only as drawing reference fails.
+   An actual product photo may be the right flat asset; an explicitly
+   spatial scene needs a real model, so look for an official model first.
+   Do not treat photo provenance, a 3D runtime and a visitor gesture as
+   interchangeable evidence.
+3. If no suitable usable official asset is available, state what was
+   checked and the actual limitation. Seek approval for a verified,
+   appropriately licensed third-party depiction of the exact offering or
+   a faithful reference-based reconstruction. Do not claim either is an
+   official asset. Approval must name the affected object and substitute;
+   general plan/style approval is insufficient. Existing object-specific
+   approval satisfies this decision.
+4. Use generic props, invented packaging or visibly marked demonstration
+   artwork only as a deliberately approved exception/prototype, not the
+   default first build or an equivalent authentic branded delivery.
+
+Keep a compact per-object record: actual identity, official source and
+local/embedded file, reuse status, selected medium, rendered locations/states,
+and any reason and object-specific approval for a fallback.
+No new planning document is required. Resolve a consequential gap before
+building around a substitute, rather than asking the person to notice it
+later. A search snippet alone is not an asset inspection, and an unavailable
+model is not proof that no official product imagery exists. If the agreed
+medium requires a model and no usable official model is available, mark
+that object blocked and ask for a supplied asset or a specific exception;
+do not automatically manufacture geometry or silently switch to a photo.
+
+Do not redesign an already approved reconstruction merely because an
+official asset later becomes available; preserve the revision's frozen
+scope unless the person asks for replacement.
 
 ## Hero-object evidence
 

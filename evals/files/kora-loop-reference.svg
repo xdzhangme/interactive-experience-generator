@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <title>Kora Loop fictional dial: original evaluation reference</title>
+  <desc>A dark circular dial body with a three-lobed cyan grip, amber centre and a triangular indicator at twelve o'clock. This is a fictional design fixture, not an official real-company product.</desc>
+  <rect width="600" height="600" fill="#faf7ef"/>
+  <circle cx="300" cy="300" r="220" fill="#18343b"/>
+  <circle cx="300" cy="300" r="193" fill="none" stroke="#799496" stroke-width="2"/>
+  <path d="M300 120 C390 120 410 210 360 250 C440 220 500 280 470 360 C440 450 340 440 300 370 C260 440 160 450 130 360 C100 280 160 220 240 250 C190 210 210 120 300 120 Z" fill="#32c4cf"/>
+  <circle cx="300" cy="300" r="50" fill="#f3ac43"/>
+  <path d="M300 91 L287 113 L313 113 Z" fill="#f3ac43"/>
+</svg>
