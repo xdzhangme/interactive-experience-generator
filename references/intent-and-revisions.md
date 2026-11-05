@@ -24,6 +24,13 @@ Reuse already approved subjects, rights scope, concepts and mockups. A
 concrete correction is not a request for four new concepts. Once the person
 clarifies an ambiguity, implement that meaning rather than keep searching.
 
+Treat "there is no interactive experience" as a behavior diagnosis:
+recheck the core-loop gate in `build-and-delivery.md`, not merely the
+presence of a canvas, buttons or animation. Treat an in-scene/floating
+message correction as a composition change using `message-and-brand.md`,
+not just additional copy below the existing experience. Preserve the
+approved identity and medium while repairing the reported axis.
+
 ## Describe each important object along three independent axes
 
 For real-company implementation after plan approval, the identity contract

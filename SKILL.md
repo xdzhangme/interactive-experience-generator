@@ -1,8 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Builds, revises and polishes company/product interactive experiences. After plan approval, implements the page with actual official models, product images and assets, not agent-drawn imitations or merely official references. Preserves approved decisions, verified company messaging, genuine 3D and real visitor input. Includes bundled Impeccable-inspired critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
+description: Builds, revises and polishes company/product interactive experiences. Proves a meaningful core interaction before presentation polish and connects company messaging to visitor actions. After plan approval, uses actual official models, images and assets, preserving explicit exceptions, genuine 3D and real visitor input. Includes bundled experience critique. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-04-actual-assets-in-build"
+  revision: "2026-11-05-interaction-first-authorized-assets"
 ---
 
 # Interactive experience generator
@@ -62,6 +62,24 @@ not prohibit authored interface controls, neutral staging, or a visitor
 drawing their own signature. Explicit fictional briefs remain fictional.
 Follow `references/sources-and-labeling.md` and check actual in-page use
 again at delivery.
+
+## Asset permission at this stage
+
+The commissioning workflow already supplies the requester's permission to
+find, download and use official company logos, product/service images and
+models in the requested experience, unless the brief explicitly states
+that permission is unresolved. Carry this authorization into the build
+and revision stages; do not make a generic permission question another
+approval step. Acquiring another official file within the approved scope
+does not reopen that decision.
+
+Record this once as requester-provided project authorization, not a public
+asset licence or company endorsement. Continue checking official provenance
+and applicable terms. Ask only about a concrete conflict, a use outside the
+authorized scope, or a required missing file. A missing public licence
+statement alone does not erase the supplied authorization. Permission to
+use an official asset remains separate from approval to replace it with a
+reconstruction; preserve existing object-specific exceptions.
 
 ## Preserve the person's intent
 
@@ -138,10 +156,10 @@ These hold across every step; re-check them at delivery, not just once.
   When guidelines are unavailable, use only brand elements verified on the
   official site, and disclose that gap in the Sources panel.
 - **Logos and imagery need verified provenance** from official sources or
-  authorised customer brand files, and their reuse
-  terms are checked, not assumed. Finding an asset is not permission to
-  embed it; unclear or restrictive terms require a permitted alternative
-  or a reported blocker, not just a disclaimer after use.
+  authorised customer brand files. Carry forward the project authorization
+  above without asking again, and check applicable reuse terms. A concrete
+  conflict requires a permitted alternative or targeted decision, not a
+  disclaimer or a repeated generic permission interview.
 - **Authentic identity is part of the task.** Branded customer experiences
   use the actual permitted logo and identifiable real offerings unless the
   brief explicitly excludes them. Resolve assets and rights early; do not
@@ -268,23 +286,29 @@ before constructing branded objects. Embed/import the official files,
 not just their reference URLs. Check the rendered result actually uses
 those files across the relevant routes and states; do not recreate their
 appearance with newly drawn geometry or artwork.
-Implement the selected concept's opening -> action/proof moments -> company
-takeaway first, then polish. Object response and explanation follow the
-visitor's progress, not an unrelated timer. Keep the main message coherent;
+Before presentation polish, pass the **core-loop gate** in
+`references/build-and-delivery.md`: exercise the selected concept's
+meaningful action, visible consequence and associated benefit in a rough
+working slice. A static concept mockup does not establish this. Reuse
+approved decisions; this checkpoint is not another intake or approval round.
+Then complete the opening -> action/proof moments -> company takeaway.
+Object response and explanation follow the visitor's progress, not an
+unrelated timer. Keep the main message coherent;
 complete product coverage remains accessible but is not a compulsory
 catalogue hunt. Preserve every requested entry without giving all entries
 equal narrative weight. Distinguish sourced physical claims from
 illustrative effects or compressed demonstration time.
 **Done when:** the meaningful core sequence works end to end with authentic
-assets and required delivery elements, not merely when the gesture runs.
+assets and required delivery elements, and the core-loop gate has observed
+evidence, not merely when the gesture runs.
 Maintain editable source and a reproducible single-file export. Reuse shared
 assets and state/render helpers across branches; avoid a growing stack of
 string-replacement builds and unrelated CSS overrides.
 
 ### 8. Inspect and refine
-Follow the adapted critique -> prioritise -> polish -> replay loop in
-`references/experience-critique-polish.md`. Inspect rendered evidence before
-fixing visual details; polish preserves the approved message, identity,
+Follow the cold-start review and critique -> prioritise -> polish -> replay
+loop in `references/experience-critique-polish.md`. Inspect rendered evidence
+before fixing visual details; polish preserves the approved message, identity,
 content and behavior, not a concealed redesign.
 Render or preview the build and compare it against the selected mockup.
 Compare the hero with its official references, exercise the gesture and
@@ -329,6 +353,6 @@ step rather than inventing a history.
 | `references/art-direction.md` | While developing concepts and before building (steps 5 and 7). |
 | `references/experience-critique-polish.md` | During concept composition, before building, and for rendered critique, prioritised polish and replay (steps 5, 7 and 8). |
 | `references/threejs-craft.md` | Only when the chosen concept uses spatial 3D (step 7). |
-| `references/build-and-delivery.md` | Before building and before delivery (steps 7–9). |
+| `references/build-and-delivery.md` | Before the core-loop gate, implementation, verification and delivery (steps 7–9). |
 | `references/design-log.md` | After delivery (step 10). |
 | `NOTICE.md` | Attribution and licences for the external skills this package adapts. |

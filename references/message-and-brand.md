@@ -51,12 +51,14 @@ instead of forcing a corporate message or real-company assets.
 
 ## Identity and rights are separate decisions
 
-Resolve missing assets, variants and reuse permission before making polished
-mockups dependent on them. Official publication establishes provenance,
-not a blanket licence. Look for applicable press/brand-kit permissions,
-ask for authorised files, or ask whether the person has permission for
-the specific use. Record its scope; do not infer permission from internal
-use, a disclaimer, public availability or a wish to use a real brand.
+Carry forward the commissioning authorization defined in SKILL.md.
+Record its scope once and source official files without another generic
+permission question. Official publication establishes provenance, not a
+blanket public licence; the requester has separately supplied project-use
+authorization. Resolve missing assets or variants before polished mockups
+depend on them. Ask only about a concrete terms conflict, a newly requested
+use outside that scope, or a brief that explicitly leaves permission
+unresolved. Requesting a missing file is not reopening settled permission.
 
 Use an authentic permitted logo rather than typed lettering. Preserve real
 product identities and characteristic forms/packaging even in stylised
@@ -83,6 +85,20 @@ the visitor could infer from the action without reading the author brief.
 Keep necessary explanatory text near the relevant response, readable and
 revisitable; do not rely on the Sources panel to tell the company story.
 
+Design that relationship spatially, not only in the copy dictionary.
+Compose the promise, object/action and current benefit together; a relevant
+sentence confined to a footer or later section is not in-action messaging.
+When floating messages are requested, place them within the scene's
+composition rather than adding another paragraph beneath it. Floating is
+a placement treatment, not a requirement for continuous motion.
+
+Give messages space without covering the object, gesture cue, input form
+or controls. Recompose for phone widths and longer translations instead
+of shrinking the text or pushing the benefit away from the action.
+Drive contextual copy from the same state as the object response, including
+revisit, error recovery, language changes and reset. Keep one clear primary
+message per moment; extra slogans cannot repair an unrelated interaction.
+
 Frame the company's promise at entry, demonstrate it through a few coherent
 moments, and connect them in the ending. A generic completion message does
 not close that story. Keep the tone appropriate to the approved brief:
@@ -101,6 +117,10 @@ precise timing or simulated procedures merely to make an interaction
 Read/play the rendered opening, meaningful intermediate states and ending.
 Check the approved message against what is actually visible and experienced,
 not a declaration in an implementation report.
+
+Check two different things: the benefit is visible during the action, and
+the action's consequence actually supports that benefit. An elevated card
+can fix placement while leaving the underlying interaction generic.
 
 When a reviewer is available, show the experience before revealing its
 message brief. Ask what company it represents, what it wants visitors to

@@ -55,6 +55,20 @@ showcase treatment.
 
 ## Critique before polishing
 
+Start with a **cold-start review**: open the experience in its fresh state
+and judge it from the visible cues rather than the implementation brief.
+Identify the first meaningful action, perform it, inspect the object/task
+change and associated benefit, then follow the path to its company
+takeaway. Use an uninstructed reviewer when one is available; otherwise
+label this an agent self-review, not independent audience evidence.
+
+If the approved task promises operating an offering but the visitor can
+only rotate its model, or if the company story becomes clear only after
+reading a detached explanation, repair that experience gap before cosmetic
+polish. Apply the core-loop gate in `build-and-delivery.md` and the spatial
+message checks in `message-and-brand.md`. A successful technical run is
+not a reason to postpone this review until after delivery.
+
 Inspect the actual rendered opening, a meaningful intermediate state,
 recovery/replay and ending. Include representative desktop, phone and any
 important intermediate widths, using both EN and NL where copy expands.
