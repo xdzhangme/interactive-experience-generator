@@ -1,5 +1,32 @@
 # Build and delivery
 
+## Core-loop gate: before presentation polish
+
+After concept selection and asset resolution, build the smallest working
+slice that tests the approved experience. Use the actual permitted assets
+or an explicitly agreed prototype substitute; a neutral spike is not
+permission to replace branded assets in the finished page.
+
+Exercise the visitor's primary input, its visible consequence and the
+associated company benefit together in a browser. For an operating,
+assembling, collecting or configuring task, the input changes the relevant
+object/task state, not only the camera or a progress label. An orbit-only
+viewer can satisfy an explicitly approved inspection experience; it does
+not demonstrate operating a device or completing a service journey.
+
+Pass this checkpoint when the main action is discoverable, the visitor
+controls a meaningful state change, its consequence is visible, the
+relevant benefit is readable with it, and correction/reversal or reset
+works as appropriate. Record the observed state and input plus a screenshot
+or equivalent browser evidence in the existing session record. Exercise
+the accessible input equivalent as well. If the slice fails, repair it
+before spending time on presentation effects or secondary features.
+
+This is an implementation checkpoint, not a new approval round. It does
+not replace the complete requested journey or later route/state review.
+If browser evidence is unavailable, mark the gate unverified rather than
+treating source code or a static mockup as an observed interaction.
+
 ## The single file
 Everything — markup, styles, scripts, and any embedded assets — lives in one
 offline-capable HTML file. No runtime CDN script tags, no remote font or
@@ -50,6 +77,23 @@ visual/communication judgment, consult functional evidence, prioritise
 must/should/could fixes, polish without changing the approved direction,
 then replay the whole path. This adaptation does not require the upstream
 CLI, detector, hooks, servers or dual-agent workflow. Do not claim those ran.
+
+## Keep verification repeatable
+
+Reuse one clearly labelled current preview and, when needed, a separate QA
+surface. Refresh their existing handles after revisions instead of opening
+a new tab for each state. Label retained comparison versions explicitly.
+Keep the final preview on the persisted current file, not a stopped helper.
+
+Use the existing build and check entry points. Where repeated manual
+verification has no runner, add the smallest reusable check entry point
+for deterministic behavior: state transitions, invalid-input recovery,
+geometry/visibility changes, locale/state copy, message/control overlap
+and fresh export state as applicable. Keep rendered narrative and visual
+judgment separate from these assertions; passing counts cannot make those
+judgments. Prefer a repeatable build -> check -> actual export -> disk
+replay path over successive ad hoc harnesses or generated-file patches.
+Track and stop task-owned helper processes once verification is complete.
 
 ## Final checklist, before delivery
 Use four independent acceptance gates. For each check record pass, fail,

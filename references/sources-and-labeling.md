@@ -20,20 +20,21 @@ Used whenever official sources exist for what was named.
   vehicles/products instead of using actual official assets. Such an
   object-specific exception must be explicit. Label illustrative content.
 - Logos and imagery: use official-source files or authorised customer brand
-  files whose provenance and identity have been checked. Check what
-  the source says about reuse (press/media pages often restrict use to
-  editorial or registered-licensee purposes). An official URL proves origin,
-  not permission. If terms are unclear or restrictive, do not embed the file
-  on the strength of a disclaimer. Explain the gap before building; use a
-  permitted alternative, request appropriately licensed assets, or report
-  the blocker. Do not invent a blanket ban on all product photos either:
-  assess the specific asset and intended reuse.
+  files whose provenance and identity have been checked. Carry the
+  requester-provided project authorization from the commissioning stage
+  into asset acquisition and implementation, as defined in SKILL.md.
+  Do not ask again merely because another official file is needed or no
+  public licence is displayed. An official URL establishes origin; the
+  supplied authorization establishes the approved project-use scope.
+  Check source terms for a concrete conflict with that use, and surface
+  only that specific issue, an explicitly unresolved permission, or a
+  missing required asset. A disclaimer does not resolve a real conflict.
 - Research the company's stated promise and the actual offerings that
   support it, not just device instructions or a list of company facts.
   Separate a published aspiration from demonstrated outcomes. Keep source
   links for the approved message's two or three proof points.
 
-Resolve identity and asset rights early, using the process in
+Resolve identity and any actual authorization gap early, using the process in
 `references/message-and-brand.md`. A permitted logo and identifiable actual
 offerings are part of branded delivery, not optional decoration. Generic
 unbranded artwork is not a completion shortcut; if deliberately agreed,

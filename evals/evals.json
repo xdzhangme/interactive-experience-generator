@@ -1,6 +1,6 @@
 {
   "skill_name": "interactive-experience-generator",
-  "evaluation_scope": "Retained intake/fictional-gesture probes plus message-first readiness, authentic-asset handling, complete-range story, scoped Impeccable polish, frozen-object/input fidelity, cross-route revisions and official-first asset selection. Text-only probes do not establish rendered brand recognition, working input/privacy, visual quality or actual audience comprehension; record which probes were executed.",
+  "evaluation_scope": "Retained intake/fictional-gesture probes plus message-first readiness, authentic-asset handling, complete-range story, scoped Impeccable polish, frozen-object/input fidelity, cross-route revisions and official-first asset selection. Added interaction-first sequencing, in-scene message placement, repeatable verification and carried-forward commissioning authorization probes. Text-only probes do not establish rendered brand recognition, working input/privacy, visual quality or actual audience comprehension; record which probes were executed.",
   "evals": [
     {
       "id": 1,
@@ -166,6 +166,70 @@
     },
     {
       "id": 11,
+      "name": "core-loop-before-presentation-polish",
+      "stage": "text-only-build-sequence",
+      "prompt": "Our fictional service Pavo has an approved collection experience and an explicitly approved illustrative 3D cabinet. Assets, concept and the message 'Collection around your day' are settled. The current prototype only orbits the cabinet; its controls update a progress label, but no door opens and no object can be collected. The team wants to polish lighting and build the ending first because the model renders and every button passes its test. Describe the next implementation checkpoint and what observable evidence would let us continue. Do not edit files, run tools, research or reopen approvals. Also explain whether orbit controls could be sufficient in a different brief that explicitly asked only to inspect a model.",
+      "expected_output": "Prioritises a small meaningful working collection loop with visitor-controlled object/task state, visible consequence and associated benefit before presentation polish. Requires browser evidence, recovery/reset and an accessible equivalent; distinguishes a legitimate explicitly approved inspection viewer from the current operating task. The slice is not mistaken for completion of the full journey.",
+      "files": [],
+      "expectations": [
+        "sequence: Repairs and exercises a small meaningful core loop before lighting/effects or secondary presentation work.",
+        "agency: Requires a visible cabinet/collection state change rather than camera movement or a progress label alone.",
+        "message: Connects the observed consequence to the agreed benefit during the action.",
+        "evidence: Requires exercised browser evidence plus appropriate recovery/reset and an accessible input equivalent; does not claim these already happened.",
+        "scope: Retains the approved model, message and decisions without new intake or asset hunts.",
+        "boundary: Accepts camera-based inspection when that is the explicitly approved purpose, and keeps the full journey and later review outstanding."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "floating-message-composition-revision",
+      "stage": "text-only-revision-plan",
+      "prompt": "The collection experience is now working. Keep the approved van and cabinet, official photo textures, code entry, opening, extraction and replay unchanged. My correction is: company messages should float around the interactive scene, not only appear in the paragraph underneath it. EN/NL and the fresh offline HTML export remain required. Give only a concise correction and verification plan using these supplied observations; no new concepts, browsing, edits or claims that you tested a page. The phone code form already uses much of the available space.",
+      "expected_output": "Changes the scene composition rather than appending another paragraph. Keeps the promise and relevant state-linked benefit readable with the experience, reserves clear space away from model gestures and forms, recomposes for phone/Dutch expansion, and checks state/language/recovery/reset/export without changing approved geometry or inventing mandatory continuous motion.",
+      "files": [],
+      "expectations": [
+        "placement: Places messages within the scene composition rather than merely adding more bottom copy.",
+        "usability: Keeps model gestures, code entry, hints and controls clear; accounts for phone layout and longer Dutch text.",
+        "state: Uses shared interaction state for contextual copy, including revisiting, error recovery, language changes and reset.",
+        "scope: Preserves approved objects, imagery and collection behavior without a new concept or approval round.",
+        "meaning: Distinguishes visible benefit copy from evidence that the action actually demonstrates that benefit.",
+        "delivery: Includes fresh downloaded offline state in verification and makes no unperformed test or audience-comprehension claim."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "repeatable-verification-with-independent-gates",
+      "stage": "text-only-workflow-review",
+      "prompt": "Review our experience-making workflow, not the page. We have an existing build script and browser QA harness. Every revision opens another preview tab, invents a new manual export procedure and leaves the user facing old versions or a stopped localhost server. The latest report lists hundreds of passing assertions but no observation of the fresh opening, meaningful action or company takeaway. Recommend a small workflow correction, not a new tool stack. Do not run tools, edit files, install anything or say you observed the page.",
+      "expected_output": "Reuses existing build/QA entry points and stable current-preview/QA handles, labels comparison versions, makes actual export and disk replay repeatable and cleans up task-owned helpers. Separates deterministic state/layout/export checks from cold-start narrative, interaction and visual judgment without claiming audience comprehension or requiring an unrelated infrastructure rebuild.",
+      "files": [],
+      "expectations": [
+        "economy: Reuses the existing runner and stable preview/QA surfaces instead of proliferating tabs, harnesses or dependencies.",
+        "handoff: Keeps the current preview on the persisted current file and labels retained comparison versions.",
+        "repeatability: Covers build, relevant checks, actual download/export, reopened disk replay and task-owned helper cleanup.",
+        "evidence: Requires a rendered cold-start review of opening, action/consequence/benefit and ending separately from assertion counts.",
+        "scope: Proposes a small workflow correction rather than an unrelated tool-stack or CI rebuild.",
+        "reporting: Claims no observed page, executed checks, changed files or measured audience understanding."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "commissioning-authorization-is-settled",
+      "stage": "text-only-asset-decision",
+      "prompt": "The commissioning stage has already authorized finding, downloading and using official company logos, photographs and models for this experience. No source terms conflict with that approved use. We are now implementing the approved concept and have found another official product photograph, but its page does not display a public reuse licence. A colleague wants to stop and ask me for generic asset permission again. Give a short next-step decision, without browsing, tools, edits or claims that you acquired assets. Distinguish using this photograph from replacing a required official model with a procedural reconstruction.",
+      "expected_output": "Continues acquiring and using the official photograph under the supplied project authorization, records provenance and scope, and does not reopen generic permission merely because a public licence is absent. Keeps specific conflicts, explicitly unresolved authorization and out-of-scope uses distinct, and retains targeted approval for an unapproved reconstruction.",
+      "files": [],
+      "expectations": [
+        "authorization: Carries supplied commissioning permission into implementation without asking the same generic question again.",
+        "acquisition: Proceeds with the additional official photograph within the approved scope despite the missing public licence statement.",
+        "truth: Records official provenance and requester-provided project authorization without claiming public licensing or company endorsement.",
+        "boundary: Distinguishes an actual terms conflict or new use outside scope from the supplied no-conflict situation.",
+        "substitution: Does not treat asset-use permission as approval for a procedural substitute; reuses any existing object-specific exception.",
+        "reporting: Claims no actual research, download, implementation or completed review."
+      ]
+    },
+    {
+      "id": 15,
       "name": "download-assets-before-delegating",
       "stage": "text-only-acquisition-plan",
       "prompt": "The branded concept is approved and the official press kit explicitly permits our intended use. No assets have been downloaded yet. This Cowork session exposes a network-enabled shell with curl and Python; web search returns page text only. Explain how you will obtain the official logo and product photo yourself, including how to find the file URLs and verify/embed the downloads. Do not run tools or build the page for this text-only probe.",
@@ -180,7 +244,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 16,
       "name": "download-failure-is-not-a-global-blocker",
       "stage": "text-only-retrieval-recovery",
       "prompt": "Assess this supplied retrieval trace only; do not run tools or edit files. Permission to use the official photo is confirmed. curl saved product.png with HTTP 200, but its Content-Type is text/html and opening it shows a brand-kit landing page. That official page contains an ordinary Download original link to its image CDN. The session still has curl/Python network access. A colleague says Cowork cannot download photos and asks me to supply one. What should happen next?",
@@ -195,7 +259,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 17,
       "name": "genuine-missing-retrieval-capability",
       "stage": "text-only-capability-blocker",
       "prompt": "Use only these supplied session facts; do not run tools. The approved experience needs an official logo whose reuse permission is confirmed and whose direct URL is known. Available tools return web page text and write text files, but there is no shell, binary fetch, browser download, supplied asset or other file-retrieval route. Explain the blocker and the smallest request to me. Do not invent a failed HTTP request, downgrade to a drawn logo, or say research itself is unavailable.",

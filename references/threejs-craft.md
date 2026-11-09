@@ -54,3 +54,11 @@ Camera controls must not steal the requested object gesture. Separate orbit
 and manipulation targets, use pointer capture where appropriate, and
 exercise touch and keyboard equivalents. Drive responses and explanations
 from the shared interaction state, not independent timers.
+
+For an approved operating task, connect input to the relevant mesh or
+component state: inspect the hinge, opening, placement or other observable
+consequence, including reversal/reset. Camera movement and a changed caption
+alone do not establish that behavior. Prove the core-loop gate in
+`build-and-delivery.md` before refining lighting and effects. If inspection
+itself is the approved purpose, assess the information revealed by its
+camera and exploration controls rather than inventing operating steps.
