@@ -25,11 +25,26 @@ concrete correction is not a request for four new concepts. Once the person
 clarifies an ambiguity, implement that meaning rather than keep searching.
 
 Treat "there is no interactive experience" as a behavior diagnosis:
-recheck the core-loop gate in `build-and-delivery.md`, not merely the
+recheck the representative-scene/core-loop gate in `build-and-delivery.md`, not merely the
 presence of a canvas, buttons or animation. Treat an in-scene/floating
 message correction as a composition change using `message-and-brand.md`,
 not just additional copy below the existing experience. Preserve the
 approved identity and medium while repairing the reported axis.
+
+Treat "the concept is good but the visual execution is weak" as a staging
+revision, not a request for new concepts. Recover the direction contract
+and inspect composition, subject scale, materials/light, typography and
+interface prominence. Treat "all interactions feel the same" as an
+execution diagnosis: compare targets, before/during/after feedback,
+navigation and recovery, not just control names.
+
+Record what may change and what stays frozen for each axis. A request to
+change interaction execution can justify replacing incidental widgets,
+but not a specifically approved gesture without agreement. A request to
+improve visuals can change unpinned staging, but not remove real assets,
+claims, content or accessibility paths. Use the representative-scene gate
+on the affected action before propagating the repair; no extra concept
+tournament or blanket approval round is needed.
 
 ## Describe each important object along three independent axes
 

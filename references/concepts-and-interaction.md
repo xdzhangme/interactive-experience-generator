@@ -87,6 +87,53 @@ coherent main story, with complete optional exploration alongside it.
 Do not silently remove entries, make all entries interchangeable generic
 props, or require visiting the whole catalogue to understand the message.
 
+## Choreograph the selected action before choosing widgets
+
+Keep the approved concept, message and requested gesture. Work out how the
+visitor acts on the subject and perceives the consequence; then choose
+controls. Do not start with a standard chip/slider/Next shell and assign
+every activity to it.
+
+Record one compact choreography alongside the execution direction contract
+in `art-direction.md`:
+
+| Moment | Define |
+|---|---|
+| Before input | Starting object/task state, discoverable cue, target and instruction; what the visitor can infer without reading a tutorial wall. |
+| During input | What position, angle, pressure-free hold, choice or authored content controls; how the subject and relevant explanation respond while input changes. |
+| After input | Visible result, meaningful completion or confirmation, associated benefit/proof, and the next available action. |
+| Interrupted or wrong input | Release/cancel, bounds, invalid choice, correction and reset; no stuck capture, surprise completion or unexplained dead end. |
+| Equivalent access | Touch and keyboard or another appropriate accessible path to the same meaningful state and explanation, without requiring identical motor movements. |
+
+Prefer direct manipulation when it clarifies the approved action: input
+should affect the offering or evidence, not merely advance a progress
+meter. Abstract tasks can instead use comparison, composition, navigation
+or a meaningful decision. Familiar forms and selection controls may be
+the best fit for a workshop or operational tool. Do not make everything
+draggable or add dexterity tests to manufacture novelty.
+
+Feedback begins during input when the action is continuous; do not withhold
+every response until completion. For discrete actions, acknowledge the
+choice promptly and make its consequence legible. Specify the relevant
+visual change: position, opening, population, relationship, content or
+another subject-grounded state. Use stable labels and accessible state
+announcements as appropriate, not just colour, particles or a success toast.
+Completion effects must not imply unsupported physical behavior.
+
+Match motion to material and meaning without making speculative physics
+claims. A long transition should preserve continuity, not delay input
+acknowledgment. Handle repeat input and interruptions through the shared
+state; avoid canned animation that continues after cancellation. Sound or
+haptics are optional, not dependencies or substitutes for visible feedback.
+
+Compare the choreography with available recent work using `design-log.md`.
+The same verb can feel different through target behavior, feedback and
+spatial organization; a different verb can still hide the same staged
+quiz. Do not count control types as creativity. Justify retained patterns
+by their usefulness and change only the repetitive execution within scope.
+Prove this choreography in the representative-scene gate in
+`build-and-delivery.md`, not only in a pitch or static three-state sketch.
+
 ## Interaction catalogue (inspiration only)
 A broad set of interaction families to draw on, never a menu to pick from
 mechanically:
@@ -124,3 +171,7 @@ visible action-linked explanation of company meaning. Show authentic
 permitted branding/products plus the opening promise and ending takeaway.
 If rights or files are pending, mark a preview as a wireframe/prototype,
 not evidence of final brand fidelity. Mark untested behavior as proposed.
+For showcases, also prove the imagery-led, scene-led treatment in
+`art-direction.md`: actual asset scale/framing and one meaningful action
+state, with restrained supporting art and readable controls. Reuse this
+preview; do not add another concept-selection round to resolve execution.

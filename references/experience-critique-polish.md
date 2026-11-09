@@ -1,8 +1,10 @@
 # Experience, critique and polish
 
 Original, scoped adaptation of selected guidance from Impeccable 4.8.0
-(`pbakaus/impeccable`, tag `cli-v4.8.0`): its Experience mode and web
-critique/polish principles. See `NOTICE.md` and `licenses/impeccable/`.
+(`pbakaus/impeccable`, tag `cli-v4.8.0`): surface modes, visual direction,
+purposeful motion and web critique/polish principles. Direction is also
+integrated into `art-direction.md`. See `NOTICE.md` and
+`licenses/impeccable/`.
 This is not the full Impeccable runner or command workflow.
 Read this bundled guidance during normal builds and revisions; do not wait
 for a separate request to "use Impeccable." Its original scoped adaptation
@@ -14,17 +16,63 @@ The approved company message, actual identity, factual evidence and user
 scope govern visual decisions. Quality refinement helps communicate them;
 it cannot substitute for them or overrule their acceptance gates.
 
-Keep the priority: company meaning -> authentic identity -> meaningful,
-usable interaction -> visual refinement. Preserve the selected scene,
+Company meaning and authentic identity constrain the design; meaningful
+interaction and visual craft must then develop together. Do not postpone
+composition and input feedback until a generic functional shell is done.
+Preserve the selected scene,
 gesture, complete requested range, EN/NL, Sources, Download HTML and
-offline delivery. Do not invent a new aesthetic, rewrite claims or remove
-products to make the screen look cleaner.
+offline delivery. In a refinement, do not invent a replacement aesthetic,
+rewrite claims or remove products to make the screen look cleaner. An
+explicit visual-execution revision can change its requested staging while
+retaining the concept and frozen decisions; it is not automatically
+permission to replace the entire visual world.
 
 This file is usable without Impeccable installed. Do not run or install its
 launcher, detector, hooks, live server, catalogue randomiser or other
 commands as a requirement of this generator. No agent fan-out, external
 image service, extra planning files or runtime dependencies are introduced.
 The native-platform playbooks are not part of this adaptation.
+
+## Choose the surface mode, not a universal showcase shell
+
+Use the visitor's actual purpose to set how expressive the surface should
+be. Record the mode in the existing execution contract, not a new file.
+
+- **Experience:** the subject or artifact leads; interface chrome recedes
+  while the visitor explores or manipulates the work. For showcases, start
+  scene-led rather than automatically enclosing the experience in a card.
+- **Operate:** completing real work leads; visible, familiar controls,
+  precise state and efficient recovery can deserve more space.
+- **Read:** understanding evidence leads; readable structure and wayfinding
+  matter more than spectacle.
+- **Persuade:** a supported decision leads; proof and a clear next action
+  matter more than decorative effects.
+
+A workshop dashboard need not become a cinematic toy. A brand showcase
+need not inherit an admin layout. A surface can contain a subordinate
+reading/task layer without giving every mode equal visual weight.
+Mode choice does not override the full-screen experience brief.
+
+## Commit to the selected visual execution
+
+Use the contract in `art-direction.md` to turn the approved concept into
+observable composition, subject scale, image/material treatment, light,
+type and control placement. Build that character into the representative
+scene; final polish refines it rather than inventing it late.
+
+Where the brief leaves room, take one coherent, subject-grounded visual
+position instead of mixing safe components from several unrelated styles.
+Respect pinned brand assets and exact approved mockups. Do not equate
+ambition with dark themes, cinematic 3D, maximal effects or eccentric fonts.
+A deliberate flat composition or efficient tool can be equally authored.
+For real-company showcases, actual official imagery or the approved
+official model should carry that composition. Supporting art stays
+restrained; boldness comes primarily from scale, framing, layering, depth
+and brand typography. Use the existing preview to prove the treatment,
+not an extra concept round. Follow the specific boundaries in
+`art-direction.md`; the upstream playbook does not waive them.
+Compare available recent executions using `design-log.md`; no upstream
+randomiser or extra concept tournament is required.
 
 ## Experience-led composition
 
@@ -34,6 +82,9 @@ with a small demonstration embedded in it.
 
 - Give the hero, purposeful action and company promise clear hierarchy.
   Keep the visible interaction cue understandable without a tutorial wall.
+- Check that official imagery has real visual presence, not a small token
+  under dominant UI. Consider unboxed scene organization where useful;
+  a transparent card shell is still the same shell.
 - Let utility controls recede in visual weight without hiding language,
   Sources, download, accessibility or the next meaningful action.
 - Place the explanation where the visitor can see the relevant object
@@ -53,6 +104,28 @@ approved brief is task/training-led, keep familiar, readable task controls
 and clear state feedback. Do not hide useful controls to force a dramatic
 showcase treatment.
 
+## Motion and feedback belong to the action
+
+Use the choreography in `concepts-and-interaction.md`. Identify the focal
+moment, any continuity that needs explanation, and the feedback that
+acknowledges input. One earned sequence can carry the scene; routine
+controls should not wait for it.
+
+Continuous input should produce continuous legible state feedback where
+appropriate. Discrete choices need prompt acknowledgment and a readable
+consequence. Motion can reveal depth, relationship, transformation or
+completion, but a generic fade/lift applied everywhere is not a motion
+direction. Do not add a physics simulation or arbitrary precision challenge
+when a simpler response conveys the approved meaning.
+
+Reuse the runtime's existing animation facilities. Bound expensive effects
+and inspect responsiveness in the target scene rather than assuming a
+smooth screenshot proves performance. Interrupt or reconcile animations
+when input changes, release/cancel occurs, locale changes or reset runs.
+Reduced motion removes unnecessary travel while preserving confirmation,
+state and the relevant explanation. Do not require sound, haptics, a new
+library or autoplay to make the action understandable.
+
 ## Critique before polishing
 
 Start with a **cold-start review**: open the experience in its fresh state
@@ -65,7 +138,8 @@ label this an agent self-review, not independent audience evidence.
 If the approved task promises operating an offering but the visitor can
 only rotate its model, or if the company story becomes clear only after
 reading a detached explanation, repair that experience gap before cosmetic
-polish. Apply the core-loop gate in `build-and-delivery.md` and the spatial
+polish. Apply the representative-scene/core-loop gate in
+`build-and-delivery.md` and the spatial
 message checks in `message-and-brand.md`. A successful technical run is
 not a reason to postpone this review until after delivery.
 
@@ -93,6 +167,23 @@ First form a visual/communication judgment, then consult mechanical QA:
    contrast, keyboard focus/order, labels, zoom and reduced motion.
    A no-overflow result alone does not establish a good phone experience.
 
+Also make two distinct execution judgments:
+
+- **Visual character:** does the direction survive in the rendered page,
+  or did it collapse into the previous page's shell? Inspect composition,
+  subject scale, scene treatment and type, not just logo/palette. For
+  showcases, inspect whether official imagery leads, supporting art stays
+  restrained and enclosing panels serve a reason. Judge task tools by
+  their actual work, not an expectation of spectacle.
+- **Interaction feel:** can the visitor perceive control before, during
+  and after input? Exercise interruption, repetition and recovery; inspect
+  response continuity, not just whether the final state is reachable.
+
+Use supplied examples or available design-log history for comparison,
+not an invented portfolio. Reusing an appropriate convention is not itself
+a defect. Tie a repetitive or weak execution finding to visible evidence
+and its effect on the intended experience.
+
 Functional tests, linters or an optional detector can provide defect
 evidence. A clean result is not proof of good design, brand authenticity
 or company-message delivery. This adapted critique is not a claim that
@@ -107,7 +198,8 @@ Tie each finding to an observed state and a narrow correction:
   broken offline delivery.
 - **Should fix:** unclear hierarchy, excessive interaction effort, text
   collisions, weak phone composition, inconsistent states, awkward
-  localisation, or a rendering/performance problem.
+  localisation, a generic shell that defeats the approved staging,
+  unresponsive/disconnected feedback, or a rendering/performance problem.
 - **Could improve:** spacing, typography, material or motion refinements
   that preserve a working, understandable experience.
 
@@ -134,6 +226,11 @@ Fix the narrowest cause, in priority order, then inspect the batch:
 - Do not add a theme toggle, dark palette, new claim, action, product,
   sales call to action or visual world just because a general design
   playbook recommends one.
+
+When a good concept has poor staging or feel, repair execution rather than
+restarting ideation. Keep visual and behavioral scope explicit: permission
+to improve composition does not permit replacing a pinned gesture, and
+permission to improve feedback does not permit a new visual identity.
 
 If the approved concept cannot carry the message, report the conceptual
 problem and seek a targeted direction change. Do not disguise a replacement

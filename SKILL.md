@@ -1,8 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Builds, revises and polishes company/product interactive experiences. Proves a meaningful core interaction before presentation polish and connects company messaging to visitor actions. After plan approval, uses actual official models, images and assets, preserving explicit exceptions, genuine 3D and real visitor input. Includes bundled experience critique. Delivers one offline HTML with EN/NL, Sources and Download HTML.
+description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-09-download-official-assets"
+  revision: "2026-11-09-imagery-led-unboxed-showcases"
 ---
 
 # Interactive experience generator
@@ -22,10 +22,12 @@ This file is self-contained: every reference it points to ships alongside it,
 so this skill works for anyone who receives the package, with no other skill
 installed. `NOTICE.md` lists the external skills whose ideas this package
 condenses and adapts, with attribution and licence links.
-Selected Impeccable guidance for Experience mode, critique and polish is
-bundled in `references/experience-critique-polish.md`; it requires no
-Impeccable installation, binaries or commands and does not replace the
-message-first workflow.
+Impeccable-adapted visual direction, surface-mode selection, motion,
+critique and polish are bundled in `references/art-direction.md` and
+`references/experience-critique-polish.md`; they require no Impeccable
+installation, binaries or commands and do not replace the message-first
+workflow. This is a scoped, attributed adaptation, not the full upstream
+runtime.
 This built-in quality pass is part of every build and applicable revision,
 not an optional extra the person must request by naming Impeccable.
 
@@ -128,6 +130,14 @@ is complete only when the reported defect is reproduced as corrected and
 the other relevant branches still work. Do not equate one changed screenshot
 or a high assertion count with whole-experience acceptance.
 
+When the concept is approved but the page looks generic or feels repetitive,
+diagnose visual staging and interaction execution separately. Keep the
+concept; repair the requested execution axis using the direction contract,
+choreography and representative-scene gate below. Do not restart four
+concepts or protect an unapproved default card layout as if it were the
+idea itself. Preserve explicitly frozen composition and behavior; ask only
+when the repair would cross those boundaries.
+
 ## Before you start: check what you have
 
 State plainly, once, which of these you have this session, before relying on
@@ -195,6 +205,17 @@ These hold across every step; re-check them at delivery, not just once.
 - **The interaction catalogue in `references/concepts-and-interaction.md` is
   inspiration, never a limit.** A subject may produce an interaction outside
   it.
+- **Visual execution and interaction feel need their own evidence.**
+  Design staging and before/during/after feedback before choosing widgets.
+  Prove one representative scene before expanding. A new palette, 3D
+  runtime or decorative motion does not make a reused interface distinctive.
+  Familiar controls remain valid when the task or accessibility needs them.
+- **Showcases are scene-led, not automatically boxed-in.** Let actual
+  official imagery or the approved official model carry the visual work;
+  use scale, framing, layering, depth and brand typography, with restrained
+  supporting art. Push composition beyond enclosing cards when useful,
+  not toward mandatory spectacle. Task tools retain practical layouts.
+  Prove the treatment in the existing preview, not only in descriptive copy.
 - **Offline delivery is a completion gate.** A result that cannot be
   verified to run with no network connection is not done; report the
   blocker instead of quietly delivering a hosted link.
@@ -264,7 +285,10 @@ continue with no single subject narrowed down.
 ### 5. Develop four concepts
 Read `references/concepts-and-interaction.md`, then
 `references/art-direction.md` and the Experience-led composition guidance
-in `references/experience-critique-polish.md`. Produce three solid concepts and one wild
+in `references/experience-critique-polish.md`. Read
+`references/design-log.md` now and compare available recent work before
+committing to execution patterns; do not wait until after delivery.
+Produce three solid concepts and one wild
 card. Every concept names: its visual medium, the visitor's main action,
 what they'll understand afterward, and why that fits the subject — not
 a generic layout with the logo swapped in.
@@ -286,8 +310,27 @@ and the ending's company takeaway, with actual authorised brand/product
 assets rather than neutral placeholders. If assets are pending, label a
 wireframe/prototype honestly; it cannot demonstrate brand fidelity.
 Distinguish a visual mockup from a tested interaction.
-**Done when:** four mockups exist and the person has picked one (or asked
-for changes), unless those decisions were explicitly supplied.
+For showcases, apply the imagery-led, scene-led guidance in
+`references/art-direction.md`. Show the actual official imagery or approved
+model treatment at its intended scale and placement in the opening and one
+interaction state. Do not promise bold art direction while showing a
+generic box or mood board. Reuse/update the existing concept preview;
+this is not another concept round. Missing required assets leave this
+proof incomplete, not permission to imply placeholder art is final.
+For the selected concept, resolve the **execution direction contract** in
+`references/art-direction.md` and the **interaction choreography** in
+`references/concepts-and-interaction.md` before artifact code. Reuse the
+approved mockup and decisions rather than commissioning another concept
+round. Record composition, scale, materials/light, type, motion and control
+placement, plus the main action before, during and after input. Show these
+states in the existing preview; they are not yet proof of working input.
+Check layout, navigation, controls and feedback against supplied examples
+or available history, keeping useful conventions with a reason. Missing
+history is a limitation, not permission to invent previous work.
+**Done when:** four mockups exist and one is selected, unless those
+decisions were already supplied; the selected direction and choreography
+are concrete enough to guide the representative scene without reopening
+settled choices.
 
 ### 7. Build the selected concept
 Read `references/art-direction.md` and
@@ -301,11 +344,14 @@ before constructing branded objects. Embed/import the official files,
 not just their reference URLs. Check the rendered result actually uses
 those files across the relevant routes and states; do not recreate their
 appearance with newly drawn geometry or artwork.
-Before presentation polish, pass the **core-loop gate** in
-`references/build-and-delivery.md`: exercise the selected concept's
-meaningful action, visible consequence and associated benefit in a rough
-working slice. A static concept mockup does not establish this. Reuse
-approved decisions; this checkpoint is not another intake or approval round.
+Before expanding to secondary scenes or final polish, pass the
+**representative-scene gate** in `references/build-and-delivery.md`.
+It extends the core-loop gate: exercise meaningful action, visible
+consequence and associated benefit in a rough working slice whose
+composition and feedback also represent the chosen direction. A static
+mockup, default UI shell or functioning progress label does not establish
+visual character and interaction feel. Reuse approved decisions; this
+checkpoint is not another intake or approval round.
 Then complete the opening -> action/proof moments -> company takeaway.
 Object response and explanation follow the visitor's progress, not an
 unrelated timer. Keep the main message coherent;
@@ -314,8 +360,8 @@ catalogue hunt. Preserve every requested entry without giving all entries
 equal narrative weight. Distinguish sourced physical claims from
 illustrative effects or compressed demonstration time.
 **Done when:** the meaningful core sequence works end to end with authentic
-assets and required delivery elements, and the core-loop gate has observed
-evidence, not merely when the gesture runs.
+assets and required delivery elements, and the representative-scene gate
+has observed evidence, not merely when the gesture runs.
 Maintain editable source and a reproducible single-file export. Reuse shared
 assets and state/render helpers across branches; avoid a growing stack of
 string-replacement builds and unrelated CSS overrides.
@@ -337,7 +383,10 @@ cannot compensate for failed branding or communication.
 Check the affected route-state matrix, not just the default journey.
 Make separate visual-quality observations alongside the four gates;
 inspect actual rendered bounds, legibility, control reachability and
-state-specific assets. Do not average these into a single readiness score.
+state-specific assets. Also judge scene character and interaction feel
+against the direction contract, including feedback during input and
+comparison with available recent work. Repair an execution failure even
+when every button works. Do not average these into a single readiness score.
 **Done when:** all applicable gates in `references/build-and-delivery.md`
 have evidence; mark checks not performed as unverified, not passed.
 
@@ -354,8 +403,9 @@ without actually observing it. Subjective visual approval belongs to the person.
 ### 10. Log the design
 Read `references/design-log.md`. If a writable, persistent location exists
 this session, record what was built, to avoid repeating the same subject,
-medium, and interaction next time. If no such location exists, skip this
-step rather than inventing a history.
+medium, composition, navigation, controls and feedback next time.
+Keep justified conventions, not novelty for its own sake. If no such
+location exists, skip this step rather than inventing a history.
 
 ## Reference files
 
@@ -364,10 +414,10 @@ step rather than inventing a history.
 | `references/intent-and-revisions.md` | Before revising existing work; also when recording approved objects, interpreting "real", implementing authored input, or planning route/state coverage. |
 | `references/message-and-brand.md` | Before recommending purpose, confirming the brief, developing concepts, and reviewing message delivery. |
 | `references/sources-and-labeling.md` | Before researching, acquiring official asset files, and writing factual or illustrative copy; includes download methods and blocker reporting. |
-| `references/concepts-and-interaction.md` | While developing the four concepts (step 5). |
-| `references/art-direction.md` | While developing concepts and before building (steps 5 and 7). |
-| `references/experience-critique-polish.md` | During concept composition, before building, and for rendered critique, prioritised polish and replay (steps 5, 7 and 8). |
+| `references/concepts-and-interaction.md` | For concepts, selected-action choreography and interaction-execution revisions (steps 5–8). |
+| `references/art-direction.md` | For concepts, the selected execution direction contract, and visual-execution revisions (steps 5–8). |
+| `references/experience-critique-polish.md` | Bundled Impeccable-adapted modes, motion and visual/feel critique, prioritised polish and replay (steps 5–8). |
 | `references/threejs-craft.md` | Only when the chosen concept uses spatial 3D (step 7). |
-| `references/build-and-delivery.md` | Before the core-loop gate, implementation, verification and delivery (steps 7–9). |
-| `references/design-log.md` | After delivery (step 10). |
+| `references/build-and-delivery.md` | Before the representative-scene/core-loop gate, expansion, verification and delivery (steps 7–9). |
+| `references/design-log.md` | Before execution choices (step 5 or scoped revision), then after delivery (step 10). |
 | `NOTICE.md` | Attribution and licences for the external skills this package adapts. |

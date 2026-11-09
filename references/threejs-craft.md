@@ -58,7 +58,12 @@ from the shared interaction state, not independent timers.
 For an approved operating task, connect input to the relevant mesh or
 component state: inspect the hinge, opening, placement or other observable
 consequence, including reversal/reset. Camera movement and a changed caption
-alone do not establish that behavior. Prove the core-loop gate in
-`build-and-delivery.md` before refining lighting and effects. If inspection
+alone do not establish that behavior. Use the representative-scene gate in
+`build-and-delivery.md` before expanding or finishing lighting/effects.
+Establish enough camera framing, subject scale, materials/light and input
+feedback to judge the selected direction in that slice; do not postpone
+all visual decisions until after a generic viewer is complete. A new
+model inside the last page's overlay shell is not a new execution.
+If inspection
 itself is the approved purpose, assess the information revealed by its
 camera and exploration controls rather than inventing operating steps.

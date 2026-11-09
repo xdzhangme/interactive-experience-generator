@@ -1,6 +1,6 @@
 {
   "skill_name": "interactive-experience-generator",
-  "evaluation_scope": "Retained intake/fictional-gesture probes plus message-first readiness, authentic-asset handling, complete-range story, scoped Impeccable polish, frozen-object/input fidelity, cross-route revisions and official-first asset selection. Added interaction-first sequencing, in-scene message placement, repeatable verification and carried-forward commissioning authorization probes. Text-only probes do not establish rendered brand recognition, working input/privacy, visual quality or actual audience comprehension; record which probes were executed.",
+  "evaluation_scope": "Retained intake/fictional-gesture probes plus message-first readiness, authentic-asset handling, complete-range story, scoped Impeccable polish, frozen-object/input fidelity, cross-route revisions and official-first asset selection. Includes interaction-first sequencing, in-scene message placement, repeatable verification and carried-forward commissioning authorization. Added selected-concept visual execution, interaction choreography, representative-scene sequencing, task-mode restraint, self-contained Impeccable integration and honest history/feel evidence. Art-direction probes cover official-imagery dominance, useful unboxed composition, restrained supporting art and actual-treatment previews. Text-only probes do not establish rendered brand recognition, working input/privacy, visual quality or actual audience comprehension; record which probes were executed.",
   "evals": [
     {
       "id": 1,
@@ -177,6 +177,7 @@
         "message: Connects the observed consequence to the agreed benefit during the action.",
         "evidence: Requires exercised browser evidence plus appropriate recovery/reset and an accessible input equivalent; does not claim these already happened.",
         "scope: Retains the approved model, message and decisions without new intake or asset hunts.",
+        "execution: Establishes representative framing, subject scale and input feedback in the small slice rather than deferring all visual decisions or finishing the whole scene first.",
         "boundary: Accepts camera-based inspection when that is the explicitly approved purpose, and keeps the full journey and later review outstanding."
       ]
     },
@@ -270,6 +271,150 @@
         "reporting: Does not invent a download attempt, HTTP status or tool error.",
         "remedy: Requests only the specific authorised file or a normally approved retrieval capability.",
         "scope: Retains researched mode and does not silently draw a substitute or claim the branded result complete."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "good-concept-weak-visual-execution",
+      "stage": "text-only-execution-revision",
+      "prompt": "The brewing concept is good and already approved. Do not propose new concepts. The supplied observation is that the rendered page uses a tiny brewery scene inside a generic dashboard: top title bar, left stage rail and large right instruction card. Approved and frozen: real supplied company assets, brand colours/type, brewing message, visitor-controlled vessel interaction, EN/NL and offline HTML. The incidental dashboard composition is NOT frozen. Recommend a concise visual-execution repair using the generator. Describe what should be decided before expanding the build and what to inspect. Use only these observations; no tools, edits, mockup generation or claims of visual review.",
+      "expected_output": "Keeps the approved idea and frozen gesture/assets while repairing staging and interface prominence. Defines concrete framing/scale, materials/light or imagery, type roles, motion, explanation/control placement and responsive composition in the existing contract. Uses one representative scene, not a new concept tournament or another stack of instructions.",
+      "files": [],
+      "expectations": [
+        "scope: Keeps the approved concept, exact assets, brand rules and visitor-controlled gesture; does not launch four new concepts.",
+        "staging: Repairs subject scale, framing and hierarchy rather than only adding colour, animation or more copy.",
+        "direction: Resolves concrete scene treatment, typography, motion and explanation/utility placement before expansion.",
+        "sequence: Uses a small representative scene and rendered desktop/phone evidence, including EN/NL expansion.",
+        "boundary: Does not ban every panel or hide Sources, language, download or accessible controls.",
+        "reporting: Claims no edits, inspected render or subjective approval from this text-only fixture."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "interaction-choreography-not-widget-variety",
+      "stage": "text-only-interaction-execution",
+      "prompt": "Keep these approved fictional experience concepts: a brewery where the visitor pours an ingredient, and a plant-breeding bench where the visitor inspects and selects candidates. Current execution uses selection chips, a slider, a completion toast and Next on both pages; controls change only progress and detached copy. Those widgets are not frozen. Explain how to improve interaction execution without changing concepts, adding games or forcing every object to be draggable. Include before/during/after input and interruption or correction. Keep keyboard/touch equivalents and truthful illustrative labeling. Supplied facts only; no tools or implementation claims.",
+      "expected_output": "Derives distinct subject-grounded state behavior and feedback before selecting controls. Covers input discovery, changing subject state during interaction, meaningful outcomes and recovery. Does not substitute a different set of widgets, autoplay, arbitrary physics or dexterity challenges for meaningful agency.",
+      "files": [],
+      "expectations": [
+        "scope: Retains pouring and candidate inspection/selection as approved concepts without new ideation or game mechanics.",
+        "choreography: Describes discoverable before-input cues, legible during-input state and after-input consequence for the actual subjects.",
+        "agency: Changes ingredient/vessel or candidate/population state rather than only progress, detached text or a toast.",
+        "recovery: Addresses interruption/cancellation, wrong input or correction and appropriate reset.",
+        "accessibility: Preserves meaningful keyboard/touch outcomes without demanding identical motor gestures or making everything draggable.",
+        "truth: Keeps illustrative effects distinct from sourced physics and claims no implemented or tested behavior."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "representative-scene-has-three-dimensions",
+      "stage": "text-only-build-checkpoint",
+      "prompt": "Our approved fictional valve experience now has a working core loop: turning the supplied dial changes a channel, explains the benefit, and supports keyboard, reversal and reset. But the rough page is a stock sidebar/card shell, not the approved large technical cutaway, and the visible response waits until pointer release. A static opening mockup looks excellent. The team wants to build six more scenes, then add all visual character and feedback at final polish. Give the next checkpoint, distinguishing what can already be credited from what is missing. Do not reopen the concept, run tools, edit files or claim any checks happened beyond these fixture observations.",
+      "expected_output": "Credits meaningful agency while requiring repair of representative visual staging and during-input feedback before expansion. Uses the same small scene, enough framing/type/treatment to judge direction and exercised feedback/recovery evidence, not finished effects, a screenshot-only pass or another approval round.",
+      "files": [],
+      "expectations": [
+        "separation: Credits supplied core-loop success without passing visual character or interaction feel.",
+        "sequence: Repairs the representative scene before six-scene expansion or final polish.",
+        "visual: Brings subject scale, cutaway composition, type and sufficient scene treatment into the small slice without demanding finished effects.",
+        "feel: Requires legible feedback during continuous input plus interruption/repetition/recovery evidence, not just pointer-release completion.",
+        "evidence: Distinguishes static mockup/composition captures from exercised input evidence and includes phone/accessibility review.",
+        "scope: Keeps the concept, supplied dial and current useful functionality without reopening intake or claiming unperformed observations."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "task-mode-keeps-useful-conventions",
+      "stage": "text-only-surface-mode-decision",
+      "prompt": "Our approved workshop tool helps participants search 39 cases, select a case, type a useful draft and review a checklist. The dashboard, search, cards, buttons and visible progress serve that task. A colleague says the revised skill must replace these with a cinematic 3D room and drag gestures because cards and buttons repeat across our other experiences. We want better craft, not a different workflow. Assess this proposal and name appropriate execution improvements. No browsing, tools, edits or claims of rendered inspection; use these supplied facts.",
+      "expected_output": "Selects task/Operate-led priorities within the experience brief, retains appropriate familiar controls and efficient authorship, and rejects forced spectacle or novelty quotas. Suggests scoped hierarchy, type, spacing, state/feedback and responsive refinement without replacing the workflow.",
+      "files": [],
+      "expectations": [
+        "mode: Prioritises completing the workshop task and recognises familiar controls can deserve visual prominence.",
+        "scope: Preserves case search, selection, genuine typed drafts and checklist review.",
+        "restraint: Rejects mandatory cinematic 3D, drag interactions and blanket bans on cards/buttons.",
+        "craft: Improves concrete hierarchy, type, layout, feedback or responsive behavior within the approved tool.",
+        "comparison: Justifies useful pattern reuse rather than treating repetition alone as failure.",
+        "reporting: Does not claim rendered approval, implementation or a usability study."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "impeccable-bundled-without-runtime",
+      "stage": "text-only-bundled-guidance",
+      "prompt": "We imported only the generator's distributable skill into Cowork. There is no separate Impeccable installation, launcher, detector or native-platform runner. Can the included Impeccable guidance help with the selected concept's visual execution before final polish? Explain the workflow and what is and is not included. Keep approved real assets/brand commitments, complete EN/NL, Sources, Download HTML and offline delivery. Do not install anything, run tools, edit files or claim upstream commands ran.",
+      "expected_output": "Uses bundled, attributed, scoped guidance for mode, visual direction, motion/feedback, rendered critique and polish without external installs. Preserves constraints and identifies the representative-scene checkpoint. Truthfully distinguishes this integration from the full upstream command/runtime workflow.",
+      "files": [],
+      "expectations": [
+        "integration: Applies bundled surface-mode and execution-direction guidance before expansion, not only after the page is built.",
+        "feel: Includes purposeful feedback/motion and a representative working scene before final polish.",
+        "review: Includes rendered critique, prioritised repair and whole-path replay, with missing inspection evidence labelled honestly.",
+        "standalone: Requires no Impeccable launcher, detector, hooks, randomiser, extra skills or runtime CDN.",
+        "scope: Preserves real assets, brand constraints, languages, Sources, download and offline requirements.",
+        "truth: Calls this a scoped adaptation, not the full upstream installation or proof that its commands ran."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "history-and-feel-evidence-limits",
+      "stage": "text-only-evidence-review",
+      "prompt": "Assess only these supplied observations, with no tools or file changes. We have no reachable design log, no prior page examples and no known persistent output folder. Current evidence is a beautiful desktop screenshot and passing endpoint button tests. Nobody exercised the continuous input, interruptions, keyboard path, reduced motion or phone layout. The author says the new experience is visually unique across our portfolio and its interaction feel passed. What can we claim, what remains unverified, and how should execution comparison/logging proceed without blocking the project or inventing history?",
+      "expected_output": "Limits screenshot evidence to the captured state, rejects portfolio-uniqueness and feel claims, requires exercised state/input and responsive evidence, and continues subject-grounded design without fabricated history or mandatory logging. Keeps evidence dimensions distinct and does not infer a full rendered acceptance pass.",
+      "files": [],
+      "expectations": [
+        "history: Does not invent a log path, prior executions, comparison results or portfolio-wide uniqueness.",
+        "continuity: Continues design using available current-session evidence and skips persistence when no suitable location exists.",
+        "visual: Limits the screenshot's evidence to its captured composition/state, not full responsive or audience acceptance.",
+        "feel: Requires exercised before/during/after input, interruption/recovery and accessible/reduced-motion paths rather than endpoint counts.",
+        "reporting: Marks missing phone and interaction evidence unverified and distinguishes it from supplied technical success.",
+        "scope: Does not require external tooling, a new concept tournament or unrelated filesystem searches to compensate for missing history."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "imagery-led-art-not-decorative-volume",
+      "stage": "text-only-art-direction",
+      "prompt": "The approved brand showcase feels visually thin. We have authorised official product photos and exact brand typography. Keep those images dominant; supporting art should be restrained. The current mockup uses tiny packshots inside a large blank instruction card. A colleague proposes ten generated illustrations, a particle field and a drawn replacement product to make it more artistic. Recommend a visual-execution correction without changing the concept. Use only these observations; no tools, image generation, edits or claims of visual inspection.",
+      "expected_output": "Builds richness through actual official imagery at meaningful scale, considered framing, layering/depth, negative space and supporting brand typography. Keeps supporting art restrained, rejects decorative volume and product lookalikes, preserves recognizability and brand/asset terms, and proves the treatment in the existing preview.",
+      "files": [],
+      "expectations": [
+        "dominance: Gives actual official imagery meaningful visual weight instead of treating a tiny asset or logo as sufficient.",
+        "composition: Uses concrete scale, framing, layering/depth or type relationships rather than merely adding effects or adjectives.",
+        "restraint: Keeps supporting art purposeful and restrained; does not prescribe a decoration count, particle field or new illustration-heavy style.",
+        "truth: Rejects the drawn product substitute and preserves exact identity, asset terms and brand rules.",
+        "preview: Shows the actual treatment in the existing preview without reopening concepts or claiming static images prove input.",
+        "reporting: Claims no generated images, implementation, rendered inspection or aesthetic approval."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "unboxed-showcases-not-anti-rectangle-rule",
+      "stage": "text-only-composition-decision",
+      "prompt": "We want our approved product showcase to feel less boxed-in. Its actual official product imagery and gesture must stay. The current layout encloses everything in a centred card with a left demo and right instructions. Another surface is an approved workshop tool whose search, forms and case grid work well. Explain how the revised skill should treat these two surfaces. Be bold when useful, not experimental everywhere. A colleague says removing all borders is enough and all rectangular controls should be banned. Supplied facts only; no tools, edits or rendered-review claims.",
+      "expected_output": "Defaults the showcase to scene-led composition, considers actual spatial reorganization and image prominence beyond removing borders, and keeps the task tool practical. Retains necessary dialogs/cards/controls and accessible utilities without a blanket shape ban or forced 3D/experimental world.",
+      "files": [],
+      "expectations": [
+        "showcase: Treats the subject and scene as the composition rather than nesting a small demo inside the inherited card shell.",
+        "execution: Explains a concrete scale/framing/layering or spatial-layout change; border removal alone does not count.",
+        "task: Preserves efficient workshop search, forms and case-grid behavior rather than imposing a cinematic showcase layout.",
+        "boundary: Rejects a blanket rectangle/card ban and retains useful bounded reading surfaces, dialogs and controls.",
+        "accessibility: Keeps required utilities, readable explanations and equivalent meaningful inputs reachable.",
+        "scope: Preserves official assets, the approved gesture and rendering-medium commitments without forced novelty or claimed implementation."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "actual-art-treatment-in-existing-preview",
+      "stage": "text-only-preview-readiness",
+      "prompt": "Our concept selection is complete: an official-imagery-led full-screen showcase, with bold framing and restrained supporting art. Assets are supplied with permission. The existing selected preview is only a generic wireframe; the author writes 'the final page will look artistic and unboxed' and wants to expand the full build now. We do not want four more concepts or another approval round. Give the next step and evidence needed. Keep actual brand identity, accessible controls, phone/EN-NL use and later working-input verification. No tools, edits, mockup generation or claims of completed checks.",
+      "expected_output": "Updates the existing selected preview with actual official imagery at intended scale/placement, opening and one meaningful interaction state, integrated readable controls and a credible responsive arrangement. Does not substitute prose, a mood board or a wireframe for visual-treatment proof, and distinguishes that static proof from the later representative working scene.",
+      "files": [],
+      "expectations": [
+        "preview: Uses the existing selected preview, not new concept pitches or another mandatory approval round.",
+        "evidence: Requires actual imagery, intended scale/framing/placement and restrained supporting art, not a textual promise or generic wireframe.",
+        "states: Shows the opening and one meaningful interaction state with readable action/explanation placement.",
+        "continuity: Preserves brand identity, accessible controls and phone/EN-NL usability rather than hiding them to remove boxes.",
+        "sequence: Establishes visual treatment before expansion and retains the representative working-input checkpoint.",
+        "reporting: Does not claim static preview evidence proves interaction feel, actual inspection or user approval."
       ]
     }
   ]

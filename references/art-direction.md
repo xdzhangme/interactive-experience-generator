@@ -6,10 +6,136 @@ Adapted and condensed from Anthropic's `frontend-design` skill
 condensed summary for this workflow, not a verbatim copy.
 
 For the scoped Impeccable adaptation, also read
-`references/experience-critique-polish.md`. It adds Experience-led
-composition and an observed critique/polish loop under the approved
-message, real branding and offline constraints; it does not select a
-replacement visual world or add an external skill dependency.
+`references/experience-critique-polish.md`. Together these files bundle
+surface-mode selection, visual direction, motion and an observed
+critique/polish loop under the approved message, real branding and offline
+constraints. The visual-direction guidance also draws on Impeccable 4.8.0
+`reference/new-work.md`; this is an original scoped adaptation, not its
+concept-randomisation or runner workflow. See `NOTICE.md`.
+
+## Separate the idea from its execution
+
+The concept states what the visitor experiences and understands. Its
+execution determines how the work occupies the screen and responds to
+input. A good concept can fail through a generic layout or lifeless
+feedback; do not replace the concept to hide that failure.
+
+For new work, derive visual authority from the approved brief, real assets
+and selected mockup. For revisions, inspect the incumbent rendered page
+and separate frozen choices from the axis the person wants changed.
+Approval of an idea does not automatically freeze every incidental widget.
+Approval of an exact composition does constrain changes to it. Do not
+silently replace either a pinned visual world or an approved behavior.
+
+## Execution direction contract
+
+After concept selection, resolve these choices in the existing brief or
+session record before artifact code. Infer small details from approved
+evidence; do not turn this into another questionnaire or design document.
+
+| Choice | Describe concretely |
+|---|---|
+| Surface mode | Whether the visitor is experiencing, operating, reading or deciding; let that purpose determine the interface's prominence. |
+| Composition and scale | What dominates the first viewport, its relative size, eye path, depth or flat hierarchy, and where the main action and explanation live. |
+| Imagery and supporting art | Which actual official asset leads, how framing/layering makes it carry the visual story, and which restrained supporting elements earn their place. |
+| Materials and light | The chosen image treatment or scene surfaces, light/shadow and background relationship; deliberate flat graphics are valid, not failed 3D. |
+| Typography | Verified brand type or disclosed fallback, display/body roles, reading measure and how labels relate to the subject. |
+| Motion | One earned focal moment if useful, plus state continuity and immediate input feedback; identify what stays still. |
+| Controls and utilities | Where the visitor acts, how that action is cued, and how language, Sources, download and recovery remain reachable without dominating. |
+| Responsive staging | How phone and desktop preserve the subject/action/explanation relationship, including Dutch expansion and reduced motion. |
+
+Use decisions that can be drawn and inspected, not adjectives such as
+"premium", "immersive" or "creative" alone. For example, specify whether
+the subject fills the scene or sits on a work surface, how it is framed,
+and where a changing result appears. Do not prescribe one layout for all
+subjects. Keep brand rules and authentic asset proportions intact.
+
+Show the selected opening and the primary action before, during and after
+input in the existing preview, reusing approved mockups where they already
+answer these choices. Plan enough type, scale and feedback detail to guide
+the representative scene, not an entire polished journey upfront.
+Static states communicate direction; they do not prove responsiveness.
+
+## Official imagery leads; composition supplies the ambition
+
+For real-company showcases, keep official imagery dominant. When spatial
+3D is the approved medium, let the actual official model lead rather than
+substituting photographs or newly authored branded geometry. Preserve
+explicit object-specific exceptions and fictional briefs.
+
+Asset presence is not art direction: a small packshot, a token logo or a
+washed-out photo behind large instruction panels is not an imagery-led
+showcase. Give the relevant authentic asset enough scale, clear framing
+and visual weight to carry the scene and remain recognizable.
+
+Develop richness through deliberate subject scale, photographic framing,
+foreground/background relationships, layering, negative space, depth and
+brand typography. Use only the techniques the subject earns; do not turn
+this list into a new template. Keep type and other graphic elements in
+support of the imagery rather than competing for attention.
+
+Supporting artwork stays restrained. Neutral staging, a useful texture,
+an annotation or a quiet graphic motif can clarify the world. Do not
+compensate for weak composition with unrelated illustration, particles,
+gradients, generated lookalikes or decorative clutter. Authored supporting
+art must not impersonate an official asset or invent company evidence.
+A missing required file is still an asset blocker, not a reason to draw it.
+
+Respect asset terms and brand rules when cropping, masking or layering.
+Do not distort logos/products, hide identifying details needed for the
+story, or composite an unsupported factual product configuration.
+Distinguish illustrative staging from a documentary depiction.
+
+## Scene-led showcases can escape enclosing panels
+
+For an Experience/showcase surface, start from a scene occupying the
+browser, not a demonstration placed inside a large rectangular container.
+Let the subject and intended action determine spatial organization. A
+full-bleed photographic field, an oversized isolated product, an asymmetric
+image composition or a layered scene are possible treatments, not presets.
+
+Be bold when it improves the subject's presence or meaning; do not make
+every page experimental. The browser remains rectangular, but the
+experience need not inherit nested boxes, a centred max-width card or an
+identical left-demo/right-instructions split. Removing borders alone does
+not change that composition.
+
+Integrate cues and contextual explanations into readable scene regions
+where useful; keep utility controls reachable and gesture targets clear.
+Do not make labels chase moving objects or hide controls to look artistic.
+Keep intentional frames, dialogs and bounded reading surfaces where the
+content benefits. Operate/task surfaces keep efficient, familiar layouts.
+There is no blanket ban on cards, grids or rectangles.
+
+In the existing concept preview, show the actual asset treatment, scale,
+framing, supporting art and control placement in the opening and a
+meaningful interaction state. Reuse the selected preview rather than
+adding another approval round or four more concepts. A textual promise,
+mood board or generic wireframe cannot prove this treatment. If the
+required assets are unresolved, label that preview's limitation honestly.
+The later representative scene proves working input, not a second choice
+of concept.
+
+## Prevent the interface from becoming the subject
+
+Compose around the offering, evidence or actual work. Do not automatically
+wrap it in a title bar, left stage rail, centre demo and right instruction
+card. A different logo, background or 3D object inside that shell is not a
+new visual execution.
+
+Place relevant explanations near the affected state, in a clear scene
+region or an integrated task surface. They need not float, animate, attach
+to every object or cover the hero. Persistent panels, cards, sliders and
+Next buttons remain appropriate when they serve the task, sequence,
+readability or accessibility. Give each dominant pattern a brief
+subject/task reason instead of adopting it because the last build used it.
+
+Use `design-log.md` to compare execution with available recent work before
+building. Inspect the subject's scale, composition, navigation, input and
+feedback separately. When these repeat without a task reason, change the
+relevant execution choices within scope; do not merely recolour them.
+Do not force a new gesture to meet a variety quota or claim uniqueness
+without comparison evidence.
 
 ## Ground every concept in the subject, not the industry
 Begin with the approved company message, actual offerings and proof points
@@ -72,8 +198,9 @@ Permission gaps block authentic branded delivery even when a neutral
 prototype can still be useful. Resolve and label that distinction early.
 
 ## Choosing the medium
-Recommend whichever medium best serves this specific subject — there is no
-default:
+Recommend whichever rendering medium best serves this specific subject;
+there is no default medium. Scene-led composition does not require 3D or
+override an approved medium:
 - **Precise spatial 3D** suits a subject whose physical form or mechanism is
   the point (a machine, a vehicle, an instrument).
 - **Technical cutaway illustration** suits infrastructure or systems better

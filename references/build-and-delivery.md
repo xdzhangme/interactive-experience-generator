@@ -1,11 +1,22 @@
 # Build and delivery
 
-## Core-loop gate: before presentation polish
+## Representative-scene gate: core loop, visual character and feel
 
-After concept selection and asset resolution, build the smallest working
-slice that tests the approved experience. Use the actual permitted assets
-or an explicitly agreed prototype substitute; a neutral spike is not
+After concept selection and asset resolution, resolve the execution
+direction contract in `art-direction.md` and choreography in
+`concepts-and-interaction.md`. Build the smallest representative scene
+before expanding to secondary scenes or final polish. Use the actual
+permitted assets or an explicitly agreed prototype substitute; a neutral spike is not
 permission to replace branded assets in the finished page.
+
+This extends the core-loop gate rather than adding a second prototype.
+Keep the slice small but representative: subject scale, framing,
+explanation/control placement, one meaningful intermediate state and the
+intended input feedback should resemble the chosen execution. Establish
+enough type, material/image treatment and light to judge the direction.
+Do not demand finished lighting/effects or build the whole journey first.
+A functional action inside a stock dashboard shell is not visual evidence
+for an approved scene-led composition.
 
 Exercise the visitor's primary input, its visible consequence and the
 associated company benefit together in a browser. For an operating,
@@ -14,18 +25,38 @@ object/task state, not only the camera or a progress label. An orbit-only
 viewer can satisfy an explicitly approved inspection experience; it does
 not demonstrate operating a device or completing a service journey.
 
-Pass this checkpoint when the main action is discoverable, the visitor
-controls a meaningful state change, its consequence is visible, the
-relevant benefit is readable with it, and correction/reversal or reset
-works as appropriate. Record the observed state and input plus a screenshot
-or equivalent browser evidence in the existing session record. Exercise
-the accessible input equivalent as well. If the slice fails, repair it
-before spending time on presentation effects or secondary features.
+Inspect three dimensions separately before continuing:
+
+- **Core meaning and agency:** the action is discoverable, input controls
+  meaningful state, consequence and relevant benefit are visible together,
+  and correction/reversal or reset works as appropriate.
+- **Visual character:** the real subject, composition, hierarchy and
+  scene treatment express the direction contract rather than a generic
+  interface re-skinned with brand assets. Compare available prior work;
+  justify familiar staging when the task benefits from it. In showcases,
+  preserve the preview's official-imagery/model dominance and scene-led
+  composition; merely removing a card border does not establish either.
+- **Interaction feel:** before/during/after feedback makes input legible,
+  follows changes without waiting for a canned ending, and handles
+  interruption, repeat input and recovery. Keyboard/touch equivalents
+  preserve meaning, and reduced motion preserves state feedback.
+
+Record viewport, state, input and evidence in the existing session record:
+rendered captures for composition and an exercised browser trace, recording
+or observed sequence for feedback. A screenshot alone cannot prove feel.
+Inspect a representative phone arrangement too, including relevant EN/NL
+expansion. Report pass, fail or unverified per dimension; do not infer one
+from another. If a dimension fails, repair that execution axis before
+expansion. Do not reopen an approved concept unless repair genuinely needs
+a scope change.
 
 This is an implementation checkpoint, not a new approval round. It does
 not replace the complete requested journey or later route/state review.
-If browser evidence is unavailable, mark the gate unverified rather than
-treating source code or a static mockup as an observed interaction.
+If suitable browser or input evidence is unavailable, mark the affected
+dimension unverified rather than treating source code or a static mockup
+as an observed interaction. Do not
+silently promote an unverified slice to a finished experience; disclose the
+limitation and resolve verification before claiming this gate passed.
 
 ## The single file
 Everything — markup, styles, scripts, and any embedded assets — lives in one
@@ -71,12 +102,16 @@ Either way, this is a real check against the chosen concept's mockup and the
 art-direction brief — fix what's weak (clutter, flat lighting, inconsistent
 type, a motion effect that doesn't answer any action) before moving on.
 
-Apply the scoped Impeccable-inspired loop in
+Apply the bundled Impeccable-adapted direction and critique loop in
 `references/experience-critique-polish.md`: form a rendered
 visual/communication judgment, consult functional evidence, prioritise
 must/should/could fixes, polish without changing the approved direction,
 then replay the whole path. This adaptation does not require the upstream
 CLI, detector, hooks, servers or dual-agent workflow. Do not claim those ran.
+
+Use the execution direction contract and choreography as review anchors,
+not only the static concept mockup. A beautiful opening does not establish
+responsive interaction; working controls do not establish visual craft.
 
 ## Keep verification repeatable
 
@@ -206,9 +241,36 @@ with the reason rather than counting them as passes.
       recovery and ending states. Record untested surfaces honestly; a
       clean detector or no-overflow check is not visual acceptance.
 
+### Separate visual-craft and interaction-feel evidence
+
+These observations support the four gates; they are not a fifth numeric
+score and cannot average away failures. Keep them explicit even when all
+functional checks pass.
+
+- [ ] The representative-scene checkpoint has separate observed core-loop,
+      visual-character and interaction-feel outcomes.
+- [ ] Rendered composition, subject scale, typography, imagery/materials
+      and light match the chosen direction. Interface prominence suits the
+      surface mode, rather than inheriting the last page's shell.
+- [ ] Showcase previews and the representative scene demonstrate the actual
+      official imagery/model treatment at its intended scale and placement.
+      Supporting art is restrained; scene-led composition can escape
+      enclosing panels when useful. Task tools retain practical layouts,
+      with no blanket ban on cards or rectangles.
+- [ ] Before/during/after input and interruption/recovery were exercised.
+      The visitor sees how input changes the subject, not merely a progress
+      bar, toast or delayed completion effect.
+- [ ] Available previous examples/log entries were compared for layout,
+      navigation, controls and feedback. Reused conventions have a task,
+      user-choice or accessibility reason; missing history is disclosed.
+- [ ] Phone, EN/NL and reduced-motion paths preserve subject prominence,
+      readable explanations and equivalent meaningful feedback.
+
 A blocked or unverified requirement is not a pass. Report status separately
 for all four gates. A useful interaction prototype or technically ready
 review build can be shared as such; do not call it the finished branded
 experience while authenticity or message delivery is blocked. Do not claim
 measured human comprehension from an author checklist or reviewer proxy.
+Do not call execution ready while observed visual/feel failures remain;
+share a review build honestly when subjective visual approval is pending.
 Ask for visual/message feedback separately from checks actually performed.

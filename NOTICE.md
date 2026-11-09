@@ -28,12 +28,17 @@ condensed work; the full licence text governs the original repository.
   `cli-v4.8.0`.
 - **Adapted sources:** `.github/skills/impeccable/SKILL.md` (Experience
   mode and brief-preserving design principles),
+  `reference/new-work.md` (respecting existing visual authority and
+  resolving a coherent visual direction within scope),
+  `reference/animate.md` (purposeful motion, input feedback, continuity,
+  interruption and reduced-motion behavior),
   `reference/critique.md` (design specificity, visual inspection and
   separation of judgment from mechanical evidence), and
   `reference/polish.md` (prioritised refinement, scope preservation and
   complete-path verification).
 - **Changed/derived file:** `references/experience-critique-polish.md`
   is an original web/standalone-HTML adaptation for this generator.
+  `references/art-direction.md` also adapts visual-direction guidance.
   `SKILL.md`, `references/art-direction.md` and
   `references/build-and-delivery.md` were changed to integrate that
   guidance beneath the existing message-first workflow.
@@ -43,6 +48,18 @@ condensed work; the full licence text governs the original repository.
   regression coverage and concrete web usability checks. These additions
   are not represented as verbatim upstream Impeccable instructions or a
   new upstream release.
+- **Generator revision, 2026-11-09:** expanded the self-contained adaptation
+  from late critique/polish to surface-mode selection, selected-concept
+  execution direction and purposeful motion/feedback. Added original
+  generator-specific interaction choreography, execution-history comparison,
+  and a representative-scene checkpoint separating core meaning, visual
+  character and interaction feel. Further original direction makes
+  showcases scene-led and official-imagery/model-led, with restrained
+  supporting art and actual-treatment proof in existing previews; it
+  preserves practical task layouts rather than banning rectangular UI.
+  These additions preserve approved concepts,
+  brand constraints, accessible input and offline delivery. They do not
+  bundle the full upstream skill/runtime or claim upstream commands ran.
 - **Not bundled or required:** upstream binaries, commands, hooks,
   detector, live-edit servers, concept randomisation, native-platform
   references, mandatory multi-agent orchestration or external services.
