@@ -2,7 +2,7 @@
 name: interactive-experience-generator
 description: Builds, revises and polishes company/product interactive experiences. After plan approval, implements the page with actual official models, product images and assets, not agent-drawn imitations or merely official references. Preserves approved decisions, verified company messaging, genuine 3D and real visitor input. Includes bundled Impeccable-inspired critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-04-actual-assets-in-build"
+  revision: "2026-11-09-download-official-assets"
 ---
 
 # Interactive experience generator
@@ -37,7 +37,9 @@ requirement for what visibly appears and is manipulated in the built page,
 not merely a preference for official research sources.
 
 Acquire and embed the suitable, permitted official files, then build the
-layout, scene and interaction around them. Do not replace them with your
+layout, scene and interaction around them. Download them yourself using the
+asset-retrieval procedure in `references/sources-and-labeling.md`; finding
+links is not the end of asset acquisition. Do not replace them with your
 own SVG drawing, CSS illustration, generated lookalike or procedural model.
 An official reference photo used to draw a new object is not the same as
 using that official asset in the page. A logo or source link does not fix
@@ -52,7 +54,11 @@ use the actual official image rather than redrawing it.
 
 If a required official file cannot be obtained or lawfully used, report
 the specific blocker and ask for the asset or an explicit object-specific
-exception. Do not silently draw a replacement or downgrade the medium.
+exception. Establish a download limitation from actual tool availability
+or a failed retrieval, not an assumption that Cowork cannot download files.
+Try another available, permitted retrieval method when it can address the
+failure; do not bypass access restrictions. Do not silently draw a
+replacement or downgrade the medium.
 Preserve existing explicit exceptions, such as a specifically approved
 reconstruction; general concept approval is not such an exception.
 Reuse supplied verified assets and permissions without asking again.
@@ -110,6 +116,12 @@ State plainly, once, which of these you have this session, before relying on
 them:
 - **Research**: a web-research skill (e.g. Deep Research) or local-browser
   access to official sources.
+- **Asset retrieval**: available tools for saving official image/model bytes
+  into the working folder, such as a browser download, file-fetch tool, or
+  network-enabled shell with curl/Python. Check actual tool availability
+  and attempt a suitable download before declaring retrieval blocked.
+  Web search or page-text access alone does not establish file-download
+  capability; neither does it establish that downloads are impossible.
 - **File output**: the ability to produce a downloadable file and preview
   HTML.
 - **Visual inspection**: a real browser or screenshot tool to check rendered
@@ -195,6 +207,9 @@ identifying visual features, brand assets, and their reuse terms. Do not
 silently pick another region's product or a more convenient variant.
 Apply the asset-selection order; record required implementation files,
 missing official assets and any object-specific approved exceptions.
+Follow the asset-retrieval procedure: locate direct official file URLs,
+download and validate permitted files, and retain them for implementation.
+Do not routinely ask the person to download assets on your behalf.
 Then read `references/message-and-brand.md`. Research the company's stated
 promise, the relevant actual offerings and two or three supporting proof
 points. Recommend one central message and visitor takeaway grounded in
@@ -324,7 +339,7 @@ step rather than inventing a history.
 |---|---|
 | `references/intent-and-revisions.md` | Before revising existing work; also when recording approved objects, interpreting "real", implementing authored input, or planning route/state coverage. |
 | `references/message-and-brand.md` | Before recommending purpose, confirming the brief, developing concepts, and reviewing message delivery. |
-| `references/sources-and-labeling.md` | Before researching, and whenever writing factual or illustrative copy. |
+| `references/sources-and-labeling.md` | Before researching, acquiring official asset files, and writing factual or illustrative copy; includes download methods and blocker reporting. |
 | `references/concepts-and-interaction.md` | While developing the four concepts (step 5). |
 | `references/art-direction.md` | While developing concepts and before building (steps 5 and 7). |
 | `references/experience-critique-polish.md` | During concept composition, before building, and for rendered critique, prioritised polish and replay (steps 5, 7 and 8). |

@@ -1,68 +1,50 @@
 # interactive-experience-generator
 
-A message-first skill that turns a company's verified story, products, and
-services into a distinctive full-screen interactive experience. It delivers a
-single offline HTML file with English/Dutch support, sources, and HTML download.
+Turn a company's verified story into a full-screen interactive experience.
+Deliver one offline HTML file with English/Dutch, sources, and a download button.
 
-The self-contained package includes selected adapted Impeccable Experience,
-critique, and polish guidance, not the full Impeccable runner. No separate
-Impeccable installation, binaries, or commands are required.
+## Install
 
-After plan approval, the built page must embed/import and visibly use actual
-permitted official model, product-image, packaging, logo, and other relevant
-asset files, not agent-drawn SVG/CSS lookalikes or procedural recreations
-based only on official references. General plan or style approval does not
-permit substitutions. Missing required assets are blockers unless an explicit
-object-specific exception is approved; existing approved reconstructions
-remain preserved.
+This repository is private. Sign in to GitHub with an account that has access.
 
-Revisions retain frozen approvals and separate each object's identity,
-rendering medium, and visitor behavior. The bundled guidance also covers
-genuine visitor input, ephemeral signature privacy, affected routes/states,
-EN/NL and export coverage, and scoped critique/polish without redesigning
-approved work.
-
-## Access and install
-
-This repository is private. Downloads and cloning require a GitHub account with
-access to this repository; a repository link alone does not grant access.
-
-**Cowork:** While signed in to GitHub with repository access, open
+**Cowork:** Open
 [`dist/interactive-experience-generator.skill`](dist/interactive-experience-generator.skill)
-and use **Download raw file** to save the original `.skill` archive. Upload/import
-that file through Cowork's skill-management interface.
+and choose **Download raw file**. Import the file into Cowork. Re-import after
+updates.
 
-**Other agents:** Clone or download the repository using an authorized GitHub
-account. Copy the root `SKILL.md`, `references/`, `NOTICE.md`, and `licenses/`
-together into an `interactive-experience-generator/` folder in your agent's
-supported skill location. Preserve their directory structure; `SKILL.md` alone
-is not the complete skill.
+**Other agents:** Copy `SKILL.md`, `references/`, `NOTICE.md`, and `licenses/`
+into an `interactive-experience-generator` folder in your agent's skill
+location. Keep the directory structure; `SKILL.md` alone is not enough.
 
-## Package and attribution
+## What it does
 
-The root `SKILL.md`, `references/`, `NOTICE.md`, `licenses/`, and `evals/`
-match the approved source. The distributable
-`dist/interactive-experience-generator.skill` contains the 13 runtime/legal
-files under its `interactive-experience-generator/` directory; the two
-evaluation files remain repository-only. The archive's SHA-256 is:
+- Research official sources and connect the company message to visitor actions.
+- Use actual permitted logos, photos, packaging, and models, not drawn lookalikes.
+- Download assets through available tools, curl/Python, or a browser; check the
+  files and embed them for offline use.
+- Report the exact download error or missing capability before asking for files.
+- Preserve approved choices during revisions, including genuine visitor input.
+- Include adapted Impeccable critique and polish guidance. No separate install.
+
+The skill cannot grant network access or reuse rights. Missing required assets
+block completion unless you approve a specific substitute. Plan approval alone
+does not permit substitutions; existing approved exceptions remain valid.
+
+## Package
+
+The `.skill` file is a ZIP containing 13 files under
+`interactive-experience-generator/`. Package only `SKILL.md`, `references/`,
+`NOTICE.md`, and `licenses/`. Exclude README, evaluations, generated experiences,
+and local artifacts. Compare archive contents with source and update this
+SHA-256 after rebuilding:
 
 ```text
-9cf314b1bc156f23d9cbc2feef42a78cb6ff506f38f3eaea66128340e8367f17
+15da77e9ba39b8f25c1222d64460115d14f728050d03a4e216a33f588a6860fa
 ```
 
-For future releases, package only `SKILL.md`, `references/`, `NOTICE.md`,
-and `licenses/` into a ZIP-format `.skill` archive with that top-level
-directory. Do not include the repository README, `evals/`, `dist/`, generated
-experiences, or local session artifacts. Verify every archive member against
-its source file and update the checksum above when replacing the package.
+[`evals/evals.json`](evals/evals.json) contains 13 evaluation prompts; `evals/files/`
+contains a fictional SVG fixture. These stay outside the package. Their presence
+does not prove they passed or that Cowork downloads were tested.
 
-[`evals/evals.json`](evals/evals.json) includes ten reusable probes and an
-authorised fictional SVG fixture in `evals/files/`. They cover intake,
-interaction, company-message readiness, asset handling, scoped polish,
-revisions, and actual official assets in the built page. Bundling these
-probes does not claim that they were executed or that generated HTML,
-browser behavior, or audience comprehension was verified.
-
-See [`NOTICE.md`](NOTICE.md) and the bundled [`licenses/`](licenses/) for
-third-party attribution and applicable terms. Keep these files with the skill
-when copying or redistributing it.
+Keep [`NOTICE.md`](NOTICE.md) and [`licenses/`](licenses/) with redistributed
+copies for attribution and license terms.
