@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">From company story to offline experience</title>
+  <desc id="desc">A workflow illustration, not a product screenshot: a company brief leads to official-source research, a meaningful visitor interaction, and one downloadable HTML file.</desc>
+  <rect width="1200" height="390" rx="24" fill="#F6F5F0"/>
+
+  <g id="connections" fill="none" stroke="#62716B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M288 170H334m-12-12 12 12-12 12"/>
+    <path d="M566 170H612m-12-12 12 12-12 12"/>
+    <path d="M844 170H890m-12-12 12 12-12 12"/>
+  </g>
+
+  <g id="company-brief">
+    <rect x="92" y="72" width="158" height="190" rx="12" fill="#236B59" transform="rotate(-6 171 167)"/>
+    <rect x="88" y="62" width="158" height="190" rx="12" fill="#F6F5F0" stroke="#173B36" stroke-width="3"/>
+    <path d="M116 112h26v26h-26zm38 0h62m-62 13h44" fill="none" stroke="#236B59" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M116 163h100m-100 18h80m-80 18h91" fill="none" stroke="#62716B" stroke-width="4" stroke-linecap="round"/>
+    <rect x="112" y="217" width="76" height="12" rx="6" fill="#C75B38"/>
+  </g>
+
+  <g id="official-source-research">
+    <path d="M378 78h110l34 34v132H378Z" fill="#F6F5F0" stroke="#173B36" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M488 78v34h34M400 135h55m-55 18h33" fill="none" stroke="#62716B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="465" cy="188" r="44" fill="#F6F5F0" stroke="#236B59" stroke-width="9"/>
+    <path d="m496 221 28 28" stroke="#236B59" stroke-width="14" stroke-linecap="round"/>
+    <path d="m446 189 13 13 26-28" fill="none" stroke="#C75B38" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="visitor-interaction">
+    <circle cx="728" cy="168" r="78" fill="none" stroke="#236B59" stroke-width="3"/>
+    <path d="M728 90a78 78 0 0 1 78 78" fill="none" stroke="#C75B38" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="728" cy="168" r="52" fill="#236B59"/>
+    <path d="M708 168h40m-14-14 14 14-14 14" fill="none" stroke="#F6F5F0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m756 199 8 58 15-17 20 17 10-12-21-17 21-7Z" fill="#F6F5F0" stroke="#173B36" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m665 110-12-12m75-24V58m64 52 12-12" fill="none" stroke="#C75B38" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g id="offline-html">
+    <rect x="922" y="80" width="218" height="174" rx="12" fill="#F6F5F0" stroke="#173B36" stroke-width="3"/>
+    <path d="M922 114h218" stroke="#173B36" stroke-width="3"/>
+    <g fill="#62716B">
+      <circle cx="940" cy="97" r="4"/>
+      <circle cx="954" cy="97" r="4"/>
+      <circle cx="968" cy="97" r="4"/>
+    </g>
+    <text x="944" y="153" fill="#173B36" font-family="ui-monospace, Consolas, monospace" font-size="30" font-weight="600">.html</text>
+    <path d="M1034 167v43m-15-15 15 15 15-15m-38 23v12h46v-12" fill="none" stroke="#236B59" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1118" y="150" text-anchor="end" fill="#62716B" font-family="'Segoe UI', sans-serif" font-size="18">EN / NL</text>
+  </g>
+
+  <g id="workflow-labels" fill="#173B36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="600" text-anchor="middle">
+    <text x="168" y="330">Company</text>
+    <text x="452" y="330">Research</text>
+    <text x="730" y="330">Interaction</text>
+    <text x="1032" y="330">HTML file</text>
+  </g>
+</svg>
