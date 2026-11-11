@@ -32,6 +32,8 @@ condensed work; the full licence text governs the original repository.
   resolving a coherent visual direction within scope),
   `reference/animate.md` (purposeful motion, input feedback, continuity,
   interruption and reduced-motion behavior),
+  `reference/layout.md` (priority-led reading order, proximity, spacing
+  rhythm, density and responsive/focus-order checks),
   `reference/critique.md` (design specificity, visual inspection and
   separation of judgment from mechanical evidence), and
   `reference/polish.md` (prioritised refinement, scope preservation and
@@ -60,6 +62,12 @@ condensed work; the full licence text governs the original repository.
   These additions preserve approved concepts,
   brand constraints, accessible input and offline delivery. They do not
   bundle the full upstream skill/runtime or claim upstream commands ran.
+- **Generator revision, 2026-11-11:** added
+  `references/layout-motion-inspiration.md`, an original scoped adaptation
+  of the pinned `reference/layout.md` and `reference/animate.md`. Combines
+  structural layout checks and purpose-led timing/feedback with the
+  existing scene gate. No detector, live-mode parameters, upstream skill
+  invocation or agent orchestration is required.
 - **Not bundled or required:** upstream binaries, commands, hooks,
   detector, live-edit servers, concept randomisation, native-platform
   references, mandatory multi-agent orchestration or external services.
@@ -86,6 +94,44 @@ No endorsement or trademark rights are granted by this adaptation.
 
 Both are MIT-licensed; attribution to the original authors and repositories
 is preserved here.
+
+## MIT License - Emil Kowalski
+
+- **Author/source:** Emil Kowalski,
+  https://github.com/emilkowalski/skills .
+- **Source revision:** `715c1807e08c497cfd1dc4feb450a2a3300ef2a9`,
+  inspected 2026-11-11; `skills/animate/SKILL.md`.
+- **Changed/derived file:** `references/layout-motion-inspiration.md`
+  contains an original scoped adaptation of motion-purpose/frequency
+  decisions, existing-token reuse, economical tool selection, timing and
+  easing, interruption, exit, reduced motion and hover gating.
+- **Scope adjustments:** preserves this generator's approved gesture and
+  keyboard equivalents, existing runtime, brand motion rules and factual
+  evidence. Timing ranges are starting points, not universal bans or
+  claims that CSS/transform animation is always hardware accelerated.
+  Does not copy the upstream startup response, component-library skill
+  dependency or recipe collection.
+
+Copyright (c) 2026 Emil Kowalski. Licensed under MIT; the complete licence
+is included in `licenses/emil-kowalski/MIT.txt`. No endorsement is implied.
+Pinned source:
+https://github.com/emilkowalski/skills/blob/715c1807e08c497cfd1dc4feb450a2a3300ef2a9/skills/animate/SKILL.md .
+
+## Linked inspiration only - Codrops Creative Hub and React Bits
+
+- **Codrops Creative Hub:** https://tympanus.net/codrops/hub/ .
+  Links to demos by different creators. Check each selected project's
+  terms; the hub does not grant blanket rights to linked code or assets.
+- **React Bits:** https://reactbits.dev/ ,
+  https://github.com/DavidHDev/react-bits . The repository's `LICENSE.md`,
+  checked 2026-11-11, uses MIT plus a Commons Clause condition restricting
+  redistribution of components, ports, tools and standalone exports.
+  Do not describe it as unrestricted MIT.
+- No Codrops or React Bits source code, media, component collection or
+  tools are bundled here. `references/layout-motion-inspiration.md`
+  supplies original reference-selection and offline-delivery instructions.
+  Actual reuse in a generated experience requires checking the selected
+  version's applicable terms and preserving its notices.
 
 ## Before external or customer-facing distribution
 The subsequent actual-assets implementation clarification requires official

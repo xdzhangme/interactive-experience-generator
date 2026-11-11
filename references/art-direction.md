@@ -12,6 +12,10 @@ critique/polish loop under the approved message, real branding and offline
 constraints. The visual-direction guidance also draws on Impeccable 4.8.0
 `reference/new-work.md`; this is an original scoped adaptation, not its
 concept-randomisation or runner workflow. See `NOTICE.md`.
+For practical grouping, spacing, responsive order and motion decisions,
+also use `layout-motion-inspiration.md`. Its Codrops Creative Hub and
+React Bits references are optional inspiration, not brand authority or
+permission to change the approved medium.
 
 ## Separate the idea from its execution
 

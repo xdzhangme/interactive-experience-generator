@@ -416,6 +416,53 @@
         "sequence: Establishes visual treatment before expansion and retains the representative working-input checkpoint.",
         "reporting: Does not claim static preview evidence proves interaction feel, actual inspection or user approval."
       ]
+    },
+    {
+      "id": 27,
+      "name": "layout-priority-without-concept-replacement",
+      "stage": "text-only-refinement-plan",
+      "prompt": "Apply the generator's bundled layout guidance to these supplied observations only. Our approved official-photo-led showcase has its main action and explanation in distant equal-size cards. Everything has 24px spacing; utility controls dominate. On a phone the Dutch explanation overlaps the product, while CSS visual reordering leaves keyboard focus jumping across the screen. The exact product, gesture, palette and story are frozen. Give a narrow correction and evidence needed; do not browse, edit, install Impeccable, reopen concepts or claim rendered inspection.",
+      "expected_output": "A scoped spatial thesis, meaningful grouping and hierarchy, deliberate spacing rhythm and structural phone reflow preserving official imagery and the action/explanation relationship. Aligns meaningful DOM/focus order and includes rendered long-copy/state checks rather than changing identity or merely shrinking text.",
+      "files": [],
+      "expectations": [
+        "layout: Identifies primary reading/action path and groups related action, consequence and explanation.",
+        "rhythm: Uses existing semantic spacing roles with tight/loose contrast instead of uniform padding or arbitrary offsets.",
+        "responsive: Reflows the phone structure with Dutch copy and meaningful DOM/focus order rather than just reducing font size.",
+        "scope: Preserves official product, gesture, palette and company story without a new concept or installation.",
+        "evidence: Requires representative rendered states and hierarchy/overlap/focus checks; claims none occurred."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "motion-purpose-interruption-and-access",
+      "stage": "text-only-motion-plan",
+      "prompt": "Use the bundled Impeccable animate and Emil animation guidance, with no tools or edits. In our approved dial experience a 900ms ease-in keyframe restarts at zero on every drag update. Reset does not cancel it. A frequently used Sources control waits through a celebration, touch taps trigger sticky hover movement, and reduced motion hides the dial's state explanation. The visitor must retain drag and keyboard angle control. Recommend a motion correction within the existing plain HTML/CSS/JS runtime, without new libraries, speculative physics or a new concept. What needs observed verification?",
+      "expected_output": "Purpose/frequency-led restraint, immediate direct manipulation, current-state retargeting and cancellation/reconciliation, fast routine utility feedback, gated hover and a reduced-motion path preserving meaningful state/explanations. Keeps keyboard operation and requires exercised interruption/repeat/reset/access evidence rather than inferred smoothness.",
+      "files": [],
+      "expectations": [
+        "purpose: Removes celebration delays from routine utilities and assigns a purpose to retained motion.",
+        "agency: Maps dial angle directly to input without 900ms lag or repeated restart from zero.",
+        "continuity: Reconciles current state on repeat input, reversal, release/cancel and reset.",
+        "accessibility: Gates hover to suitable pointers and preserves explanation/state plus keyboard control under reduced motion.",
+        "runtime: Reuses the existing runtime and motion tokens without mandatory libraries or universal GPU/performance claims.",
+        "evidence: Requires exercised browser/device observations and does not claim measured frame rates or completed verification."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "optional-inspiration-not-bundled-components",
+      "stage": "text-only-reference-decision",
+      "prompt": "Assess only this supplied proposal; do not browse, edit or run commands. We want Codrops Creative Hub and React Bits to inspire our existing generator. A colleague wants to bundle twenty React Bits components into the .skill, assume all Codrops Hub demos share one MIT licence, use a remote React import in every output, and call reading demo text proof of motion quality. Browser access is unavailable today. The approved output is still one offline HTML file with authentic company assets and the confirmed visitor gesture. What should the integration do instead?",
+      "expected_output": "Uses local bundled layout/motion guidance when live reference inspection is unavailable, keeps references optional, records exact demo/provenance and observation limits when available, checks per-project terms and React Bits' Commons Clause restriction, and avoids component redistribution/runtime-network dependencies. Preserves brand/message/gesture and separates reference descriptions from observed interaction feel.",
+      "files": [],
+      "expectations": [
+        "reference: Treats Codrops Creative Hub and React Bits as optional inspiration, not a required browsing or install gate.",
+        "licence: Rejects a blanket Codrops MIT assumption and checks each demo's actual terms.",
+        "licence: Recognises React Bits' component-redistribution restriction and does not bundle a component pack.",
+        "offline: Rejects remote runtime imports and requires embedded dependencies with actual offline replay.",
+        "evidence: Distinguishes demo text/posters from observed motion and does not fabricate browser observations.",
+        "scope: Preserves official assets, message and gesture without turning the workflow into a mandatory React project."
+      ]
     }
   ]
 }

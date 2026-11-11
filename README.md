@@ -11,7 +11,7 @@ Every experience includes this visible disclaimer (with a Dutch equivalent):
 
 ## Install
 
-This repository is private. Sign in to GitHub with an account that has access.
+This repository is public; no GitHub sign-in is required to download the skill.
 
 **Cowork:** Open
 [`dist/interactive-experience-generator.skill`](dist/interactive-experience-generator.skill)
@@ -55,6 +55,13 @@ location. Keep the directory structure; `SKILL.md` alone is not enough.
   not novelty quotas or blanket bans on cards, sliders or buttons.
 - Include bundled Impeccable-adapted surface modes, visual direction,
   motion, critique and polish. No separate install, launcher or runtime.
+- Apply Impeccable layout/animate and Emil Kowalski's animation guidance:
+  clear grouping and hierarchy, responsive order, purposeful timing,
+  interruptible feedback, touch/keyboard access and reduced motion.
+- Use Codrops Creative Hub and React Bits selectively for interaction
+  inspiration, not as required services or copied component packs.
+  Check selected-project terms before code reuse; React Bits' current
+  licence is MIT plus a restrictive Commons Clause condition.
 
 The Impeccable integration is an attributed, scoped adaptation, not the
 full upstream skill or its command suite. It runs as guidance within this
@@ -72,17 +79,17 @@ does not permit substitutions; existing approved exceptions remain valid.
 
 ## Package
 
-The `.skill` file is a ZIP containing 13 files under
+The `.skill` file is a ZIP containing 15 files under
 `interactive-experience-generator/`. Package only `SKILL.md`, `references/`,
 `NOTICE.md`, and `licenses/`. Exclude README, evaluations, generated experiences,
 and local artifacts. Compare archive contents with source and update this
 SHA-256 after rebuilding:
 
 ```text
-839432221ad8592ea5844f20af0aaf9e57eee07a66b4ac999384d80f03fcb74e
+56bbe3399c6a55329666caec064cb6853b04703d735d7d71633ffce312b6eb7e
 ```
 
-[`evals/evals.json`](evals/evals.json) contains 26 evaluation prompts; `evals/files/`
+[`evals/evals.json`](evals/evals.json) contains 29 evaluation prompts; `evals/files/`
 contains a fictional SVG fixture. These stay outside the package. Their presence
 does not prove they passed or that Cowork downloads were tested.
 The execution probes cover visual staging, interaction choreography,
@@ -91,6 +98,8 @@ Impeccable integration and honest comparison/feedback limits. Text-only
 answers cannot establish improved rendered quality or interaction feel.
 Additional art-direction probes cover official-imagery dominance, useful
 unboxed composition, restrained supporting art and actual-treatment previews.
+Layout/motion probes cover grouping, responsive focus order, interruption,
+reduced motion and optional reference/licensing/offline boundaries.
 
 Keep [`NOTICE.md`](NOTICE.md) and [`licenses/`](licenses/) with redistributed
 copies for attribution and license terms.

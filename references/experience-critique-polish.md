@@ -9,6 +9,10 @@ This is not the full Impeccable runner or command workflow.
 Read this bundled guidance during normal builds and revisions; do not wait
 for a separate request to "use Impeccable." Its original scoped adaptation
 is extended here with the generator's own revision and usability rules.
+Read `layout-motion-inspiration.md` alongside this loop for the bundled
+Impeccable layout/animate and Emil animation decision guidance. It adds
+concrete structure, timing and interruption checks without a second
+critique workflow or mandatory external browsing.
 
 ## Boundaries and priority
 

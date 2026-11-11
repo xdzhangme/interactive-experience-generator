@@ -2,7 +2,7 @@
 name: interactive-experience-generator
 description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-11-public-resources-disclaimer"
+  revision: "2026-11-11-layout-motion-inspiration"
 ---
 
 # Interactive experience generator
@@ -30,6 +30,11 @@ workflow. This is a scoped, attributed adaptation, not the full upstream
 runtime.
 This built-in quality pass is part of every build and applicable revision,
 not an optional extra the person must request by naming Impeccable.
+`references/layout-motion-inspiration.md` adds scoped Impeccable layout
+and animate guidance, Emil Kowalski's animation decision sequence, and
+optional Codrops Creative Hub / React Bits inspiration. Read it alongside
+the quality pass for composition and motion, not as a new approval stage.
+The guidance ships locally; external examples are optional, not dependencies.
 
 ## After plan approval: use actual official assets in the page
 
@@ -298,7 +303,10 @@ continue with no single subject narrowed down.
 Read `references/concepts-and-interaction.md`, then
 `references/art-direction.md` and the Experience-led composition guidance
 in `references/experience-critique-polish.md`. Read
-`references/design-log.md` now and compare available recent work before
+`references/layout-motion-inspiration.md` for layout, motion purpose and
+selective Codrops Creative Hub / React Bits reference study. Record useful
+principles in the existing concept notes, not a copied design or new file.
+Read `references/design-log.md` now and compare available recent work before
 committing to execution patterns; do not wait until after delivery.
 Produce three solid concepts and one wild
 card. Every concept names: its visual medium, the visitor's main action,
@@ -346,8 +354,11 @@ settled choices.
 
 ### 7. Build the selected concept
 Read `references/art-direction.md` and
-`references/experience-critique-polish.md` for the chosen direction. If the
-concept uses spatial 3D, also read `references/threejs-craft.md`. Then read
+`references/experience-critique-polish.md` for the chosen direction. For
+layout or motion implementation/revisions, also apply
+`references/layout-motion-inspiration.md`: spatial priority, purposeful
+timing, interruption, accessible feedback and offline-safe implementation.
+If the concept uses spatial 3D, also read `references/threejs-craft.md`. Then read
 `references/build-and-delivery.md` and build to its requirements: one
 self-contained HTML file, full EN/NL, a Sources button, and a Download HTML
 action.
@@ -383,6 +394,9 @@ Follow the cold-start review and critique -> prioritise -> polish -> replay
 loop in `references/experience-critique-polish.md`. Inspect rendered evidence
 before fixing visual details; polish preserves the approved message, identity,
 content and behavior, not a concealed redesign.
+Use the layout and motion checks in `references/layout-motion-inspiration.md`
+for grouping, responsive order, timing, interruption and reduced motion.
+Reference links or installed libraries are not proof those checks passed.
 Render or preview the build and compare it against the selected mockup.
 Compare the hero with its official references, exercise the gesture and
 its input alternatives, and check explanations at the states that trigger
@@ -429,6 +443,7 @@ location exists, skip this step rather than inventing a history.
 | `references/concepts-and-interaction.md` | For concepts, selected-action choreography and interaction-execution revisions (steps 5–8). |
 | `references/art-direction.md` | For concepts, the selected execution direction contract, and visual-execution revisions (steps 5–8). |
 | `references/experience-critique-polish.md` | Bundled Impeccable-adapted modes, motion and visual/feel critique, prioritised polish and replay (steps 5–8). |
+| `references/layout-motion-inspiration.md` | Bundled Impeccable layout/animate and Emil animation guidance, plus optional Codrops Creative Hub / React Bits reference study and reuse boundaries (steps 5–8). |
 | `references/threejs-craft.md` | Only when the chosen concept uses spatial 3D (step 7). |
 | `references/build-and-delivery.md` | Before the representative-scene/core-loop gate, expansion, verification and delivery (steps 7–9). |
 | `references/design-log.md` | Before execution choices (step 5 or scoped revision), then after delivery (step 10). |
