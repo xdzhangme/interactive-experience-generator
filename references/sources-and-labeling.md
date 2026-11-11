@@ -3,6 +3,19 @@
 Two modes govern every experience this skill builds. Decide which one
 applies before writing a single fact.
 
+## Public-resources-only boundary
+
+Tell the person explicitly: "This experience will only be based on publicly
+available resources." Use only publicly available research and reference/brand
+assets, including when files are supplied by the person. Verify the public
+source URL before using a supplied company fact or asset; otherwise request
+a public equivalent or report the gap. Do not use private/internal documents,
+confidential information or resources requiring restricted access. Existing
+project authorization and substitute approvals do not override this boundary.
+Public availability does not itself grant reuse rights; keep the permission
+checks below. Original illustrative staging and ephemeral visitor input
+remain subject to their existing labeling and privacy rules.
+
 ## Researched mode
 Used whenever official sources exist for what was named.
 
@@ -235,6 +248,24 @@ Every delivered experience has one, listing:
   identify official files separately from reconstructed geometry.
 - In no-research mode: the "No research performed" label, in place of a
   source list.
+
+## Required demonstration disclaimer
+
+Include this exact English text in every delivered HTML:
+
+> This experience is generated entirely with Microsoft Copilot Cowork based on publicly available resources and for demonstration purposes only.
+
+Show it in a readable, unobtrusive footer or persistent disclosure area, not
+only in hidden markup or the Sources panel. Also include it in the Sources
+panel. Preserve it in previews, revisions and the downloaded offline file.
+In Dutch mode, use the equivalent:
+
+> Deze ervaring is volledig gegenereerd met Microsoft Copilot Cowork op basis van openbaar beschikbare bronnen en uitsluitend voor demonstratiedoeleinden.
+
+Keep the English wording verbatim in English mode. The disclaimer is required
+in fictional/no-research mode too; retain the separate "No research performed"
+label so it does not imply that research took place. It does not imply company
+endorsement, establish asset rights or replace specific illustrative disclosures.
 
 ## Writing style
 Keep the English and Dutch versions of all copy complete and equivalent —

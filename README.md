@@ -2,6 +2,12 @@
 
 Turn a company's verified story into a full-screen interactive experience.
 Deliver one offline HTML file with English/Dutch, sources, and a download button.
+Experiences are based only on publicly available resources, not private or
+internal material.
+
+Every experience includes this visible disclaimer (with a Dutch equivalent):
+
+> This experience is generated entirely with Microsoft Copilot Cowork based on publicly available resources and for demonstration purposes only.
 
 ## Install
 
@@ -73,7 +79,7 @@ and local artifacts. Compare archive contents with source and update this
 SHA-256 after rebuilding:
 
 ```text
-2da46388cdcf93a072e50a41dc536f103430e1a287f5623d5dc6944d07508532
+839432221ad8592ea5844f20af0aaf9e57eee07a66b4ac999384d80f03fcb74e
 ```
 
 [`evals/evals.json`](evals/evals.json) contains 26 evaluation prompts; `evals/files/`

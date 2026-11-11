@@ -85,6 +85,9 @@ delivery. Never substitute a non-portable result without saying so.
   `sources-and-labeling.md` (citations, illustrative disclosures, or the
   "No research performed" label).
 - A **Download HTML** action that saves the complete, working file.
+- A visible demonstration disclaimer and matching Sources-panel disclosure,
+  using the exact English wording and Dutch equivalent in
+  `sources-and-labeling.md`.
 
 ## The inspection and revision loop
 Adapted in spirit from Anthropic's `webapp-testing` skill
@@ -224,6 +227,10 @@ with the reason rather than counting them as passes.
       Switch language mid-interaction and verify the currently visible
       explanation, controls, accessible labels, Sources and completion state.
 - [ ] Sources panel is present and matches what was actually used.
+- [ ] Research, company claims and reference/brand assets use only verified
+      publicly available resources; supplied files meet the same boundary.
+- [ ] The required disclaimer is readable in the experience and Sources panel
+      in both languages, and survives downloading and reopening offline.
 - [ ] Every illustrative element is labelled as such, in the panel or inline.
 - [ ] Brand guidelines are followed, or the compliance gap is disclosed.
 - [ ] Embedded assets have documented permitted reuse; unclear rights were

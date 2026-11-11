@@ -2,7 +2,7 @@
 name: interactive-experience-generator
 description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-09-imagery-led-unboxed-showcases"
+  revision: "2026-11-11-public-resources-disclaimer"
 ---
 
 # Interactive experience generator
@@ -163,6 +163,18 @@ at delivery rather than substituting a hosted or non-portable result.
 
 These hold across every step; re-check them at delivery, not just once.
 
+- **Use only publicly available resources.** State explicitly at intake:
+  "This experience will only be based on publicly available resources."
+  Apply this boundary to company research, factual claims and reference/brand
+  assets, including supplied files: verify their public origin before use.
+  Do not use private/internal documents, confidential information or
+  restricted-access resources. Project authorization does not waive this
+  boundary or applicable reuse terms. Visitor input for the approved
+  interaction is not a research source and retains its existing privacy rules.
+- **Include the demonstration disclaimer.** Every delivered HTML must visibly
+  include: "This experience is generated entirely with Microsoft Copilot Cowork based on publicly available resources and for demonstration purposes only."
+  Follow `references/sources-and-labeling.md` for placement and translation;
+  preserve it in previews, revisions and downloaded exports.
 - **Facts need an official source, with a link.** A missing technical detail
   narrows the explanation; it is never invented to fill a gap.
 - **Illustrative staging is allowed, factual claims are not.** A stylised
