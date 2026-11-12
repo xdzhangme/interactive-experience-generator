@@ -21,23 +21,8 @@ deck. Each experience includes:
 - **Sources and Download HTML buttons** — with assets embedded for offline use.
 
 Visual direction, interaction design, critique, and polish guidance are bundled.
-No separate design-skill installation is needed.
-
-### Offline inspiration library
-
-The skill includes **30 curated patterns** informed by Codrops Creative Hub
-and React Bits. Each stores an original mechanism description, source/date,
-evidence limits, suitable uses, avoid cases, accessibility and offline
-implementation principles. The agent matches visitor needs to relevant
-patterns before proposing concepts, even without browsing.
-
-This is reference knowledge, not model training, copied components or
-tested visual demos. Company facts and branded assets still need official
-evidence. See the [pattern index](references/pattern-library/INDEX.md).
-
-Weekly research is an app-local automation, not part of the installed
-skill or a public update service. It leaves local changes for review and
-does not commit or push. Reviewed updates need redistribution and re-import.
+A new offline inspiration library helps the agent choose interactions that fit
+the visitor's goal. No separate design-skill installation is needed.
 
 ## Install
 
@@ -85,13 +70,27 @@ select. It checks a representative interactive scene before expanding, then
 reviews the result and offline export. For revisions, it preserves approved
 choices and changes the requested part instead of restarting.
 
-Generator guidance, bundled Impeccable layout/motion principles, Emil's
-animation advice and relevant creative references inform the four options
-together. Each option explains its composition, action, consequence, motion
-purpose and accessible alternatives. During building, the agent revisits
-the selected references to refine layout, feedback and motion, then reviews
-the working result against those decisions. References support the approved
-brief and generator requirements; they do not replace them.
+## Built-in inspiration, from concept to review
+
+The skill includes **30 curated patterns** informed by Codrops Creative Hub
+and React Bits. The agent matches a visitor's goal — such as comparing,
+discovering, or manipulating — to useful mechanisms, rather than picking effects
+for decoration. It can read these references without browsing.
+
+The generator's storytelling guidance, bundled Impeccable layout principles,
+and Emil Kowalski's animation advice work together throughout:
+
+| Stage | How the guidance is used |
+| --- | --- |
+| Concepts | Explain the layout, visitor action, visible result, motion purpose, and accessible alternatives for each option. |
+| Build | Carry the selected ideas into responsive layout, feedback, motion, and recovery. Refine them in a working scene. |
+| Review | Compare the actual experience with the approved choices, not just its appearance or source references. |
+
+Each pattern records its source, review date, evidence limits, suitable uses,
+avoid cases, and accessibility/offline guidance. These are original analytical
+descriptions, **not copied components, model training, or tested demos**. They
+support the brief; they do not replace official company research or assets.
+See the [pattern index](references/pattern-library/INDEX.md).
 
 ## Important limits
 
@@ -132,19 +131,32 @@ dependency; check each project's terms before reusing its code.
 
 The `.skill` file is a ZIP containing 19 files under
 `interactive-experience-generator/`. Package only `SKILL.md`, `references/`,
-`NOTICE.md`, `licenses/`, and `scripts/manage_patterns.py`; exclude the README, README assets, evaluations,
-generated experiences, and local artifacts.
+`NOTICE.md`, `licenses/`, and `scripts/manage_patterns.py`. Exclude the README,
+README assets, evaluations, generated experiences, and local artifacts.
 
-After rebuilding, compare the archive with the source files and update its
-SHA-256 here:
+For maintainers, run these commands from the repository root:
 
-Use `python scripts\manage_patterns.py --package` to validate the pattern
-records, rebuild and byte-check the archive, and update the counts/hash.
-Python is optional for pattern retrieval; text search and reading suffice.
+```powershell
+python scripts\manage_patterns.py --check
+python scripts\manage_patterns.py --search compare
+python scripts\manage_patterns.py --package
+```
+
+`--check` validates stored records and local references; it does not test the
+visuals. `--search` finds candidate patterns by text. `--package` validates,
+rebuilds, byte-checks the archive against source, and updates README counts and
+the SHA-256 below. Python is optional for using the library: reading and text
+search are enough.
 
 ```text
 5d454bdafb53621d17ef908984419c896baf940aa0cf74c4fc5db6b3bcf0c51c
 ```
+
+**Installed copies do not update themselves.** Weekly research is an app-local
+automation, not part of the installed skill or a public update service. It leaves
+local changes for review without committing or pushing. Reviewed updates must be
+repackaged, redistributed, and re-imported. See
+[library maintenance](references/pattern-library/MAINTENANCE.md).
 
 [`evals/evals.json`](evals/evals.json) contains 33 evaluation prompts;
 [`evals/files/`](evals/files/) holds a fictional SVG fixture. Neither is included
