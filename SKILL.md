@@ -2,7 +2,7 @@
 name: interactive-experience-generator
 description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Matches visitor needs against a bundled offline pattern library informed by Codrops and React Bits. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-12-reference-lifecycle"
+  revision: "2026-11-12-asset-preflight"
 ---
 
 # Interactive experience generator
@@ -45,6 +45,26 @@ Use the generator's own storytelling, interaction, art-direction, asset,
 concepts, implementation and review. Confirmed intent and the generator's
 factual, asset, accessibility and offline requirements set the boundaries;
 external principles and stored examples support them, not override them.
+
+## Before intake questions: check asset retrieval
+
+For real-company requests, check the session's exposed retrieval tools before
+offering an asset-upload question. Read the "Obtain official files yourself"
+procedure in `references/sources-and-labeling.md`. When the company and asset
+identity are clear enough, locate a permitted official file, attempt to save
+it and validate the result before asking the person to download it instead.
+This acquisition check does not approve a concept or start the full build.
+If identity or permission needs a consequential answer first, ask only that
+question; do not describe an unattempted download as blocked.
+
+An upload request needs evidence: name the affected asset and source URL,
+the available method attempted and actual error/status, and why another
+available permitted route cannot resolve it. If no file-retrieval tool is
+exposed, say that explicitly without inventing an attempt. Page-text/search
+tools alone prove neither download capability nor its absence. Use the
+blocker format in the reference; do not offer a generic "I'll attach them /
+concepts first" questionnaire in place of this check. Reuse verified supplied
+files without downloading them again.
 
 ## After plan approval: use actual official assets in the page
 
@@ -262,6 +282,8 @@ notion — at face value. Extract the confirmed requirements without silently
 choosing a product variant or inventing a branded prop. Ask at most three
 initial questions, only when needed to research or avoid a consequential
 misinterpretation. Ask one at a time; skip what the brief already answers.
+Complete the asset-retrieval preflight above before any upload-choice question;
+ordinary identity/intent questions need not wait for asset acquisition.
 Researchable ambiguity can wait for the brief playback.
 **Done when:** you can state the brief in one or two sentences with remaining
 assumptions identified, or you're waiting on a necessary answer.

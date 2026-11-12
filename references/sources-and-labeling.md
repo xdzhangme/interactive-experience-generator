@@ -194,6 +194,30 @@ normal access approval, or an object-specific exception. Continue work that
 does not depend on the missing file without claiming branded delivery is
 complete. Never invent a download attempt or a successful verification.
 
+### Evidence before an upload question
+
+Apply this check during intake, not only after concept approval. A premature
+upload questionnaire transfers agent work to the person and makes an
+untested limitation sound established. Before asking for files, include this
+compact record in the existing response, not a separate document:
+
+- **Asset/source:** the specific missing file and inspected official page or
+  direct file URL; say if the URL could not be established.
+- **Retrieval evidence:** the exposed retrieval method, attempted URL and
+  observed error/status, or "No file-retrieval tool is exposed in this
+  session" if tool inspection establishes that limitation.
+- **Alternative/remedy:** the relevant permitted alternative tried and its
+  result, or why none is available or appropriate; then request only the
+  file or normal access approval that resolves the remaining blocker.
+
+A failed method does not establish that all retrieval is unavailable. For
+example, missing curl is not a reason to request uploads when a permitted
+browser download or network-enabled Python is available. Conversely, do not
+keep retrying a security denial or pretend a page-text response saved an
+image. Do not invent URLs, tools, errors or completed checks to fill this
+record. When no retrieval tool is exposed, do not imply that a download
+failed or require an impossible attempt.
+
 ## Hero-object evidence
 
 For each real product or machine the visitor manipulates, record:

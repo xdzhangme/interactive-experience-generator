@@ -527,6 +527,49 @@
         "review: Compares observed composition and before/during/after behavior with accepted adaptations; endpoint tests alone do not prove feel or meaning.",
         "honesty: Claims no actual code, browser inspection, performance measurement or completed acceptance."
       ]
+    },
+    {
+      "id": 34,
+      "name": "asset-preflight-before-upload-questionnaire",
+      "stage": "text-only-retrieval-decision",
+      "prompt": "Assess this supplied Cowork intake trace only; do not browse, download, edit or claim you executed tools. The user requested an interactive experience for Haskoning and authorized project use of its official logo and project photos. Identity is settled. Tool inspection in this fixture confirms official-page browsing and a binary file-fetch tool that can save to the working folder. Neither has been used yet. The draft second intake question says: 'I can't download official image files in this session. How should we get the Haskoning logo and project photos?' Choices: 'I'll attach them' and 'Concepts first'. Using the skill, decide whether this question can be sent and give the next action. Do not invent actual asset URLs or retrieval outcomes.",
+      "expected_output": "Rejects the premature upload question and unsupported limitation. Directs the agent to inspect official pages for actual asset URLs, use the exposed file-fetch tool, validate saved assets and report evidence only if a genuine blocker remains; does not claim the supplied decision was an executed download.",
+      "files": [],
+      "expectations": [
+        "timing: Rejects the upload questionnaire before it is sent rather than deferring acquisition until after concept approval.",
+        "action: Uses the available binary file-fetch route after locating permitted official file URLs and requires validation of saved bytes.",
+        "evidence: Requires a specific asset/source, observed retrieval failure and relevant alternative assessment before asking for uploads.",
+        "honesty: Invents no URL, download attempt, successful file, tool error or verified Cowork execution.",
+        "scope: Does not reopen settled identity/authorization or start an unapproved full build."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "asset-preflight-no-retrieval-tool",
+      "stage": "text-only-retrieval-decision",
+      "prompt": "Assess this supplied fixture only; no tools, edits or actual downloads. A real-company brief and project-use authorization are settled. The official asset URLs are not yet known. The complete inspected tool inventory contains only web search, page-text reading and HTML text output: no binary fetch, shell, browser file saving or other file-retrieval route. No official files were supplied. What should the agent say before asking the user for the missing official logo and photos? Apply the skill without inventing URLs, HTTP failures, download attempts or unavailable tools.",
+      "expected_output": "Explains that no file-retrieval tool is exposed based on the supplied complete inventory, not a fabricated failed download. Identifies missing logo/photos and unknown source URLs honestly, requests the smallest file/access remedy, and continues independent work without claiming authentic assets or completed delivery.",
+      "files": [],
+      "expectations": [
+        "capability: Explicitly identifies that no file-retrieval tool is exposed, using the supplied complete inventory rather than assuming this from page-text access alone.",
+        "honesty: Does not invent a download attempt, source URL, HTTP error or successful verification.",
+        "remedy: Requests only the specific authorized missing files or an appropriate normal access remedy rather than forcing an impossible attempt.",
+        "boundary: Keeps branded completion blocked while permitting independent research/concept work without silently substituting assets."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "asset-preflight-one-method-failure-is-not-global",
+      "stage": "text-only-retrieval-decision",
+      "prompt": "Assess only this supplied intake trace; do not execute tools or claim real retrieval. The exact company logo and project-use authorization are confirmed, and its official direct SVG URL has been inspected but is not reproduced here. A shell attempt reports curl is not installed. The inspected inventory also includes network-enabled Python capable of saving files. No network/security denial occurred. A teammate wants to ask the user to upload all assets because 'downloads are unavailable'. Give the next action under the skill and explain what would justify an upload request. Do not invent a URL or the result of the next attempt.",
+      "expected_output": "Uses the available permitted Python retrieval route for the already inspected official URL and validates the result before declaring a blocker. Missing curl alone cannot justify upload delegation; a remaining blocker needs actual evidence and a narrowly scoped remedy without invented outcomes or security bypass.",
+      "files": [],
+      "expectations": [
+        "alternative: Requires attempting available network-enabled Python rather than treating missing curl as global download failure.",
+        "validation: Requires confirming the saved file is a valid intended asset, not just a successful command or an SVG filename.",
+        "blocker: Conditions any upload request on actual remaining failure and evidence about the asset/source, method/error and alternatives.",
+        "honesty: Makes no invented URL, successful download or actual execution claim and does not propose bypassing restrictions."
+      ]
     }
   ]
 }

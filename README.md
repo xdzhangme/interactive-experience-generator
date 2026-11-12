@@ -102,6 +102,11 @@ does not provide those tools or grant asset reuse rights.
 Required official images, logos, packaging, and models must be obtained and
 permitted for use. Missing assets block completion unless you explicitly approve
 a specific substitute. Approving a concept does not approve drawn lookalikes.
+Before asking you to upload assets, the agent checks its retrieval tools and,
+when possible, attempts the official download. A blocked request must identify
+the asset/source and actual retrieval failure, or explicitly state that no
+file-retrieval tool is exposed. This reduces premature upload requests; it
+cannot add missing tools or guarantee agent compliance.
 
 Every experience visibly includes this disclaimer, with a Dutch equivalent:
 
@@ -149,7 +154,7 @@ the SHA-256 below. Python is optional for using the library: reading and text
 search are enough.
 
 ```text
-5d454bdafb53621d17ef908984419c896baf940aa0cf74c4fc5db6b3bcf0c51c
+9f3584839e3e21a0ab2518d090558a4407dee92f288a3a345f658420b7864794
 ```
 
 **Installed copies do not update themselves.** Weekly research is an app-local
@@ -158,7 +163,7 @@ local changes for review without committing or pushing. Reviewed updates must be
 repackaged, redistributed, and re-imported. See
 [library maintenance](references/pattern-library/MAINTENANCE.md).
 
-[`evals/evals.json`](evals/evals.json) contains 33 evaluation prompts;
+[`evals/evals.json`](evals/evals.json) contains 36 evaluation prompts;
 [`evals/files/`](evals/files/) holds a fictional SVG fixture. Neither is included
 in the package. Their presence does not prove they passed or that Cowork
 downloads were tested. Text-only answers cannot establish rendered visual
