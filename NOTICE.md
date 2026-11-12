@@ -132,6 +132,21 @@ https://github.com/emilkowalski/skills/blob/715c1807e08c497cfd1dc4feb450a2a3300e
   supplies original reference-selection and offline-delivery instructions.
   Actual reuse in a generated experience requires checking the selected
   version's applicable terms and preserving its notices.
+- **Generator revision, 2026-11-12:** added
+  `references/pattern-library/` with original analytical descriptions and
+  primary-source links, not third-party code, media, ports or executable
+  examples. Source evidence is labelled per record; proposed company uses,
+  accessible alternatives and offline implementation principles are
+  generator-authored analysis, not claims about the source's implementation.
+  `scripts/manage_patterns.py` is original standard-library management
+  tooling. Local scheduled curation updates documents, not model weights;
+  automation configuration is not bundled or enabled on recipients' machines.
+- **Reference-lifecycle clarification, 2026-11-12:** original integration
+  guidance now explicitly combines the generator's own guides, bundled
+  Impeccable/Emil principles and creative references during concept
+  development, selected-concept implementation and observed review.
+  Reference-use notes stay within existing records; no new upstream
+  material, external dependency, approval round or licence change is added.
 
 ## Before external or customer-facing distribution
 The subsequent actual-assets implementation clarification requires official

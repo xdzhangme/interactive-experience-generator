@@ -23,6 +23,22 @@ deck. Each experience includes:
 Visual direction, interaction design, critique, and polish guidance are bundled.
 No separate design-skill installation is needed.
 
+### Offline inspiration library
+
+The skill includes **30 curated patterns** informed by Codrops Creative Hub
+and React Bits. Each stores an original mechanism description, source/date,
+evidence limits, suitable uses, avoid cases, accessibility and offline
+implementation principles. The agent matches visitor needs to relevant
+patterns before proposing concepts, even without browsing.
+
+This is reference knowledge, not model training, copied components or
+tested visual demos. Company facts and branded assets still need official
+evidence. See the [pattern index](references/pattern-library/INDEX.md).
+
+Weekly research is an app-local automation, not part of the installed
+skill or a public update service. It leaves local changes for review and
+does not commit or push. Reviewed updates need redistribution and re-import.
+
 ## Install
 
 ### Microsoft Copilot Cowork
@@ -42,6 +58,7 @@ interactive-experience-generator/
   references/
   NOTICE.md
   licenses/
+  scripts/
 ```
 
 `SKILL.md` alone is not enough.
@@ -68,6 +85,14 @@ select. It checks a representative interactive scene before expanding, then
 reviews the result and offline export. For revisions, it preserves approved
 choices and changes the requested part instead of restarting.
 
+Generator guidance, bundled Impeccable layout/motion principles, Emil's
+animation advice and relevant creative references inform the four options
+together. Each option explains its composition, action, consequence, motion
+purpose and accessible alternatives. During building, the agent revisits
+the selected references to refine layout, feedback and motion, then reviews
+the working result against those decisions. References support the approved
+brief and generator requirements; they do not replace them.
+
 ## Important limits
 
 Research and company assets must come from **publicly available resources**,
@@ -91,6 +116,8 @@ The detailed guidance stays in the skill, so you do not need to read it to start
 - [Visual direction](references/art-direction.md) and
   [interaction design](references/concepts-and-interaction.md)
 - [Critique and polish](references/experience-critique-polish.md)
+- [Offline pattern matching](references/pattern-library/INDEX.md) and
+  [library maintenance](references/pattern-library/MAINTENANCE.md)
 - [Sources and asset rules](references/sources-and-labeling.md)
 - [Build and delivery checks](references/build-and-delivery.md)
 - [Attribution and license terms](NOTICE.md)
@@ -103,19 +130,23 @@ dependency; check each project's terms before reusing its code.
 <details>
 <summary>Package contents and evaluation notes</summary>
 
-The `.skill` file is a ZIP containing 15 files under
+The `.skill` file is a ZIP containing 19 files under
 `interactive-experience-generator/`. Package only `SKILL.md`, `references/`,
-`NOTICE.md`, and `licenses/`; exclude the README, README assets, evaluations,
+`NOTICE.md`, `licenses/`, and `scripts/manage_patterns.py`; exclude the README, README assets, evaluations,
 generated experiences, and local artifacts.
 
 After rebuilding, compare the archive with the source files and update its
 SHA-256 here:
 
+Use `python scripts\manage_patterns.py --package` to validate the pattern
+records, rebuild and byte-check the archive, and update the counts/hash.
+Python is optional for pattern retrieval; text search and reading suffice.
+
 ```text
-56bbe3399c6a55329666caec064cb6853b04703d735d7d71633ffce312b6eb7e
+5d454bdafb53621d17ef908984419c896baf940aa0cf74c4fc5db6b3bcf0c51c
 ```
 
-[`evals/evals.json`](evals/evals.json) contains 29 evaluation prompts;
+[`evals/evals.json`](evals/evals.json) contains 33 evaluation prompts;
 [`evals/files/`](evals/files/) holds a fictional SVG fixture. Neither is included
 in the package. Their presence does not prove they passed or that Cowork
 downloads were tested. Text-only answers cannot establish rendered visual

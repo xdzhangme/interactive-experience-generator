@@ -19,6 +19,11 @@ some briefs are better served staying at the company or product level.
 Start from the confirmed message brief in `references/message-and-brand.md`.
 All four communicate that same company message and takeaway. Vary how the
 visitor experiences the evidence, not what the company is meant to say.
+Before shaping the options, combine the relevant generator guidance with
+the bundled Impeccable and Emil advice in `layout-motion-inspiration.md`.
+Use `pattern-library/INDEX.md` to retrieve helpful examples and follow its
+concept/build/review handoffs. These are simultaneous design inputs, not
+an inspiration pass followed by a late visual/motion pass.
 
 Three solid concepts and one wild card. Each concept is a short pitch
 stating:
@@ -29,6 +34,11 @@ stating:
 - **The visitor's main action**: what they do with their hands or attention
   — fly through, scrub a cutaway, scroll a journey, adjust a control,
   compare two states.
+- **Composition and hierarchy**: what leads, where the action and current
+  explanation sit, and how the arrangement remains useful on a phone.
+- **Motion purpose and feel**: what movement explains or acknowledges,
+  what stays still, and how direct feedback, interruption and reduced
+  motion preserve the action. Exact curves/durations can be refined in code.
 - **The company message and takeaway**: what the visitor should understand
   about the company afterward, and which real offering provides the proof.
   Completing a task or counting explored products is not that takeaway.
@@ -43,6 +53,15 @@ stating:
 - **Story arc**: how the opening frames the message, the main moments
   demonstrate it and the ending connects the visitor's actions to the
   company takeaway. Include real permitted identity in the composition.
+- **Reference adaptation**: which relevant generator/principle guidance
+  and stored pattern IDs inform this option, what is adapted or rejected,
+  and why it fits the message. Keep source dates/evidence limits in the
+  existing notes. Explain an original mechanism when no stored one fits;
+  no source quota or pasted component is required.
+
+Carry the selected option's reference decisions into its execution
+contract and choreography. Revisit the relevant guidance while building
+and reviewing, rather than treating references as exhausted after ideation.
 
 The wild card takes a genuine conceptual risk — an unexpected angle, an
 unusual medium, an unconventional entry point — while still respecting the

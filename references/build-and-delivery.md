@@ -9,6 +9,14 @@ before expanding to secondary scenes or final polish. Use the actual
 permitted assets or an explicitly agreed prototype substitute; a neutral spike is not
 permission to replace branded assets in the finished page.
 
+Reopen the selected reference-use note and pattern records alongside the
+applicable generator, Impeccable and Emil guidance. Translate the accepted
+adaptations into the actual layout, phone reflow, state/feedback,
+timing/easing, cancellation/recovery and offline construction. Keep the
+approved concept and asset/medium contract; a convenient example does not
+authorise a replacement. Refine numerical motion choices in the working
+slice rather than treating a reference description as measured behavior.
+
 This extends the core-loop gate rather than adding a second prototype.
 Keep the slice small but representative: subject scale, framing,
 explanation/control placement, one meaningful intermediate state and the
@@ -40,6 +48,12 @@ Inspect three dimensions separately before continuing:
   follows changes without waiting for a canned ending, and handles
   interruption, repeat input and recovery. Keyboard/touch equivalents
   preserve meaning, and reduced motion preserves state feedback.
+
+For each applicable reference adaptation, compare the intended principle
+with observed scene behavior and record any deliberate within-scope
+adjustment. A source link or visual imitation is not evidence that the
+principle works. Keep these observations alongside the three dimensions
+above, not as a new score or approval gate.
 
 Record viewport, state, input and evidence in the existing session record:
 rendered captures for composition and an exercised browser trace, recording

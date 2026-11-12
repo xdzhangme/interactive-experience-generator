@@ -6,6 +6,15 @@ adaptations of Impeccable layout/animate and Emil Kowalski's animation
 guidance. See `NOTICE.md` for pinned sources and bundled licences.
 Codrops Creative Hub and React Bits are optional live references, not
 required installations, copied component collections or runtime services.
+Use `pattern-library/INDEX.md` and `pattern-library/patterns.json` for
+stored examples before optional live study. Their original analyses
+retain source dates, evidence limits, appropriate uses and accessible
+offline adaptations; source descriptions are not rendered observations.
+Follow the guidance-role and concept/build/review handoffs in
+`pattern-library/INDEX.md`. Apply these layout and motion principles
+while developing all four options, revisit them for the selected working
+scene, and compare their accepted adaptations during critique. They
+supplement the generator's own guides rather than replace them.
 
 The approved message, identity, medium, gesture and selected composition
 take priority. These techniques improve how that experience communicates;
@@ -138,6 +147,10 @@ During ideation, inspect a small relevant sample when live access is
 available. Stop when a useful principle is found; do not browse a whole
 catalogue or force a reference into every concept. During a narrow revision,
 skip browsing when the approved preview and requested correction suffice.
+Without browsing, retrieve and map relevant stored patterns instead of
+falling back to generic rules alone. Cite their IDs and recorded dates
+in the existing concept notes. Library knowledge does not supply missing
+official company evidence, assets, permissions or visual/input validation.
 
 Record a compact inspiration note in the existing concept/execution record:
 exact demo URL and access date, observed input and response, useful

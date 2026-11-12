@@ -1,8 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
+description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Matches visitor needs against a bundled offline pattern library informed by Codrops and React Bits. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
 metadata:
-  revision: "2026-11-11-layout-motion-inspiration"
+  revision: "2026-11-12-reference-lifecycle"
 ---
 
 # Interactive experience generator
@@ -35,6 +35,16 @@ and animate guidance, Emil Kowalski's animation decision sequence, and
 optional Codrops Creative Hub / React Bits inspiration. Read it alongside
 the quality pass for composition and motion, not as a new approval stage.
 The guidance ships locally; external examples are optional, not dependencies.
+`references/pattern-library/INDEX.md` maps visitor needs to the bundled
+`references/pattern-library/patterns.json` records. Read relevant original
+pattern analyses even when browsing is unavailable. This is stored
+reference knowledge, not trained model weights, copied components or
+observed proof that the generated interaction works.
+Use the generator's own storytelling, interaction, art-direction, asset,
+3D, revision and delivery guidance alongside those resources throughout
+concepts, implementation and review. Confirmed intent and the generator's
+factual, asset, accessibility and offline requirements set the boundaries;
+external principles and stored examples support them, not override them.
 
 ## After plan approval: use actual official assets in the page
 
@@ -300,12 +310,22 @@ continue with no single subject narrowed down.
 **Done when:** the subject (or its absence) is settled.
 
 ### 5. Develop four concepts
+Apply generator guidance, Impeccable layout/motion principles and Emil's
+animation advice while forming the options, not only after selection.
 Read `references/concepts-and-interaction.md`, then
 `references/art-direction.md` and the Experience-led composition guidance
 in `references/experience-critique-polish.md`. Read
 `references/layout-motion-inspiration.md` for layout, motion purpose and
 selective Codrops Creative Hub / React Bits reference study. Record useful
 principles in the existing concept notes, not a copied design or new file.
+Use `references/pattern-library/INDEX.md` to retrieve relevant stored
+patterns before optional live browsing. Match the user's goal, subject,
+medium and gesture; shortlist useful mechanisms, then check their avoid
+cases and accessible/offline adaptations. In existing concept notes,
+identify any reused pattern IDs, source dates, evidence limits and
+input -> consequence -> company-meaning fit. Four records are not four
+complete concepts. No match is permission for an original mechanism,
+not a reason to change the approved brief.
 Read `references/design-log.md` now and compare available recent work before
 committing to execution patterns; do not wait until after delivery.
 Produce three solid concepts and one wild
@@ -317,6 +337,9 @@ they communicate the same approved message through genuinely different
 treatments. Include an action-consequence-company-meaning-proof mapping,
 an opening that frames the promise, an ending that joins the story, and
 accessible input equivalents. Variety is not permission to change purpose.
+Each option also states composition, motion purpose and relevant reference
+adaptations using `references/concepts-and-interaction.md`; motion may
+deliberately be minimal. Keep these decisions in the existing concept notes.
 **Done when:** all four concepts pass the message, intent and
 self-critique checks. A purely atmospheric wild card cannot bypass them.
 
@@ -353,6 +376,11 @@ are concrete enough to guide the representative scene without reopening
 settled choices.
 
 ### 7. Build the selected concept
+Revisit the selected pattern records and applicable generator, Impeccable
+and Emil guidance before implementation. Carry their accepted adaptations
+from the concept notes into layout, responsive behavior, input feedback,
+timing, interruption, recovery and offline construction. Refine exact
+values through the working scene; do not silently substitute another pattern.
 Read `references/art-direction.md` and
 `references/experience-critique-polish.md` for the chosen direction. For
 layout or motion implementation/revisions, also apply
@@ -397,6 +425,8 @@ content and behavior, not a concealed redesign.
 Use the layout and motion checks in `references/layout-motion-inspiration.md`
 for grouping, responsive order, timing, interruption and reduced motion.
 Reference links or installed libraries are not proof those checks passed.
+Compare actual behavior and composition with the selected reference
+adaptations as well as the approved concept, using observed evidence.
 Render or preview the build and compare it against the selected mockup.
 Compare the hero with its official references, exercise the gesture and
 its input alternatives, and check explanations at the states that trigger
@@ -444,6 +474,8 @@ location exists, skip this step rather than inventing a history.
 | `references/art-direction.md` | For concepts, the selected execution direction contract, and visual-execution revisions (steps 5–8). |
 | `references/experience-critique-polish.md` | Bundled Impeccable-adapted modes, motion and visual/feel critique, prioritised polish and replay (steps 5–8). |
 | `references/layout-motion-inspiration.md` | Bundled Impeccable layout/animate and Emil animation guidance, plus optional Codrops Creative Hub / React Bits reference study and reuse boundaries (steps 5–8). |
+| `references/pattern-library/INDEX.md` | For guidance roles and reference handoffs across concepts, building and review; retrieve selected records from `references/pattern-library/patterns.json` without requiring browsing. |
+| `references/pattern-library/MAINTENANCE.md` | Only when curating or refreshing the reference library, not during ordinary experience creation. |
 | `references/threejs-craft.md` | Only when the chosen concept uses spatial 3D (step 7). |
 | `references/build-and-delivery.md` | Before the representative-scene/core-loop gate, expansion, verification and delivery (steps 7–9). |
 | `references/design-log.md` | Before execution choices (step 5 or scoped revision), then after delivery (step 10). |
