@@ -19,6 +19,15 @@ remain subject to their existing labeling and privacy rules.
 ## Researched mode
 Used whenever official sources exist for what was named.
 
+- Research the relevant accessible official pages: the homepage/brand
+  identity, named offering or project, supporting case studies, media/press
+  pages and public PDFs when readable. Use their verified facts, original
+  summaries and relevant permitted imagery to shape the experience, not a
+  generic page with a logo added. Follow useful official links within the
+  brief; do not indiscriminately crawl, mirror the whole site or claim
+  "everything" was collected. Record inspected coverage and inaccessible
+  pages. Respect access controls, applicable terms and copyright; do not
+  reproduce entire articles or a site's full content.
 - Pull facts only from official sources: the company's own site, investor
   or press materials, product documentation, regulators, or industry bodies
   that publish about that specific company. Record the exact URL and the
@@ -69,9 +78,10 @@ labels, accessories, equipment, environments and brand marks.
    product/service page, brand/media kit and available asset downloads.
    Prefer supplied verified official files when already authorised.
 2. Select the suitable official asset with applicable reuse permission.
-   Acquire and embed/import that file so it is actually visible in the
-   delivered page and its interaction states. A source link alone, an
-   unused embedded asset, or a photo used only as drawing reference fails.
+   Load the actual asset URL in the online page, or use a verified supplied
+   file, so it is visible in the relevant interaction states. Embed/import
+   all dependencies for explicitly requested offline export. A citation
+   alone, an unused asset, or a photo used only as drawing reference fails.
    An actual product photo may be the right flat asset; an explicitly
    spatial scene needs a real model, so look for an official model first.
    Do not treat photo provenance, a 3D runtime and a visitor gesture as
@@ -87,22 +97,67 @@ labels, accessories, equipment, environments and brand marks.
    artwork only as a deliberately approved exception/prototype, not the
    default first build or an equivalent authentic branded delivery.
 
-Keep a compact per-object record: actual identity, official source and
-local/embedded file, reuse status, selected medium, rendered locations/states,
+Keep a compact per-object record: actual identity, official source page,
+direct asset URL, local/embedded file if present, reuse status, selected
+medium, rendered locations/states,
 and any reason and object-specific approval for a fallback.
 No new planning document is required. Resolve a consequential gap before
 building around a substitute, rather than asking the person to notice it
 later. A search snippet alone is not an asset inspection, and an unavailable
 model is not proof that no official product imagery exists. If the agreed
 medium requires a model and no usable official model is available, mark
-that object blocked and ask for a supplied asset or a specific exception;
-do not automatically manufacture geometry or silently switch to a photo.
+that object blocked and seek a specific medium/substitute exception if needed;
+do not ask for supplied files unless the person requests help supplying them.
+Do not automatically manufacture geometry or silently switch to a photo.
 
 Do not redesign an already approved reconstruction merely because an
 official asset later becomes available; preserve the revision's frozen
 scope unless the person asks for replacement.
 
-## Obtain official files yourself
+## Online-first official assets
+
+Default to one online-dependent HTML using actual official asset URLs.
+Finding and using a real logo or image URL does not require saving its bytes
+in the agent workspace. Do not demand downloads/uploads before research,
+concepts, previews or the online build. Reuse verified supplied assets.
+
+Use the URL-location procedure below. A company-linked CDN can establish
+official provenance; an invented URL, search thumbnail or text wordmark
+cannot replace the actual asset. Record the official page, direct URL,
+identity, reuse scope, and observed/unverified loading and visual checks.
+Do not add private or authenticated URLs, credentials or expiring signed
+links to exported HTML.
+
+Use real URLs in image elements or the appropriate model loader, with
+meaningful alt text and explicit error feedback. Do not label an image
+failure as a loaded logo, silently draw a lookalike or hide a missing required
+asset behind a success state. A visible image can load cross-origin while
+browser fetch, canvas pixel reading or model/texture loading is denied by
+CORS. Test the actual use when possible and mark unobserved loads unverified.
+Do not add a proxy, spoof headers, disable security or recommend an unrelated
+enterprise connector to get around restrictions.
+
+If page-text tools do not expose asset URLs, try available raw HTML, public
+metadata, official media/download links or permitted browser inspection.
+If none works, report that URL-discovery gap and continue research and
+independent build work. Do not fabricate URLs, claim to have inspected
+images from text alone, or ask for uploads. A required missing asset still
+prevents brand acceptance; lack of workspace downloads alone does not.
+
+Label online pages and downloaded HTML **"Online version - internet required
+for external assets"**, with equivalent Dutch text. The file may contain
+markup, styles and scripts locally while loading its official images online.
+List external dependencies in Sources. A saved HTML file is not proof of
+offline readiness. Do not embed the customer's whole website in an iframe
+or depend on their site scripts to implement the experience.
+
+## Offline export only when explicitly requested
+
+An ordinary Download HTML action saves the online version with its dependency
+disclosure; it does not start offline packaging. When the person explicitly
+requests offline/self-contained delivery, obtain the required files yourself
+using the following procedure, without interrupting the working online page.
+Keep that page intact until a separate verified offline export is ready.
 
 Asset acquisition is agent work, not a default task for the person.
 Reading an official page, saving an image and having permission to reuse it
@@ -185,21 +240,20 @@ references before inlining. A remote image URL or runtime fetch does not
 satisfy the offline requirement. Reopen the export with network requests
 blocked and verify the assets are still visible.
 
-Only request user-supplied files when available permitted routes are
-exhausted or clearly unavailable. Name the affected asset, source URL,
-method attempted and actual error/status, or explicitly state that no
-file-retrieval tool is exposed. Separate technical failures from unresolved
-reuse permission. Ask for the smallest remedy: the specific authorised file,
-normal access approval, or an object-specific exception. Continue work that
-does not depend on the missing file without claiming branded delivery is
-complete. Never invent a download attempt or a successful verification.
+If available permitted routes fail or are unavailable, preserve the online
+version and report the specific asset, source URL, attempted method and actual
+error/status, or explicitly state that no file-retrieval tool is exposed.
+Separate technical failure from unresolved reuse permission. Do not ask for
+files, an upload choice or manual downloads unless the person explicitly
+requests help supplying them. Do not repeat an unchanged limitation or retry
+blindly. Continue independent work; an online delivery can be complete when
+its own gates pass, but requested offline delivery remains blocked/unverified.
+Never invent a download attempt or successful verification.
 
-### Evidence before an upload question
+### Report a blocked offline export without an upload prompt
 
-Apply this check during intake, not only after concept approval. A premature
-upload questionnaire transfers agent work to the person and makes an
-untested limitation sound established. Before asking for files, include this
-compact record in the existing response, not a separate document:
+Use this compact record only for requested export or a relevant asset gap,
+not as a mandatory intake interruption:
 
 - **Asset/source:** the specific missing file and inspected official page or
   direct file URL; say if the URL could not be established.
@@ -207,11 +261,13 @@ compact record in the existing response, not a separate document:
   observed error/status, or "No file-retrieval tool is exposed in this
   session" if tool inspection establishes that limitation.
 - **Alternative/remedy:** the relevant permitted alternative tried and its
-  result, or why none is available or appropriate; then request only the
-  file or normal access approval that resolves the remaining blocker.
+  result, or why none is available or appropriate; retain the online page
+  and identify the remaining offline limitation without asking for files.
+  If the person explicitly requests help supplying files, then request only
+  the specific missing authorised files, not the entire asset set again.
 
 A failed method does not establish that all retrieval is unavailable. For
-example, missing curl is not a reason to request uploads when a permitted
+example, missing curl is not a global failure when a permitted
 browser download or network-enabled Python is available. Conversely, do not
 keep retrying a security denial or pretend a page-text response saved an
 image. Do not invent URLs, tools, errors or completed checks to fill this

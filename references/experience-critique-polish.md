@@ -25,7 +25,7 @@ interaction and visual craft must then develop together. Do not postpone
 composition and input feedback until a generic functional shell is done.
 Preserve the selected scene,
 gesture, complete requested range, EN/NL, Sources, Download HTML and
-offline delivery. In a refinement, do not invent a replacement aesthetic,
+the agreed delivery mode. In a refinement, do not invent a replacement aesthetic,
 rewrite claims or remove products to make the screen look cleaner. An
 explicit visual-execution revision can change its requested staging while
 retaining the concept and frozen decisions; it is not automatically
@@ -199,7 +199,7 @@ Tie each finding to an observed state and a narrow correction:
 
 - **Must fix:** a wrong/absent company message or identity, a blocked or
   misleading action, an inaccessible path, missing required content, or
-  broken offline delivery.
+  misleading delivery-mode claims, or broken explicitly requested offline delivery.
 - **Should fix:** unclear hierarchy, excessive interaction effort, text
   collisions, weak phone composition, inconsistent states, awkward
   localisation, a generic shell that defeats the approved staging,
@@ -282,7 +282,8 @@ screenshot cannot stand in for the corrected defect.
 Replay the core action and recovery with applicable pointer, touch and
 keyboard inputs. Recheck the rendered states at the delivery widths,
 EN/NL switching, required controls, asset loading, runtime errors and
-the downloaded file's offline operation. For spatial scenes, use actual
+the downloaded file in its declared online/offline mode. Check offline
+operation only when explicitly requested. For spatial scenes, use actual
 renderer/performance observations rather than assuming a clean screenshot
 proves responsiveness.
 

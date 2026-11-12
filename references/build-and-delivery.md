@@ -12,7 +12,7 @@ permission to replace branded assets in the finished page.
 Reopen the selected reference-use note and pattern records alongside the
 applicable generator, Impeccable and Emil guidance. Translate the accepted
 adaptations into the actual layout, phone reflow, state/feedback,
-timing/easing, cancellation/recovery and offline construction. Keep the
+timing/easing, cancellation/recovery and delivery mode. Keep the
 approved concept and asset/medium contract; a convenient example does not
 authorise a replacement. Refine numerical motion choices in the working
 slice rather than treating a reference description as measured behavior.
@@ -72,24 +72,45 @@ as an observed interaction. Do not
 silently promote an unverified slice to a finished experience; disclose the
 limitation and resolve verification before claiming this gate passed.
 
-## The single file
-Everything — markup, styles, scripts, and any embedded assets — lives in one
-offline-capable HTML file. No runtime CDN script tags, no remote font or
-texture fetches. Inline or embed every dependency the experience needs to
-run.
+## The single file and its delivery mode
+
+Default to one **online-dependent HTML file**. Keep authored markup, styles
+and scripts in it; load real official logo/image/model URLs as needed.
+Reuse supplied embedded assets when available. Do not require local
+downloads or asset uploads before the online page can be built.
+Keep application code self-contained: no mandatory CDN scripts, remote
+component demos or customer-site scripts. Use system fonts or already
+available permitted embedded fonts rather than making font acquisition
+another build blocker.
+
+Show **"Online version - internet required for external assets"** and a
+Dutch equivalent in the experience and downloaded file. List remote
+dependencies in Sources. Check actual image/model loads, failure messages
+and relevant interaction states where a browser is available. CORS can
+allow an image to display but prevent fetching its bytes or reading pixels;
+remote models/textures have their own load requirements. Report observed
+failures, not assumed universal support.
+
+Only an explicit offline/self-contained request triggers asset acquisition.
+Download, validate and embed every required asset, model buffer, texture,
+font and runtime dependency in a **separate offline export**. No essential
+remote fetches may remain in that export. Do not rely on browser cache.
 
 Keep editable source separate from generated output when complexity
 warrants it, with a reproducible export into the one HTML deliverable.
 Prefer shared assets, explicit state and coherent styles over a chain of
 fragile string replacements or repeated CSS overrides. This is a source
 quality rule, not permission to deliver a folder instead of the required
-single file. Preserve earlier accepted files when publishing a revision.
+single file. Preserve earlier accepted files and the working online version
+when attempting offline export.
 
-**Completion gate, not a formality:** before calling the build done, verify
-it loads and runs with the network disconnected (or by equivalent means
-available this session). If that verification isn't possible — for example,
-only a hosted managed-runtime app can be produced — say so plainly at
-delivery. Never substitute a non-portable result without saying so.
+**Offline completion gate:** only call the offline export ready after it
+loads and works with network requests blocked, including a fresh reload.
+If retrieval or verification fails, report the specific offline limitation
+and preserve the working online file. Do not prompt for uploads unless the
+person explicitly requests help supplying files. Online readiness does not
+depend on passing an unrequested offline gate; neither can online success
+satisfy an explicit offline requirement.
 
 ## Required elements
 - The full-screen interactive experience itself.
@@ -98,7 +119,13 @@ delivery. Never substitute a non-portable result without saying so.
 - A **Sources** button opening the sources panel described in
   `sources-and-labeling.md` (citations, illustrative disclosures, or the
   "No research performed" label).
-- A **Download HTML** action that saves the complete, working file.
+- A **Download HTML** action saving a fresh copy without prior visitor input.
+  By default it saves the online HTML, retains real remote asset URLs and
+  the internet-required notice, and does not attempt to fetch/embed assets.
+  Do not call it "Download offline" or promise automatic offline packaging.
+  A requested offline action must report missing assets explicitly and must
+  not download a partial file labelled offline-ready. Browser image loading
+  is not proof that fetch/canvas export is allowed; do not rely on CORS bypass.
 - A visible demonstration disclaimer and matching Sources-panel disclosure,
   using the exact English wording and Dutch equivalent in
   `sources-and-labeling.md`.
@@ -157,7 +184,7 @@ with the reason rather than counting them as passes.
 
 ### Brand authenticity
 - [ ] After plan approval, actual official model/image/asset files were
-      embedded/imported and visibly used for primary and secondary branded
+      loaded from recorded URLs or supplied files and visibly used for primary and secondary branded
       objects in the delivered page, including affected interaction states.
       A source link, unused asset, or agent-drawn lookalike based on an
       official reference does not pass. Any substitute has explicit
@@ -167,7 +194,7 @@ with the reason rather than counting them as passes.
       the delivered view, not only in source links, unless explicitly
       excluded by the brief. Typed lettering and generic props do not
       stand in for official assets.
-- [ ] Embedded brand assets have verified provenance and applicable reuse
+- [ ] Remote and embedded brand assets have verified provenance and applicable reuse
       permission. Supplied authorisation scope and remaining limits are
       recorded, not expanded into a blanket public licence.
 - [ ] The real hero was visually compared with inspected official
@@ -229,10 +256,14 @@ with the reason rather than counting them as passes.
       redesigning them.
 
 ### Technical correctness
-- [ ] Runs with no network connection (or the blocker is reported instead).
-      Test the exported file from disk with requests blocked, including a
-      reload and the main interaction; checking for CDN tags alone is not
-      offline verification.
+- [ ] The online file discloses its internet dependency and actual remote
+      assets load in the tested environment; errors/unobserved checks are
+      reported without claiming full brand acceptance for missing assets.
+- [ ] If offline export was explicitly requested, test the exported file
+      from disk with requests blocked, a fresh reload and the main interaction.
+      Checking CDN tags or cached assets alone is not offline verification.
+      Otherwise mark this gate not applicable, not failed. Retain the online
+      version if export fails; do not ask for uploads unless help is requested.
 - [ ] Pointer, touch and keyboard equivalents reach the intended states;
       contact/threshold transitions, release/cancel, bounds, and replay work.
 - [ ] Explanations agree with object state during forward movement,
@@ -244,13 +275,15 @@ with the reason rather than counting them as passes.
 - [ ] Research, company claims and reference/brand assets use only verified
       publicly available resources; supplied files meet the same boundary.
 - [ ] The required disclaimer is readable in the experience and Sources panel
-      in both languages, and survives downloading and reopening offline.
+      in both languages, and survives downloading and reopening in the
+      declared delivery mode.
 - [ ] Every illustrative element is labelled as such, in the panel or inline.
 - [ ] Brand guidelines are followed, or the compliance gap is disclosed.
-- [ ] Embedded assets have documented permitted reuse; unclear rights were
-      resolved or the blocked asset was not embedded.
-- [ ] Download HTML works and produces the complete file.
-      Reopen that downloaded file and repeat the main interaction offline.
+- [ ] Remote and embedded assets have documented permitted reuse; actual
+      rights conflicts were resolved or the affected asset was not used.
+- [ ] Download HTML produces a fresh working file with truthful delivery-mode
+      labeling. Reopen it and repeat the main interaction online for default
+      delivery, or with requests blocked for explicitly requested offline export.
 - [ ] No leftover lorem ipsum, placeholder imagery, or TODO text remains.
 - [ ] No runtime errors; the scene and explanations remain usable on narrow
       screens, with visible focus, readable contrast and reduced motion.

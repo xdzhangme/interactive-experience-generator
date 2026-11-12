@@ -58,7 +58,9 @@ blanket public licence; the requester has separately supplied project-use
 authorization. Resolve missing assets or variants before polished mockups
 depend on them. Ask only about a concrete terms conflict, a newly requested
 use outside that scope, or a brief that explicitly leaves permission
-unresolved. Requesting a missing file is not reopening settled permission.
+unresolved. Use verified official asset URLs online without requiring local
+files; request uploads only when the person explicitly asks for help supplying
+them. Report a missing usable asset separately from settled permission.
 
 Use an authentic permitted logo rather than typed lettering. Preserve real
 product identities and characteristic forms/packaging even in stylised

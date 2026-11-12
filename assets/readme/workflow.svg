@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
-  <title id="title">From company story to offline experience</title>
+  <title id="title">From company story to online-first experience</title>
   <desc id="desc">A workflow illustration, not a product screenshot: a company brief leads to official-source research, a meaningful visitor interaction, and one downloadable HTML file.</desc>
   <rect width="1200" height="390" rx="24" fill="#F6F5F0"/>
 
@@ -34,7 +34,7 @@
     <path d="m665 110-12-12m75-24V58m64 52 12-12" fill="none" stroke="#C75B38" stroke-width="4" stroke-linecap="round"/>
   </g>
 
-  <g id="offline-html">
+  <g id="downloadable-html">
     <rect x="922" y="80" width="218" height="174" rx="12" fill="#F6F5F0" stroke="#173B36" stroke-width="3"/>
     <path d="M922 114h218" stroke="#173B36" stroke-width="3"/>
     <g fill="#62716B">

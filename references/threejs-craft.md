@@ -37,12 +37,23 @@ props, material variation, and lighting all read as either considered or
 neglected. A single detailed hero model in an empty grey void reads as
 unfinished.
 
-## Keep it genuinely offline
+## Online loading and requested offline export
+
+The default online scene may load the actual official model and textures
+from recorded public URLs. Verify the loader's CORS and dependent-resource
+requirements; a model URL or a visible website preview does not prove that
+the generated scene can load it. Keep runtime code local to the HTML and
+disclose remote dependencies and load failures. Do not require local model
+downloads before building an otherwise usable online scene.
+
+Only when offline delivery is explicitly requested, apply the following.
 A single offline HTML file means no runtime dependency on a CDN, remote
 texture host, or external font service. Embed or inline the Three.js
 runtime, shaders, and any textures the scene needs. Keep the polygon and
 texture budget practical for a file that must load and run entirely from
-disk, with no network connection.
+disk, with no network connection. If acquisition or verification fails,
+retain the working online scene and report the offline limitation; do not
+ask for uploads unless help supplying files is explicitly requested.
 
 ## Camera and interaction
 Match the camera behaviour to the concept's chosen interaction — a

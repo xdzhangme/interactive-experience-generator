@@ -1,8 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Builds, revises and polishes company/product interactive experiences, including pages that look generic, boxed-in or feel repetitive. Keeps approved concepts while designing imagery-led visual staging, scene-led showcases, interaction choreography and responsive feedback. Matches visitor needs against a bundled offline pattern library informed by Codrops and React Bits. Proves actual visual treatment in the existing preview, then a representative scene before expanding. Uses actual official assets with explicit exceptions, genuine 3D and real visitor input. Includes self-contained Impeccable-adapted visual direction, critique and polish. Delivers one offline HTML with EN/NL, Sources and Download HTML.
+description: Builds, revises and polishes company/product interactive experiences using official website content and real logo/image URLs, online-first without requiring asset uploads. Keeps approved concepts while designing imagery-led staging, scene-led showcases, interaction choreography and responsive feedback. Uses a bundled offline pattern library informed by Codrops and React Bits, genuine 3D where requested and real visitor input. Includes self-contained Impeccable-adapted direction, critique and polish. Delivers one HTML with EN/NL, Sources and Download HTML; downloads and embeds assets for offline export only when explicitly requested.
 metadata:
-  revision: "2026-11-12-asset-preflight"
+  revision: "2026-11-12-online-first"
 ---
 
 # Interactive experience generator
@@ -43,28 +43,34 @@ observed proof that the generated interaction works.
 Use the generator's own storytelling, interaction, art-direction, asset,
 3D, revision and delivery guidance alongside those resources throughout
 concepts, implementation and review. Confirmed intent and the generator's
-factual, asset, accessibility and offline requirements set the boundaries;
+factual, asset, accessibility and delivery-mode requirements set the boundaries;
 external principles and stored examples support them, not override them.
 
-## Before intake questions: check asset retrieval
+## Default delivery: online first, offline only on request
 
-For real-company requests, check the session's exposed retrieval tools before
-offering an asset-upload question. Read the "Obtain official files yourself"
-procedure in `references/sources-and-labeling.md`. When the company and asset
-identity are clear enough, locate a permitted official file, attempt to save
-it and validate the result before asking the person to download it instead.
-This acquisition check does not approve a concept or start the full build.
-If identity or permission needs a consequential answer first, ask only that
-question; do not describe an unattempted download as blocked.
+Build one HTML file using accessible official website content and actual
+official logo/image/model URLs. The visitor's browser may load these assets
+even when the agent's workspace cannot download them. Local asset acquisition
+is not an intake or build prerequisite. Do not ask the person to download or
+upload files to get started. Reuse verified supplied files when available.
 
-An upload request needs evidence: name the affected asset and source URL,
-the available method attempted and actual error/status, and why another
-available permitted route cannot resolve it. If no file-retrieval tool is
-exposed, say that explicitly without inventing an attempt. Page-text/search
-tools alone prove neither download capability nor its absence. Use the
-blocker format in the reference; do not offer a generic "I'll attach them /
-concepts first" questionnaire in place of this check. Reuse verified supplied
-files without downloading them again.
+Read the online-first and offline-export procedures in
+`references/sources-and-labeling.md`. Research relevant public official pages,
+locate real asset URLs, and inspect what the available tools permit. A URL
+alone does not prove that the asset loads or has been visually inspected.
+Disclose missing URLs, blocked remote loads and unverified checks accurately;
+do not invent assets or substitute a drawn logo.
+
+Label the page and its Download HTML output **"Online version - internet
+required for external assets"**, with equivalent Dutch text. Downloading
+the HTML does not automatically request or produce an offline package.
+Only when the person explicitly asks for offline/self-contained delivery,
+try to download, validate and embed the required assets yourself. If that
+fails, preserve the working online version, report the specific offline
+limitation, and do not ask for uploads unless the person explicitly requests
+help supplying files. Do not repeatedly prompt about missing files.
+An explicit offline requirement remains unmet until verified; do not call
+an online fallback its completion.
 
 ## After plan approval: use actual official assets in the page
 
@@ -73,10 +79,11 @@ product images, packaging, logos and other relevant assets. This is a
 requirement for what visibly appears and is manipulated in the built page,
 not merely a preference for official research sources.
 
-Acquire and embed the suitable, permitted official files, then build the
-layout, scene and interaction around them. Download them yourself using the
-asset-retrieval procedure in `references/sources-and-labeling.md`; finding
-links is not the end of asset acquisition. Do not replace them with your
+Load suitable, permitted official assets by their real URLs for the online
+version, or use verified files already available. Build the layout, scene
+and interaction around those assets. For explicitly requested offline
+export, acquire and embed them using `references/sources-and-labeling.md`.
+Do not replace them with your
 own SVG drawing, CSS illustration, generated lookalike or procedural model.
 An official reference photo used to draw a new object is not the same as
 using that official asset in the page. A logo or source link does not fix
@@ -89,13 +96,15 @@ to the actual official file that will render it. For required spatial 3D,
 use an actual official 3D model; do not call a photo 3D. For product imagery,
 use the actual official image rather than redrawing it.
 
-If a required official file cannot be obtained or lawfully used, report
-the specific blocker and ask for the asset or an explicit object-specific
-exception. Establish a download limitation from actual tool availability
-or a failed retrieval, not an assumption that Cowork cannot download files.
-Try another available, permitted retrieval method when it can address the
-failure; do not bypass access restrictions. Do not silently draw a
-replacement or downgrade the medium.
+If a required official asset has no usable URL or supplied file, or cannot
+lawfully be used, report that specific gap. Try a relevant permitted
+official source; continue independent work without pretending the missing
+asset is visible. Seek an object-specific exception only when a substitute
+is needed, not because a usable online asset is not locally downloaded.
+Do not request uploads unless asked for help supplying files. For offline
+retrieval failures, use actual tool evidence, try a relevant permitted
+alternative and retain the online version. Do not bypass access restrictions,
+silently draw replacements or downgrade the medium.
 Preserve existing explicit exceptions, such as a specifically approved
 reconstruction; general concept approval is not such an exception.
 Reuse supplied verified assets and permissions without asking again.
@@ -179,20 +188,22 @@ State plainly, once, which of these you have this session, before relying on
 them:
 - **Research**: a web-research skill (e.g. Deep Research) or local-browser
   access to official sources.
-- **Asset retrieval**: available tools for saving official image/model bytes
-  into the working folder, such as a browser download, file-fetch tool, or
-  network-enabled shell with curl/Python. Check actual tool availability
-  and attempt a suitable download before declaring retrieval blocked.
-  Web search or page-text access alone does not establish file-download
-  capability; neither does it establish that downloads are impossible.
+- **Online assets**: tools for finding actual official asset URLs and, where
+  possible, checking rendered loads. Page-text research, browser image
+  loading and workspace binary retrieval are separate capabilities.
+- **Offline retrieval, only if requested**: tools for saving image/model
+  bytes, such as binary fetch, browser saving or network-enabled curl/Python.
+  Check availability and attempt a suitable permitted route before declaring
+  export blocked. Missing retrieval does not block the online build.
 - **File output**: the ability to produce a downloadable file and preview
   HTML.
 - **Visual inspection**: a real browser or screenshot tool to check rendered
   output, as opposed to reading markup only.
 
 Missing research narrows you to the fictional/no-research path (below).
-Missing file output or offline verification is a **blocker**: say so plainly
-at delivery rather than substituting a hosted or non-portable result.
+Missing file output blocks HTML delivery. Missing offline retrieval or
+verification blocks only explicitly requested offline completion, not the
+online version. Say which mode works and which checks remain unverified.
 
 ## Hard rules
 
@@ -263,9 +274,11 @@ These hold across every step; re-check them at delivery, not just once.
   supporting art. Push composition beyond enclosing cards when useful,
   not toward mandatory spectacle. Task tools retain practical layouts.
   Prove the treatment in the existing preview, not only in descriptive copy.
-- **Offline delivery is a completion gate.** A result that cannot be
-  verified to run with no network connection is not done; report the
-  blocker instead of quietly delivering a hosted link.
+- **Delivery mode must be truthful.** The default HTML may load official
+  assets online and must disclose that dependency. Offline delivery is a
+  separate explicit request and passes only after embedded dependencies
+  and a network-blocked replay are verified. Preserve the online version
+  if export fails; do not request uploads without explicit help being asked.
 - **Authored input must actually be authored.** Drawing, signing, typing or
   configuring uses the visitor's input, not a preset result behind a button.
   Keep sensitive input local and ephemeral by default; clear it from a
@@ -282,8 +295,8 @@ notion — at face value. Extract the confirmed requirements without silently
 choosing a product variant or inventing a branded prop. Ask at most three
 initial questions, only when needed to research or avoid a consequential
 misinterpretation. Ask one at a time; skip what the brief already answers.
-Complete the asset-retrieval preflight above before any upload-choice question;
-ordinary identity/intent questions need not wait for asset acquisition.
+Use the online-first workflow above; do not offer an upload-choice question
+or delay ordinary identity/intent work for local asset acquisition.
 Researchable ambiguity can wait for the brief playback.
 **Done when:** you can state the brief in one or two sentences with remaining
 assumptions identified, or you're waiting on a necessary answer.
@@ -295,9 +308,11 @@ identifying visual features, brand assets, and their reuse terms. Do not
 silently pick another region's product or a more convenient variant.
 Apply the asset-selection order; record required implementation files,
 missing official assets and any object-specific approved exceptions.
-Follow the asset-retrieval procedure: locate direct official file URLs,
-download and validate permitted files, and retain them for implementation.
-Do not routinely ask the person to download assets on your behalf.
+Follow the online-first procedure: locate real official asset URLs for
+implementation, without requiring local downloads. Research the relevant
+official offerings, project stories and imagery rather than claiming to
+collect everything on the site. Download/embed only for an explicitly
+requested offline export; do not delegate that work through upload prompts.
 Then read `references/message-and-brand.md`. Research the company's stated
 promise, the relevant actual offerings and two or three supporting proof
 points. Recommend one central message and visitor takeaway grounded in
@@ -401,20 +416,21 @@ settled choices.
 Revisit the selected pattern records and applicable generator, Impeccable
 and Emil guidance before implementation. Carry their accepted adaptations
 from the concept notes into layout, responsive behavior, input feedback,
-timing, interruption, recovery and offline construction. Refine exact
+timing, interruption, recovery and the selected delivery mode. Refine exact
 values through the working scene; do not silently substitute another pattern.
 Read `references/art-direction.md` and
 `references/experience-critique-polish.md` for the chosen direction. For
 layout or motion implementation/revisions, also apply
 `references/layout-motion-inspiration.md`: spatial priority, purposeful
-timing, interruption, accessible feedback and offline-safe implementation.
+timing, interruption, accessible feedback and delivery-mode requirements.
 If the concept uses spatial 3D, also read `references/threejs-craft.md`. Then read
 `references/build-and-delivery.md` and build to its requirements: one
-self-contained HTML file, full EN/NL, a Sources button, and a Download HTML
+HTML file, full EN/NL, a Sources button, and a Download HTML
 action.
 After selection, resolve the actual-assets implementation gate above
-before constructing branded objects. Embed/import the official files,
-not just their reference URLs. Check the rendered result actually uses
+before constructing branded objects. Load the actual official asset URLs
+or supplied files, not just citation links; embed them for requested offline
+export. Check the rendered result actually uses
 those files across the relevant routes and states; do not recreate their
 appearance with newly drawn geometry or artwork.
 Before expanding to secondary scenes or final polish, pass the
@@ -470,8 +486,10 @@ have evidence; mark checks not performed as unverified, not passed.
 
 ### 9. Deliver
 Confirm the hard rules above all still hold, then hand over the file.
-If offline operation could not be verified, say that plainly instead of
-delivering anyway.
+State whether this is online-dependent or a verified offline export.
+Deliver the online version without waiting for local asset downloads.
+If requested offline operation could not be achieved or verified, preserve
+the online file and report the unmet requirement without asking for uploads.
 State remaining illustrative approximations and unverified checks. A partial
 preview can be shared as work in progress, not described as the finished
 requested branded experience. Distinguish technical readiness from brand
@@ -491,7 +509,7 @@ location exists, skip this step rather than inventing a history.
 |---|---|
 | `references/intent-and-revisions.md` | Before revising existing work; also when recording approved objects, interpreting "real", implementing authored input, or planning route/state coverage. |
 | `references/message-and-brand.md` | Before recommending purpose, confirming the brief, developing concepts, and reviewing message delivery. |
-| `references/sources-and-labeling.md` | Before researching, acquiring official asset files, and writing factual or illustrative copy; includes download methods and blocker reporting. |
+| `references/sources-and-labeling.md` | Before research and asset use; includes online-first official URLs, website coverage, optional offline retrieval and accurate blocker reporting. |
 | `references/concepts-and-interaction.md` | For concepts, selected-action choreography and interaction-execution revisions (steps 5–8). |
 | `references/art-direction.md` | For concepts, the selected execution direction contract, and visual-execution revisions (steps 5–8). |
 | `references/experience-critique-polish.md` | Bundled Impeccable-adapted modes, motion and visual/feel critique, prioritised polish and replay (steps 5–8). |

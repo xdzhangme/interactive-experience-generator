@@ -49,7 +49,8 @@ tournament or blanket approval round is needed.
 ## Describe each important object along three independent axes
 
 For real-company implementation after plan approval, the identity contract
-includes the actual official asset file and where it renders in the page.
+includes the actual official asset URL or supplied file and where it renders
+in the page. Local embedding is required only for requested offline export.
 An official drawing reference followed by an agent-authored substitute
 does not satisfy that contract. A plan or style approval does not grant
 an object-specific substitution exception.

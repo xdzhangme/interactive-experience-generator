@@ -4,9 +4,11 @@
 
 A skill for Microsoft Copilot Cowork and other skill-enabled agents. Start with
 a company or product; the agent researches official sources, develops concepts,
-and builds your chosen direction as **one offline HTML file**.
+and builds your chosen direction as **one online-first HTML file**, using
+official website content and real logo/image URLs. Offline packaging is
+available when explicitly requested.
 
-![Illustrated workflow: start with a company, research official sources, design a meaningful interaction, and deliver an offline HTML file.](assets/readme/workflow.svg)
+![Illustrated workflow: start with a company, research official sources, design a meaningful interaction, and deliver an online-first HTML file.](assets/readme/workflow.svg)
 
 *Workflow illustration, not a screenshot of a generated experience.*
 
@@ -18,7 +20,10 @@ deck. Each experience includes:
 - **A company story you can interact with** — visitor actions reveal a sourced
   benefit or message, using actual permitted company assets.
 - **English and Dutch** — with keyboard and touch access, plus reduced motion.
-- **Sources and Download HTML buttons** — with assets embedded for offline use.
+- **Sources and Download HTML buttons** — the default download keeps official
+  online asset URLs and clearly states that internet access is required.
+- **Offline export on request** — the agent tries to download and embed assets
+  itself, without interrupting the working online version with upload requests.
 
 Visual direction, interaction design, critique, and polish guidance are bundled.
 A new offline inspiration library helps the agent choose interactions that fit
@@ -67,7 +72,7 @@ action if you already have one in mind.
 **Research → choose → build → refine.** The agent recommends a source-backed
 message, presents four concepts with visual previews, and builds the one you
 select. It checks a representative interactive scene before expanding, then
-reviews the result and offline export. For revisions, it preserves approved
+reviews the result and downloaded HTML in its declared delivery mode. For revisions, it preserves approved
 choices and changes the requested part instead of restarting.
 
 ## Built-in inspiration, from concept to review
@@ -96,17 +101,28 @@ See the [pattern index](references/pattern-library/INDEX.md).
 
 Research and company assets must come from **publicly available resources**,
 not private or internal material. Building needs an agent with research,
-asset-download, file-output, and visual-inspection capabilities; the skill
+official-asset URL discovery, file-output, and visual-inspection capabilities; the skill
 does not provide those tools or grant asset reuse rights.
 
-Required official images, logos, packaging, and models must be obtained and
-permitted for use. Missing assets block completion unless you explicitly approve
-a specific substitute. Approving a concept does not approve drawn lookalikes.
-Before asking you to upload assets, the agent checks its retrieval tools and,
-when possible, attempts the official download. A blocked request must identify
-the asset/source and actual retrieval failure, or explicitly state that no
-file-retrieval tool is exposed. This reduces premature upload requests; it
-cannot add missing tools or guarantee agent compliance.
+Required official images, logos, packaging, and models must have verified
+provenance and permitted use. The online page loads real official asset URLs;
+local downloads are not a prerequisite. Missing usable assets still prevent
+brand acceptance unless you explicitly approve a specific substitute.
+Approving a concept does not approve drawn lookalikes.
+
+The agent researches relevant accessible official pages, offerings, case
+studies and imagery, not the entire website indiscriminately. It cannot
+guarantee access to every page, image or PDF. Website restrictions, missing
+URLs, CORS and reuse terms still apply; observed and unverified checks must
+be distinguished.
+
+**Download HTML does not mean offline export.** Online files disclose their
+internet dependency. If you explicitly request offline/self-contained delivery,
+the agent checks its retrieval tools, tries permitted downloads, embeds
+dependencies and verifies a network-blocked replay. If that fails, it keeps
+the working online version and reports the specific offline limitation.
+It asks for files only if you explicitly request help supplying them.
+These instructions cannot add missing tools or guarantee agent compliance.
 
 Every experience visibly includes this disclaimer, with a Dutch equivalent:
 
@@ -154,7 +170,7 @@ the SHA-256 below. Python is optional for using the library: reading and text
 search are enough.
 
 ```text
-9f3584839e3e21a0ab2518d090558a4407dee92f288a3a345f658420b7864794
+5c8a7c0aca925e3803c08aac59be8fe1e57fecc3942c85233f7c77bf66a724a8
 ```
 
 **Installed copies do not update themselves.** Weekly research is an app-local
@@ -163,7 +179,7 @@ local changes for review without committing or pushing. Reviewed updates must be
 repackaged, redistributed, and re-imported. See
 [library maintenance](references/pattern-library/MAINTENANCE.md).
 
-[`evals/evals.json`](evals/evals.json) contains 36 evaluation prompts;
+[`evals/evals.json`](evals/evals.json) contains 39 evaluation prompts;
 [`evals/files/`](evals/files/) holds a fictional SVG fixture. Neither is included
 in the package. Their presence does not prove they passed or that Cowork
 downloads were tested. Text-only answers cannot establish rendered visual

@@ -8,7 +8,7 @@ condensed summary for this workflow, not a verbatim copy.
 For the scoped Impeccable adaptation, also read
 `references/experience-critique-polish.md`. Together these files bundle
 surface-mode selection, visual direction, motion and an observed
-critique/polish loop under the approved message, real branding and offline
+critique/polish loop under the approved message, real branding and delivery-mode
 constraints. The visual-direction guidance also draws on Impeccable 4.8.0
 `reference/new-work.md`; this is an original scoped adaptation, not its
 concept-randomisation or runner workflow. See `NOTICE.md`.
@@ -83,7 +83,8 @@ an annotation or a quiet graphic motif can clarify the world. Do not
 compensate for weak composition with unrelated illustration, particles,
 gradients, generated lookalikes or decorative clutter. Authored supporting
 art must not impersonate an official asset or invent company evidence.
-A missing required file is still an asset blocker, not a reason to draw it.
+A missing usable official asset is still a blocker, not a reason to draw it.
+An official asset that loads by URL is usable online even without a local file.
 
 Respect asset terms and brand rules when cropping, masking or layering.
 Do not distort logos/products, hide identifying details needed for the

@@ -9,7 +9,7 @@ No third-party source code, media or component ports are included.
 
 The library is one resource within the skill, not its whole design method.
 Confirmed intent and the generator's factual, asset, accessibility and
-offline requirements govern all reference use.
+delivery-mode requirements govern all reference use.
 
 | Resource | Role throughout the work |
 |---|---|
@@ -33,8 +33,8 @@ of a visually impressive example.
   rather than forcing a match. Static previews show direction, not working feel.
 - **Selected-concept build:** reopen the selected records and relevant
   guidance before code. Translate accepted principles into responsive
-  layout, state/feedback, timing/easing, interruption/reset and offline
-  construction. Retain the approved subject, gesture, medium and brand.
+  layout, state/feedback, timing/easing, interruption/reset and the declared
+  delivery mode. Retain the approved subject, gesture, medium and brand.
   Refine values through the representative scene, not a new concept round.
 - **Critique and delivery:** compare the rendered scene and exercised input
   with those accepted adaptations. Check meaningful state, visual character,

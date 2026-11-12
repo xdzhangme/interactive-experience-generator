@@ -190,7 +190,9 @@ or build it with all necessary dependencies embedded in the final HTML and
 retain its notices. A React snippet, remote import, iframe or link to a
 hosted demo is not the finished standalone experience.
 
-Verify the actual downloaded file with networking disabled. Inspiration
-links may remain optional citations, but no essential action, font, asset
-or script may depend on those sites. Keep the four acceptance gates and
+Verify the actual downloaded file in its declared mode. The online version
+may load official company assets, not component demos, from recorded URLs.
+For explicitly requested offline export, verify with networking disabled;
+no essential action, font, asset or script may depend on external sites.
+Inspiration links may remain optional citations. Keep the four acceptance gates and
 the separate visual-character/interaction-feel evidence unchanged.
