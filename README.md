@@ -10,7 +10,7 @@ available when explicitly requested.
 
 **[Explore the live showcase](https://xdzhangme.github.io/interactive-experience-generator/)**
 with playable Heineken and Haskoning examples, or
-[download the showcase HTML](docs/index.html).
+[open the Example HTML](example.html).
 These supplied, illustrative demos are not brand endorsements or a guarantee
 of current skill compliance. They require internet access for external assets.
 
@@ -155,6 +155,11 @@ Every experience visibly includes this disclaimer, with a Dutch equivalent:
 > This experience is generated entirely with Microsoft Copilot Cowork based on publicly available resources and for demonstration purposes only.
 
 ## Under the hood
+
+The showcase lives in [`example.html`](example.html), beside this README.
+`index.html` redirects visitors to it. Publish GitHub Pages from `main`
+with **/ (root)** as the source folder. Neither HTML file belongs in the
+installable skill package.
 
 The detailed guidance stays in the skill, so you do not need to read it to start:
 
