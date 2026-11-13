@@ -8,6 +8,12 @@ and builds your chosen direction as **one online-first HTML file**, using
 official website content and real logo/image URLs. Offline packaging is
 available when explicitly requested.
 
+**[Explore the live showcase](https://xdzhangme.github.io/interactive-experience-generator/)**
+with playable Heineken and Haskoning examples, or
+[download the showcase HTML](docs/index.html).
+These supplied, illustrative demos are not brand endorsements or a guarantee
+of current skill compliance. They require internet access for external assets.
+
 ![Illustrated workflow: start with a company, research official sources, design a meaningful interaction, and deliver an online-first HTML file.](assets/readme/workflow.svg)
 
 *Workflow illustration, not a screenshot of a generated experience.*
