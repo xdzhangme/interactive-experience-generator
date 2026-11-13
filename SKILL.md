@@ -1,8 +1,8 @@
 ---
 name: interactive-experience-generator
-description: Builds, revises and polishes company/product interactive experiences using official website content and real logo/image URLs, online-first without requiring asset uploads. Keeps approved concepts while designing imagery-led staging, scene-led showcases, interaction choreography and responsive feedback. Uses a bundled offline pattern library informed by Codrops and React Bits, genuine 3D where requested and real visitor input. Includes self-contained Impeccable-adapted direction, critique and polish. Delivers one HTML with EN/NL, Sources and Download HTML; downloads and embeds assets for offline export only when explicitly requested.
+description: Builds, revises and polishes company/product interactive experiences using official website content and real logo/image URLs, online-first without requiring asset uploads. Keeps approved concepts while designing imagery-led staging, scene-led showcases, interaction choreography and responsive feedback. Uses a bundled offline pattern library informed by Codrops, React Bits, MotionSites and Recent.design, genuine 3D where requested and real visitor input. Includes self-contained Impeccable-adapted direction, critique and polish. Delivers one HTML with EN/NL, Sources and Download HTML; downloads and embeds assets for offline export only when explicitly requested.
 metadata:
-  revision: "2026-11-12-online-first"
+  revision: "2026-11-13-details-manual-reference"
 ---
 
 # Interactive experience generator
@@ -32,9 +32,11 @@ This built-in quality pass is part of every build and applicable revision,
 not an optional extra the person must request by naming Impeccable.
 `references/layout-motion-inspiration.md` adds scoped Impeccable layout
 and animate guidance, Emil Kowalski's animation decision sequence, and
-optional Codrops Creative Hub / React Bits inspiration. Read it alongside
+optional Codrops / React Bits / MotionSites / Recent.design inspiration. Read it alongside
 the quality pass for composition and motion, not as a new approval stage.
 The guidance ships locally; external examples are optional, not dependencies.
+Details.so is an optional manual-study link only, subject to the restrictions
+in `references/layout-motion-inspiration.md`; exclude it from library curation.
 `references/pattern-library/INDEX.md` maps visitor needs to the bundled
 `references/pattern-library/patterns.json` records. Read relevant original
 pattern analyses even when browsing is unavailable. This is stored
@@ -353,7 +355,7 @@ Read `references/concepts-and-interaction.md`, then
 `references/art-direction.md` and the Experience-led composition guidance
 in `references/experience-critique-polish.md`. Read
 `references/layout-motion-inspiration.md` for layout, motion purpose and
-selective Codrops Creative Hub / React Bits reference study. Record useful
+selective Codrops / React Bits / MotionSites / Recent.design study. Record useful
 principles in the existing concept notes, not a copied design or new file.
 Use `references/pattern-library/INDEX.md` to retrieve relevant stored
 patterns before optional live browsing. Match the user's goal, subject,
@@ -513,7 +515,7 @@ location exists, skip this step rather than inventing a history.
 | `references/concepts-and-interaction.md` | For concepts, selected-action choreography and interaction-execution revisions (steps 5–8). |
 | `references/art-direction.md` | For concepts, the selected execution direction contract, and visual-execution revisions (steps 5–8). |
 | `references/experience-critique-polish.md` | Bundled Impeccable-adapted modes, motion and visual/feel critique, prioritised polish and replay (steps 5–8). |
-| `references/layout-motion-inspiration.md` | Bundled Impeccable layout/animate and Emil animation guidance, plus optional Codrops Creative Hub / React Bits reference study and reuse boundaries (steps 5–8). |
+| `references/layout-motion-inspiration.md` | Bundled Impeccable layout/animate and Emil animation guidance, plus optional Codrops / React Bits / MotionSites / Recent.design study and reuse boundaries (steps 5–8). |
 | `references/pattern-library/INDEX.md` | For guidance roles and reference handoffs across concepts, building and review; retrieve selected records from `references/pattern-library/patterns.json` without requiring browsing. |
 | `references/pattern-library/MAINTENANCE.md` | Only when curating or refreshing the reference library, not during ordinary experience creation. |
 | `references/threejs-craft.md` | Only when the chosen concept uses spatial 3D (step 7). |

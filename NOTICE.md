@@ -117,7 +117,7 @@ is included in `licenses/emil-kowalski/MIT.txt`. No endorsement is implied.
 Pinned source:
 https://github.com/emilkowalski/skills/blob/715c1807e08c497cfd1dc4feb450a2a3300ef2a9/skills/animate/SKILL.md .
 
-## Linked inspiration only - Codrops Creative Hub and React Bits
+## Linked inspiration only - Codrops, React Bits, MotionSites, Recent.design and Details.so
 
 - **Codrops Creative Hub:** https://tympanus.net/codrops/hub/ .
   Links to demos by different creators. Check each selected project's
@@ -127,11 +127,31 @@ https://github.com/emilkowalski/skills/blob/715c1807e08c497cfd1dc4feb450a2a3300e
   checked 2026-11-11, uses MIT plus a Commons Clause condition restricting
   redistribution of components, ports, tools and standalone exports.
   Do not describe it as unrestricted MIT.
-- No Codrops or React Bits source code, media, component collection or
+- **MotionSites:** https://motionsites.org/ . Public catalogue descriptions
+  and metadata checked 2026-11-13; https://motionsites.org/terms restricts
+  standalone redistribution of source prompts/protected materials and
+  protected-content scraping/bulk export. Free access is not a licence to
+  redistribute prompts, Design.md files, templates or preview media.
+- **Recent.design:** https://recent.design/ . Item descriptions checked
+  2026-11-13 credit independent creators and link to their sources. No
+  blanket reuse licence was established; a `/terms` request returned 404.
+  Listing access does not grant artwork, font, video, code or trademark rights.
+  Creator names/source links are retained in the relevant evidence notes;
+  curator descriptions are not presented as inspected creator implementations.
+- No source-site code, prompts, artwork, fonts, media, component collection or
   tools are bundled here. `references/layout-motion-inspiration.md`
   supplies original reference-selection and offline-delivery instructions.
   Actual reuse in a generated experience requires checking the selected
   version's applicable terms and preserving its notices.
+- **Details.so:** https://www.details.so/inspo and
+  https://www.details.so/legal/terms checked 2026-11-13. Linked for optional
+  manual individual-project study only. Terms restrict scraping and use to
+  build, train, evaluate or enrich competing libraries, datasets, models or
+  design-inspiration databases, as well as standalone Vault redistribution.
+  Excluded from automated browsing, scheduled curation, stored pattern
+  records and source-derived evaluations. No listings, captures, code,
+  snippets, prompts, media or derived example collection is bundled.
+  A future change requires explicit permission covering the intended use.
 - **Generator revision, 2026-11-12:** added
   `references/pattern-library/` with original analytical descriptions and
   primary-source links, not third-party code, media, ports or executable
@@ -147,6 +167,19 @@ https://github.com/emilkowalski/skills/blob/715c1807e08c497cfd1dc4feb450a2a3300e
   development, selected-concept implementation and observed review.
   Reference-use notes stay within existing records; no new upstream
   material, external dependency, approval round or licence change is added.
+- **Expanded inspiration, 2026-11-13:** added original MotionSites and
+  Recent.design analytical records to the existing matching, concept,
+  implementation and review loop. Public metadata/curator documentation
+  is explicitly distinguished from live observation. Static composition
+  references do not imply input or motion. No third-party materials or
+  additional upstream licences are bundled.
+- **Fifty-example expansion, 2026-11-13:** added fifteen original notes
+  from public MotionSites metadata, Recent.design curator descriptions and
+  Codrops-linked repository/tutorial documentation. Records retain exact
+  sources, dates, creator attribution where applicable and observation limits.
+  Accessibility, company-use and delivery suggestions are generator-authored
+  adaptations, not inspected source behavior. No prompts, code, models,
+  datasets, fonts, images, videos or other upstream materials are bundled.
 
 ## Before external or customer-facing distribution
 The subsequent actual-assets implementation clarification requires official

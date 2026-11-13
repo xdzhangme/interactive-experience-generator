@@ -49,6 +49,49 @@ class PatternLibraryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "at least one word"):
             manager.search_records([record], "!?")
 
+    def test_new_source_families_are_retrievable_without_network(self):
+        records = manager.validate_records(self.data)
+        for family, query in (
+            ("motionsites", "navigation"),
+            ("recent-design", "typography"),
+        ):
+            with self.subTest(family=family):
+                matches = manager.search_records(records, query)
+                self.assertTrue(any(record["source_family"] == family for record in matches))
+        broken = copy.deepcopy(self.data)
+        broken["patterns"][0]["source_family"] = "unreviewed-gallery"
+        with self.assertRaisesRegex(ValueError, "source family"):
+            manager.validate_records(broken)
+
+    def test_package_rejects_missing_new_source_coverage(self):
+        for family in ("motionsites", "recent-design"):
+            with self.subTest(family=family), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                path = root / manager.LIBRARY
+                path.parent.mkdir(parents=True)
+                data = copy.deepcopy(self.data)
+                data["patterns"] = [
+                    record for record in data["patterns"]
+                    if record["source_family"] != family
+                ]
+                path.write_text(json.dumps(data), encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "must retain"):
+                    manager.check(root)
+
+    def test_expanded_library_retrieves_distinct_authoring_and_evidence_goals(self):
+        records = manager.validate_records(self.data)
+        self.assertGreaterEqual(len(records), 50)
+        for query, identifier in (
+            ("paint surface stroke", "codrops-surface-stroke-authoring"),
+            ("pairwise preferences", "recent-design-pairwise-preference-discovery"),
+            ("clusters relationships", "recent-design-cluster-detail-inspection"),
+            ("units conversion", "recent-design-dual-unit-consequence"),
+            ("authored input", "motionsites-authored-input-focal-surface"),
+        ):
+            with self.subTest(query=query):
+                matches = manager.search_records(records, query)[:8]
+                self.assertIn(identifier, {record["id"] for record in matches})
+
     def test_package_is_reproducible_source_exact_and_excludes_evaluations(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

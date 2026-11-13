@@ -4,7 +4,7 @@ Read during concept composition, selected-concept implementation and
 layout/motion revisions (steps 5-8). This bundles scoped, original
 adaptations of Impeccable layout/animate and Emil Kowalski's animation
 guidance. See `NOTICE.md` for pinned sources and bundled licences.
-Codrops Creative Hub and React Bits are optional live references, not
+Codrops Creative Hub, React Bits, MotionSites and Recent.design are optional live references, not
 required installations, copied component collections or runtime services.
 Use `pattern-library/INDEX.md` and `pattern-library/patterns.json` for
 stored examples before optional live study. Their original analyses
@@ -142,9 +142,51 @@ inferred from source.
 |---|---|---|
 | [Codrops Creative Hub](https://tympanus.net/codrops/hub/) | Creative coding demos, composition, transitions, direct manipulation and unusual reveals. Follow a useful entry's demo and tutorial/code links. | Extract a specific input-to-response or spatial principle only when it serves the approved subject and company message. |
 | [React Bits](https://reactbits.dev/) | Text treatments, backgrounds, components and micro-interactions, with live demos and component source. | Prefer an earned response or supporting cue; do not let an animated background or text effect become the company story. |
+| [MotionSites](https://motionsites.org/) | Layout-and-motion directions, website prompts and animated examples; start with relevant public catalogue entries. | Extract hierarchy, spatial continuity and input/response principles, not a whole website template or source prompt. Preserve the approved experience rather than turning it into a landing page. |
+| [Recent.design](https://recent.design/) | Composition, typography, art direction and visual references, with creator/source links. | Extract type roles, focal/supporting balance and imagery relationships under the target brand. A poster or curator description does not establish working input, motion or responsive behavior. |
+| [Details.so](https://www.details.so/inspo) | Optional manual study of production-site navigation, buttons, scroll effects, section transitions and micro-interactions. | Follow the manual-only boundary below. For an individual project, use permitted study to inform original decisions through concept, build and review; never treat it as an offline-library or automated-research source. |
+
+Use the same concept/build/review handoff for the four library sources. Static
+references can improve composition without providing an interaction:
+record "no interactive input/motion documented" rather than inventing one.
+For Recent.design, retain the exact item and creator/source attribution;
+follow the creator link when accessible and useful. Distinguish the
+curator's description from a creator statement or inspected live site.
+For MotionSites, public catalogue metadata may be the only readable
+evidence; say so. Do not fetch locked prompts or require an account.
+
+### Details.so: manual project reference, not a library source
+
+The public inspiration page and terms were checked 2026-11-13:
+https://www.details.so/legal/terms . The terms prohibit scraping, crawling,
+indexing, harvesting and mass downloads outside expressly provided
+functionality. They also prohibit using the service to build, train,
+evaluate or enrich competing libraries, datasets, models or design
+inspiration databases, and restrict standalone Vault redistribution.
+
+Keep Details.so as an optional link for the person's manual, individual
+project study under applicable terms, not an instruction for automated
+agent browsing. Do not ingest its listings, captures, metadata, snippets,
+prompts or derived example records into this skill, evaluations or offline
+library. Exclude it from scheduled refreshes even if an entry is public.
+Do not bypass account/payment controls or require a subscription.
+
+When permitted manual study informs a specific project, carry the person's
+design decision into concept composition, original implementation and
+observed review, just as with other references. Retain at most the link
+and project-specific decision in that project's existing notes, not a
+reusable extraction of the source. A capture does not establish live
+input, accessibility, timing or performance; verify the generated result
+independently. Do not relabel Details-derived records as another source
+to evade these restrictions. Without appropriate permission, use the
+existing 50 stored examples and bundled guidance instead. Any later
+library integration requires explicit permission covering that use.
+
+### Live study of library sources
 
 During ideation, inspect a small relevant sample when live access is
-available. Stop when a useful principle is found; do not browse a whole
+available for the four library sources above, not Details.so. Stop when a
+useful principle is found; do not browse a whole
 catalogue or force a reference into every concept. During a narrow revision,
 skip browsing when the approved preview and requested correction suffice.
 Without browsing, retrieve and map relevant stored patterns instead of
@@ -168,6 +210,16 @@ Design-inspiration sites are not evidence for company/product claims and
 do not replace official sources or assets.
 
 ### Reuse, framework and offline boundaries
+
+MotionSites' terms checked 2026-11-13 restrict standalone redistribution
+of source prompts/protected materials and bypassing access controls or
+bulk-exporting protected content. A free listing is not a redistribution
+licence. Recent.design showcases independently owned work; no blanket
+code, font, image or artwork reuse permission was established. Store only
+original analytical descriptions and attribution links, not prompts,
+Design.md files, screenshots, videos, fonts, artwork or template/code packs.
+If access or rights are unclear, use the stored general principle or an
+original solution, not a purchase, bypass or copied brand treatment.
 
 Linking to inspiration is not permission to copy code, imagery or audio.
 Check the exact demo/component repository and applicable terms before

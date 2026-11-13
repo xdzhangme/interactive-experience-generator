@@ -618,6 +618,38 @@
         "workflow: Does not require downloads or ask for uploads to begin the online build.",
         "honesty: Invents no visited URLs, retrieved files or verified appearance."
       ]
+    },
+    {
+      "id": 40,
+      "name": "extended-inspiration-offline-fit-and-evidence",
+      "stage": "text-only-reference-selection",
+      "prompt": "We have selected a fictional archive experience: a warm-white flat scene, drag-to-compare two document states with labelled keyboard buttons and a stable adjacent explanation. It is online-first with optional offline export. We want clearer navigation between document groups and stronger chapter typography, informed by MotionSites and Recent.design. Browsing is unavailable. Use only your assigned skill's bundled resources to give a compact design/build/review handoff, not code or four new concepts. Explain what you would adapt, reject and still need to observe. A teammate proposes copying a free MotionSites source prompt into the skill, using Recent.design artwork as our logo and adding inferred poster animations. Do not edit the repository or claim checks ran.",
+      "expected_output": "Retrieves relevant stored MotionSites and Recent.design records if present, with exact IDs, dates and documentation limits; otherwise honestly reports missing coverage. Uses navigation continuity and static editorial/type principles without substituting a 3D effect or navigation for approved drag comparison. Carries the reference decisions through implementation and observed review, with accessible feedback, original implementation, accurate online/offline boundaries and no prompt/artwork redistribution or invented observations.",
+      "files": [],
+      "expectations": [
+        "retrieval: Uses existing stored records from both motionsites and recent-design with valid IDs and recorded dates, rather than only linking homepages or inventing examples.",
+        "evidence: Distinguishes public metadata/curator documentation from creator inspection and live observation, and does not infer motion or interaction from static posters.",
+        "fit: Preserves flat warm-white drag comparison, labelled keyboard controls and adjacent explanation; navigation/type references supplement rather than replace them.",
+        "rights: Rejects source-prompt redistribution, copied creator artwork/logo substitution, account/payment requirements and access bypasses.",
+        "lifecycle: Translates accepted navigation/type principles into concrete implementation and compares observed composition/input with them during review, without reopening concepts.",
+        "delivery: Preserves online-first behavior and verifies embedded dependencies only for requested offline export, without claiming implementation or checks have occurred."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "expanded-library-matches-distinct-mechanisms",
+      "stage": "text-only-expanded-reference-retrieval",
+      "prompt": "Using only your assigned skill's bundled resources, make three short reference handoffs for already-selected fictional exhibits. A: visitors paint a persistent path on an approved spatial sphere, inspect the authored result and undo it; orbiting or a fading cursor trail is not painting. B: visitors select a node in a relationship cluster to read stable adjacent evidence, with tap and keyboard access. C: visitors compare a source quantity with an explanatory equivalent using a disclosed formula and explicit units, without providing financial or personal information. For each, find a relevant stored mechanism if available, state its ID/date/evidence limits and adapt it without copying source material. If the library has no fit, say so and propose an original mechanism rather than fabricate a record. Give the next build/review decisions, not code or new concepts. Browsing is unavailable. These are online-first exhibits; offline export is optional and not yet requested.",
+      "expected_output": "Retrieves the newly stored surface-authoring, cluster-detail and dual-unit records when present. Distinguishes persistent authoring from camera/trail feedback and explicit relationships/units from invented data or formulas. Preserves approved interaction and accessible equivalents, carries adaptations into implementation/review and accurately limits evidence to stored documentation.",
+      "files": [],
+      "expectations": [
+        "retrieval: Finds valid stored records directly fitting persistent surface authoring, cluster-detail inspection and dual-unit explanation, with IDs and recorded dates for all three.",
+        "agency: Preserves persistent authored path and undo rather than substituting orbit, a temporary trail or random decoration; preserves node selection and explicit source/equivalent units.",
+        "access: Specifies meaningful keyboard/touch alternatives and stable readable explanations without treating hover-only source behavior as sufficient.",
+        "evidence: Distinguishes documentation from live observation and curator descriptions from creator inspection; does not invent source formulas, datasets, timing or physical validity.",
+        "lifecycle: Gives concrete implementation and observed-review decisions for the selected mechanisms without reopening concepts or claiming checks ran.",
+        "boundaries: Uses original implementations and permitted assets without copying source materials or collecting personal data, and preserves online-first delivery with optional separately verified offline export."
+      ]
     }
   ]
 }

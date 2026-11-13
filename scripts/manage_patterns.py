@@ -21,7 +21,7 @@ TEXT_FIELDS = (
 )
 LIST_FIELDS = ("user_goals", "tags")
 EVIDENCE = {"documentation", "source-inspection", "rendered-observation"}
-FAMILIES = {"codrops", "react-bits"}
+FAMILIES = {"codrops", "react-bits", "motionsites", "recent-design"}
 
 
 def validate_records(data, minimum=30):
@@ -98,7 +98,7 @@ def package_files(root):
 def check(root):
     records = read_library(root)
     if {record["source_family"] for record in records} != FAMILIES:
-        raise ValueError("Library must retain both Codrops and React Bits coverage.")
+        raise ValueError("Library must retain Codrops, React Bits, MotionSites and Recent.design coverage.")
     for relative in (
         "references/pattern-library/INDEX.md",
         "references/pattern-library/MAINTENANCE.md",

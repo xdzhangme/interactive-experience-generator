@@ -2,8 +2,13 @@
 
 This is a curated reference library, not model training, a component pack
 or a set of finished company concepts. `patterns.json` contains original
-analytical descriptions grounded in Codrops and React Bits primary sources.
+analytical descriptions grounded in Codrops, React Bits, MotionSites and
+Recent.design source pages. Catalogue/curator descriptions are identified
+as such, not presented as creator statements or observed live behavior.
 No third-party source code, media or component ports are included.
+Details.so is linked separately for optional manual project study, not
+stored examples or automated research. See its specific boundary in
+`references/layout-motion-inspiration.md`; the library remains at 50 records.
 
 ## Guidance roles and priority
 
@@ -82,6 +87,10 @@ embeddings and network access are not required to use the knowledge.
 | Manipulate an object or inspect a relationship | drag, pointer, rotation, depth | Input changes approved state; camera motion alone is not operating a product. |
 | Focus attention or explain a transition | mask, reveal, transition, text | Evidence stays readable and motion does not replace the explanation. |
 | Choose, configure or recover | selection, feedback, menu, navigation | State, focus, cancellation and reset remain explicit and accessible. |
+| Establish visual hierarchy or art direction | composition, typography, editorial, identity | A static design principle supplements the approved interaction; it does not demonstrate input, motion, brand rights or phone behavior. |
+| Author or change persistent content | paint, surface, stroke, authored, undo | Input must actually change persistent content; offer correction and an equivalent accessible path. |
+| Inspect relationships or explanatory quantities | clusters, relationships, units, conversion | Explain the data/units and their provenance; visual proximity or an equivalent value is not proof of causation or a validated formula. |
+| Follow actual state rather than decoration | progress, completion, history, binary | Distinguish task completion, historical activity and a selected mode; animation alone cannot establish any of them. |
 
 These are starting queries, not a promise that every verb has a matching
 record. No match is permission to design an original mechanism, not to
@@ -125,6 +134,26 @@ advanced or decorative should rarely lead an ordinary company story.
 | `reactbits-masonry` | Explore visual evidence and open a readable detail view. |
 | `reactbits-swipe-toast` | Acknowledge actions through dismissible temporary status. |
 | `reactbits-rubber-segment` | Switch comparable states with a shared selection marker. |
+| `motionsites-morphing-navigation-surface` | Keep one navigation surface continuous while its selected group changes. |
+| `motionsites-refractive-type-object` | Advanced, optional relationship between a manipulated object and background type. |
+| `recent-design-photosphere-to-case-studies` | Connect an image-led overview to concrete case-study evidence. |
+| `recent-design-research-identity-hierarchy` | Static identity system separating geometric recognition, technical labels and texture. |
+| `recent-design-numbered-editorial-series` | Static numbered compositions with strong title/art/attribution roles. |
+| `recent-design-liquid-stage-progress` | Distinguish actual completed/current/pending task stages. |
+| `recent-design-radial-activity-history` | Separate stored history from current activity in a radial overview. |
+| `recent-design-pairwise-preference-discovery` | Make explicit paired choices contribute to a transparent preference summary. |
+| `recent-design-cluster-detail-inspection` | Preserve a relationship overview while inspecting an entity's detail. |
+| `recent-design-dual-unit-consequence` | Pair an original quantity with a disclosed explanatory equivalent. |
+| `motionsites-image-fan-focal-composition` | Group several images around a central statement. |
+| `motionsites-anchored-title-moving-archive` | Keep a stable editorial anchor beside optional moving archive media. |
+| `motionsites-single-action-media-hierarchy` | Separate a primary invitation from subordinate atmosphere. |
+| `motionsites-linked-specimen-inspection` | Coordinate selected specimen, central object and identifying detail. |
+| `motionsites-authored-input-focal-surface` | Put a real authored-input surface at the composition's focus. |
+| `motionsites-shared-axis-evidence-staging` | Align supporting explanations with the subject imagery's visual axis. |
+| `motionsites-motion-to-still-inspection` | Hand a moving overview off to revisitable still-image detail. |
+| `codrops-inline-context-reveal` | Reveal supporting context from a term in readable prose. |
+| `codrops-surface-stroke-authoring` | Turn surface strokes into persistent authored content with recovery. |
+| `codrops-material-theme-toggle` | Couple a binary material-looking control to an explicit scene-wide mode. |
 
 ## Offline behavior and evidence
 
@@ -135,6 +164,10 @@ the evidence; do not claim a fresh visit, measured performance, tested
 interaction feel or observed motion.
 
 `mechanism`, `input`, `response` and source metadata describe the reference.
+For a static composition record, `input` can explicitly state that no
+interactive trigger is documented; `response` then describes the visual
+relationship, not a fictional transition. These records guide staging and
+type while generator guidance supplies the actual approved interaction.
 `user_goals`, `layout`, `motion`, `accessibility`, `offline` and `avoid`
 include generator-authored analysis or recommendations. Those adaptations
 are not claims that the reference already implements accessible equivalents

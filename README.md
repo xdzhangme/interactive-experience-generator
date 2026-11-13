@@ -77,10 +77,20 @@ choices and changes the requested part instead of restarting.
 
 ## Built-in inspiration, from concept to review
 
-The skill includes **30 curated patterns** informed by Codrops Creative Hub
-and React Bits. The agent matches a visitor's goal — such as comparing,
+The skill includes **50 curated patterns** informed by Codrops Creative Hub,
+React Bits, [MotionSites](https://motionsites.org/) and
+[Recent.design](https://recent.design/). MotionSites adds layout-and-motion
+directions; Recent.design adds composition, typography and art-direction
+references. The agent matches a visitor's goal — such as comparing,
 discovering, or manipulating — to useful mechanisms, rather than picking effects
 for decoration. It can read these references without browsing.
+
+| Stored source | Patterns | Main contribution |
+| --- | ---: | --- |
+| [Codrops Creative Hub](https://tympanus.net/codrops/) | 18 | Creative interaction mechanisms and spatial ideas |
+| [React Bits](https://reactbits.dev/) | 15 | Interaction, feedback and motion mechanisms |
+| [MotionSites](https://motionsites.org/) | 9 | Layout-and-motion directions |
+| [Recent.design](https://recent.design/) | 8 | Composition, typography and art direction |
 
 The generator's storytelling guidance, bundled Impeccable layout principles,
 and Emil Kowalski's animation advice work together throughout:
@@ -95,7 +105,17 @@ Each pattern records its source, review date, evidence limits, suitable uses,
 avoid cases, and accessibility/offline guidance. These are original analytical
 descriptions, **not copied components, model training, or tested demos**. They
 support the brief; they do not replace official company research or assets.
+Static references inform staging, not invented motion. Source prompts, artwork
+and paid materials are not bundled; public descriptions are labelled honestly.
 See the [pattern index](references/pattern-library/INDEX.md).
+
+[Details.so](https://www.details.so/inspo) is also linked for optional manual
+study of production-site UI details. It is **not** a source for the stored
+library or weekly automated collection: its terms restrict scraping and
+competing-library enrichment. No Details.so examples or Vault content are bundled.
+Manual project study can inform original concept, build and review decisions
+under its [terms](https://www.details.so/legal/terms). Agents must not browse
+Details.so automatically or ingest it into stored examples or evaluations.
 
 ## Important limits
 
@@ -136,6 +156,7 @@ The detailed guidance stays in the skill, so you do not need to read it to start
 - [Visual direction](references/art-direction.md) and
   [interaction design](references/concepts-and-interaction.md)
 - [Critique and polish](references/experience-critique-polish.md)
+- [Layout, motion and source-specific reuse boundaries](references/layout-motion-inspiration.md)
 - [Offline pattern matching](references/pattern-library/INDEX.md) and
   [library maintenance](references/pattern-library/MAINTENANCE.md)
 - [Sources and asset rules](references/sources-and-labeling.md)
@@ -170,7 +191,7 @@ the SHA-256 below. Python is optional for using the library: reading and text
 search are enough.
 
 ```text
-5c8a7c0aca925e3803c08aac59be8fe1e57fecc3942c85233f7c77bf66a724a8
+897609ce3dec935f1cd8e9a5551cedeb5089fc4425eed52d4c2cd7958928a67c
 ```
 
 **Installed copies do not update themselves.** Weekly research is an app-local
@@ -178,8 +199,10 @@ automation, not part of the installed skill or a public update service. It leave
 local changes for review without committing or pushing. Reviewed updates must be
 repackaged, redistributed, and re-imported. See
 [library maintenance](references/pattern-library/MAINTENANCE.md).
+The refresh considers all four sources within the existing total of ten public
+pages and at most three new patterns per run, without accounts or purchases.
 
-[`evals/evals.json`](evals/evals.json) contains 39 evaluation prompts;
+[`evals/evals.json`](evals/evals.json) contains 41 evaluation prompts;
 [`evals/files/`](evals/files/) holds a fictional SVG fixture. Neither is included
 in the package. Their presence does not prove they passed or that Cowork
 downloads were tested. Text-only answers cannot establish rendered visual
